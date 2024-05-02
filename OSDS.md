@@ -32,7 +32,11 @@ Seaborn is a Python data visualization library based on matplotlib. It provides 
 pip install seaborn
 ~~~~
 Open Source Status: Open source, BSD-3-Clause license.
+
 GitHub Page: [Seaborn GitHub](https://github.com/mwaskom/seaborn)
+
+`Example of a scatterplot:`
+
 ![Seaborn Plots](https://seaborn.pydata.org/_images/scatterplot_sizes.png)
 
 * **[SciKit Learn (SKL)](https://scikit-learn.org)**
