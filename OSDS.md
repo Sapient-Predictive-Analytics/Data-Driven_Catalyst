@@ -52,7 +52,7 @@ Open Source Status: BSD license.
 
 `Example of KNN visualization from SciKit Learn:`
 
-![KNN]https://scikit-learn.org/stable/_images/sphx_glr_plot_nca_classification_001.png
+![KNN](https://scikit-learn.org/stable/_images/sphx_glr_plot_nca_classification_001.png)
 
 4. **[TensorFlow](https://www.tensorflow.org)**
 
