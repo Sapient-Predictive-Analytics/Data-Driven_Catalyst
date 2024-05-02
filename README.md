@@ -1,5 +1,5 @@
 # Data-Driven_Catalyst
-Research and showcase optimal technology stack and procedures to build publicly accessible database and data mining toolkit. Learn more between funds as an ecosystem by pouring through all the available data and finding out what works and what doesn't.
+Research and showcase optimal technology stack and procedures to build publicly accessible database and data mining toolkit. Learn more between funds as an ecosystem by analyzing all the available data and finding out what works and what doesn't. Test and verify with existing datasets, learn through network analysis, clustering algorithms and natural language processing. Opportunities and risks from generative AI for community roles in the assessment and supervision of proposals.
 
 ![Imgur](https://i.imgur.com/ViLBYv9.png)
 
