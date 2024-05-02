@@ -26,6 +26,7 @@ Chosen from the most used and most popular, but excluding complex Deep Learning,
 
 * **[Seaborn](https://seaborn.pydata.org)**
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. It is particularly useful for making complex visualizations from data in pandas DataFrames.
+
 `Installation:`
 ~~~~
 pip install seaborn
