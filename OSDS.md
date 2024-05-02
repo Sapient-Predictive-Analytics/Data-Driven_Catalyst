@@ -6,16 +6,13 @@
 ### “The Big Four”
 Some Python packages are so well established that they are de facto part of the “batteries included” scientific Python stack in most distributions. It is somewhat subjective to draw the line what is included in this definition. From our experience, **NumPy**, **Pandas**, **Matplotlib**, and **Jupyter Notebooks** are beyond doubt default data science packages and cannot be replaced wholesale by any other packages. Let’s take a quick look at their open source status, community and licenses.
 
-**[NumPy](https://numpy.org/)** is the package for numerical python in general and works much faster than pure Python because it has compiled C and C++ code under the hood, allowing large, multi-dimensional arrays, data vectorization and matrix algebra. 
-
+* **[NumPy](https://numpy.org/)** is the package for numerical python in general and works much faster than pure Python because it has compiled C and C++ code under the hood, allowing large, multi-dimensional arrays, data vectorization and matrix algebra. 
 Used by 2.2m on [Github](https://github.com/numpy/numpy) with 9.3k forks and 26.4k stars.
 Distributed under “a liberal BSD license”, NumPy is developed and maintained publicly on GitHub by a vibrant, responsive, and diverse community.
 
-**Pandas** provides labeled data structures similar to R and spreadsheet - like data manipulation and statistical functions. This makes it ideal to import and export Excel-like tables. It began in 2008 inside quant hedge fund AQR Capital Management, by the end of 2009 it had been open sourced.
-https://pandas.pydata.org/
-https://github.com/pandas-dev/pandas/
-Used by 1.6m on Github with 17.3k forks and 42k stars. Distributed under BSD-3-Clause license. Since 2015, pandas is a NumFOCUS sponsored project. This will help ensure the success of development of pandas as a “world-class open-source project”.
+* **[Pandas](https://pandas.pydata.org/)** provides labeled data structures similar to R and spreadsheet - like data manipulation and statistical functions. This makes it ideal to import and export Excel-like tables. It began in 2008 inside quant hedge fund AQR Capital Management, by the end of 2009 it had been open sourced.
+Used by 1.6m on [Github](https://github.com/pandas-dev/pandas/) with 17.3k forks and 42k stars. Distributed under BSD-3-Clause license. Since 2015, pandas is a NumFOCUS sponsored project. This will help ensure the success of development of pandas as a “world-class open-source project”.
 
-**Matplotlib**: NumPy and Pandas both have data visualization functionality built in, but do not come near the capabilities of this essential library for any type of table, chart or diagram ranging from pretty to scientific. 
+* **Matplotlib**: NumPy and Pandas both have data visualization functionality built in, but do not come near the capabilities of this essential library for any type of table, chart or diagram ranging from pretty to scientific. 
 
-**Jupyter Notebooks**
+* **Jupyter Notebooks**
