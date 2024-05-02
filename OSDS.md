@@ -24,39 +24,52 @@ Used by 279k on [Github](https://github.com/jupyter/notebook) with 4.6k forks an
 ### "The Next 12"
 Chosen from the most used and most popular, but excluding complex Deep Learning, LLM and Machine Learning Optimization as our Catalyst datasets are likely small and we want to avoid black boxes when communicating data-driven insights to the wider community. Some packages that used to enjoy considerable popularity have been deprecated or neglected for others that are maintained by more active communities or seen are more suitable for the boom in generative AI. Theano and Chainer for deep learning are good examples.
 
-* **[Seaborn](https://seaborn.pydata.org)**
+1. **[Seaborn](https://seaborn.pydata.org)**
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. It is particularly useful for making complex visualizations from data in pandas DataFrames. Seaborn arguably looks better and requires less code than Matplotlib, but lacks some cutomization features of its older sibling. When DataFrames are used instead of spreadsheets for Fund data, plotting with Seaborn would be particularly easy and attractive.
 
 `Installation:`
 ~~~~
 pip install seaborn
 ~~~~
-Open Source Status: Open source, BSD-3-Clause license.
+Open Source Status: BSD-3-Clause license.
 
-GitHub Page: [Seaborn GitHub](https://github.com/mwaskom/seaborn)
+[Seaborn GitHub](https://github.com/mwaskom/seaborn)
 
 `Example of a scatterplot:`
 
 ![Seaborn Plots](https://seaborn.pydata.org/_images/scatterplot_sizes.png)
 
-* **[SciKit Learn (SKL)](https://scikit-learn.org)**
+2. **[SciKit Learn (SKL)](https://scikit-learn.org)**
+Scikit-learn is a machine learning library for Python. It features various classification, regression, and clustering algorithms, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. For pure machine learning, this is the go-to workhorse that can easily benefit Catalyst by looking for clusters in data or understand relationships that go beyond spreadsheet (linear) regression but do not need or benefit from "emergent" AI treatment. k-nearest neighbors algorithm is a perfect example of where SKL shines.
 
-* **[TensorFlow](https://www.tensorflow.org)**
+`Installation:`
+~~~~
+pip install scikit-learn
+~~~~
+Open Source Status: BSD license.
 
-* **[Statsmodels](https://www.statsmodels.org)**
+[GitHub Page](https://github.com/scikit-learn/scikit-learn)
 
-* **[Keras](https://keras.io)**
+`Example of KNN visualization from SciKit Learn:`
 
-* **[PyTorch](https://pytorch.org)**
+![KNN]https://scikit-learn.org/stable/_images/sphx_glr_plot_nca_classification_001.png
 
-* **[NLTK](http://www.nltk.org)**
+4. **[TensorFlow](https://www.tensorflow.org)**
 
-* **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+5. **[Statsmodels](https://www.statsmodels.org)**
 
-* **[Gensim](https://radimrehurek.com/gensim/)**
+6. **[Keras](https://keras.io)**
 
-* **[Spacy](https://spacy.io)**
+7. **[PyTorch](https://pytorch.org)**
 
-* **[Plotly](https://plotly.com)**
+8. **[NLTK](http://www.nltk.org)**
 
-* **[Gephi](https://gephi.org)**
+9. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+
+10. **[Gensim](https://radimrehurek.com/gensim/)**
+
+11. **[Spacy](https://spacy.io)**
+
+12. **[Plotly](https://plotly.com)**
+
+13. **[Gephi](https://gephi.org)**
