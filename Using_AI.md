@@ -1,6 +1,6 @@
 ### What are Large Language Models? How could they benefit Project Catalyst?
 
-Using a Large Language Model (LLM) (like ChatGPT or ideally a home-grown or open source one) could significantly enhance the operations and outcomes of Project Catalyst, especially in terms of improving iterations and strengthening oversight and governance. Here are some potential benefits and applications.
+Using a Large Language Model (LLM) like now-famous ChatGPT or ideally a home-grown or open source one could significantly enhance the operations and outcomes of Project Catalyst, especially in terms of improving between iterations and strengthening oversight and governance. In this section we are looking at some potential benefits and applications, give background, introduce open source and paid LLMs, and discuss limitations and risks.
 
 ![LLM at Work](https://media.licdn.com/dms/image/D4D12AQH_q5nlcMRKog/article-cover_image-shrink_720_1280/0/1682446898772?e=2147483647&v=beta&t=loa6X-iQJuNWNUoFRNLu4HMPMEWXV8xNKJXXeIAVe0M)
 
