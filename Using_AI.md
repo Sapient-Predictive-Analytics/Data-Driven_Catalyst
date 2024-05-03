@@ -1,6 +1,10 @@
 ### What are Large Language Models? How could they benefit Project Catalyst?
 
-Using a Large Language Model (LLM) (like ChatGPT or ideally a home-grown or open source one) could significantly enhance the operations and outcomes of Project Catalyst, especially in terms of improving iterations and strengthening oversight and governance. Here are some potential benefits and applications:
+Using a Large Language Model (LLM) (like ChatGPT or ideally a home-grown or open source one) could significantly enhance the operations and outcomes of Project Catalyst, especially in terms of improving iterations and strengthening oversight and governance. Here are some potential benefits and applications.
+
+![LLM at Work](https://media.licdn.com/dms/image/D4D12AQH_q5nlcMRKog/article-cover_image-shrink_720_1280/0/1682446898772?e=2147483647&v=beta&t=loa6X-iQJuNWNUoFRNLu4HMPMEWXV8xNKJXXeIAVe0M)
+
+#### Potential Areas of Interest
 
 **Proposal Review and Scoring Assistance**
 
@@ -12,7 +16,9 @@ Feedback Generation:
 Constructive Feedback: LLMs can generate detailed, constructive feedback for proposers, helping them understand the strengths and weaknesses of their proposals and suggesting improvements.
 
 Iterative Learning: By analyzing feedback from previous funds, the AI can guide proposers on common pitfalls and success factors, improving the overall quality of submissions over time.
-Enhanced Decision-Making:
+
+**Enhanced Decision-Making**
+
 Data-Driven Insights: By aggregating and analyzing voting patterns, reviewer comments, and proposal outcomes, an LLM can provide insights into the decision-making process, identifying trends and biases that might not be evident to humans.
 Predictive Analytics: AI can predict the potential impact and feasibility of proposals based on similar past projects, helping voters and reviewers make more informed decisions.
 
