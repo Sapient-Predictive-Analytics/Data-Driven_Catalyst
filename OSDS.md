@@ -85,3 +85,13 @@ Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep
 13. **[Plotly](https://plotly.com)**
 
 14. **[Gephi](https://gephi.org)**
+
+
+### More experimental packages
+A few more to experiment with “next level” applications. We have a separate section for AI, but for high level, statistical and prediction machine learning, there is a rich sophisticated, niche package ecosystem for any need and any task. Some areas however increasingly rely on expensive non-open source APIs like OpenAI's. If there is a need for a deeper dive as we come across more use cases and community requests, we may expand on this section.
+
+1. [**LightGBM**](https://github.com/microsoft/LightGBM)
+
+2. [**cadCAD**](https://github.com/cadCAD-org/cadCAD)
+
+3. [**LangChain**](https://github.com/LangChain/langchain)
