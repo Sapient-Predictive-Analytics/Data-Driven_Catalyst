@@ -54,21 +54,34 @@ Open Source Status: BSD license.
 ![KNN](https://scikit-learn.org/stable/_images/sphx_glr_plot_nca_classification_001.png)
 
 4. **[TensorFlow](https://www.tensorflow.org)**
+TensorFlow is an end-to-end open source platform for machine learning that works across platforms and programming language. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML-powered applications. It is somewhat more cutting-edge and heavyweight than "oldie-but-goldie" SKL. It was developed by the Google Brain team for Google's internal use in research and production. For Catalyst, if you have the right idea, TF is likely to be able to help. It can be used to develop models for various tasks including natural language processing, image recognition, similarity recognition, and different computational-based simulations covering unsupervised, supervised and black-box modelss.
 
-5. **[Statsmodels](https://www.statsmodels.org)**
+`Installation:`
+~~~~
+pip install tensorflow
+~~~~
+Open Source Status: Apache 2.0 license.
 
-6. **[Keras](https://keras.io)**
+[GitHub Page](https://github.com/tensorflow/tensorflow)
 
-7. **[PyTorch](https://pytorch.org)**
+`Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep-learning-tutorial/tensorflow-2):`
 
-8. **[NLTK](http://www.nltk.org)**
+![TensorFlow](https://www.simplilearn.com/ice9/free_resources_article_thumb/TensorFlow2.0Architecture.PNG)
 
-9. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+6. **[Statsmodels](https://www.statsmodels.org)**
 
-10. **[Gensim](https://radimrehurek.com/gensim/)**
+7. **[Keras](https://keras.io)**
 
-11. **[Spacy](https://spacy.io)**
+8. **[PyTorch](https://pytorch.org)**
 
-12. **[Plotly](https://plotly.com)**
+9. **[NLTK](http://www.nltk.org)**
 
-13. **[Gephi](https://gephi.org)**
+10. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+
+11. **[Gensim](https://radimrehurek.com/gensim/)**
+
+12. **[Spacy](https://spacy.io)**
+
+13. **[Plotly](https://plotly.com)**
+
+14. **[Gephi](https://gephi.org)**
