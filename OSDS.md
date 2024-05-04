@@ -53,7 +53,7 @@ Open Source Status: BSD license.
 
 ![KNN](https://scikit-learn.org/stable/_images/sphx_glr_plot_nca_classification_001.png)
 
-4. **[TensorFlow](https://www.tensorflow.org)**
+3. **[TensorFlow](https://www.tensorflow.org)**
 TensorFlow is an end-to-end open source platform for machine learning that works across platforms and programming languages. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML-powered applications. For the multi-faceted Catalyst ecosystem with decentralized, community-powered apps and analytics, it can be used integrating various different sources and endpoints. It is somewhat more cutting-edge and heavyweight than "oldie-but-goldie" SKL. It was developed by the Google Brain team for Google's internal use in research and production. For Catalyst, if you have the right idea, TF is likely to be able to help. It can be used to develop models for various tasks including natural language processing, image recognition, similarity recognition, and different computational-based simulations covering unsupervised, supervised and black-box modelss.
 
 `Installation:`
@@ -68,23 +68,23 @@ Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep
 
 ![TensorFlow](https://www.simplilearn.com/ice9/free_resources_article_thumb/TensorFlow2.0Architecture.PNG)
 
-6. **[Statsmodels](https://www.statsmodels.org)**
+4. **[Statsmodels](https://www.statsmodels.org)**
 
-7. **[Keras](https://keras.io)**
+5. **[Keras](https://keras.io)**
 
-8. **[PyTorch](https://pytorch.org)**
+6. **[PyTorch](https://pytorch.org)**
 
-9. **[NLTK](http://www.nltk.org)**
+7. **[NLTK](http://www.nltk.org)**
 
-10. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+8. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
 
-11. **[Gensim](https://radimrehurek.com/gensim/)**
+9. **[Gensim](https://radimrehurek.com/gensim/)**
 
-12. **[Spacy](https://spacy.io)**
+10. **[Spacy](https://spacy.io)**
 
-13. **[Plotly](https://plotly.com)**
+11. **[Plotly](https://plotly.com)**
 
-14. **[Gephi](https://gephi.org)**
+12. **[Gephi](https://gephi.org)**
 
 
 ### More experimental packages
