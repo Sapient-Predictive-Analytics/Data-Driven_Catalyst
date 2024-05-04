@@ -93,5 +93,7 @@ A few more to experiment with “next level” applications. We have a separate 
 1. [**LightGBM**](https://github.com/microsoft/LightGBM)
 
 2. [**cadCAD**](https://github.com/cadCAD-org/cadCAD)
+   
+3. [**NetworkX**](https://github.com/networkx)
 
-3. [**LangChain**](https://github.com/LangChain/langchain)
+4. [**LangChain**](https://github.com/LangChain/langchain)
