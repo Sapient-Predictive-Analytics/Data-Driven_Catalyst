@@ -64,7 +64,7 @@ Open Source Status: Apache 2.0 license.
 
 [GitHub Page](https://github.com/tensorflow/tensorflow)
 
-`Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep-learning-tutorial/tensorflow-2):`
+Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep-learning-tutorial/tensorflow-2):
 
 ![TensorFlow](https://www.simplilearn.com/ice9/free_resources_article_thumb/TensorFlow2.0Architecture.PNG)
 
