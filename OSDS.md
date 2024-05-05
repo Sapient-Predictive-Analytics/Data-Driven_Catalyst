@@ -81,16 +81,43 @@ Uses [Libraries.io](https://libraries.io/pypi/beautifulsoup4) instead of Github.
 
 ![Fun Image](https://proxyway.com/wp-content/uploads/2023/05/web-scraping-with-beautiful-soup.png)
 
-6. **[Scrapy](https://scrapy.org/)**
-Scrapy is a comprehensive web scraping framework, perfect for large-scale data extraction projects and offers built-in support for crawling, whereas Beautiful Soup is a parsing library best suited for smaller, more straightforward scraping tasks without the built-in crawling capabilities.
+5. **[Scrapy](https://scrapy.org/)**
+Scrapy is a comprehensive web scraping framework, perfect for large-scale data extraction projects and offers built-in support for crawling, whereas Beautiful Soup is a parsing library best suited for smaller, more straightforward scraping tasks without the built-in crawling capabilities. Scrapy allows defining "Items", a data structure that holds the user's data. Instead of yielding scraped data in the form of a dictionary for example, it allows defining an Item schema beforehand in an items.py file and use this schema when scraping data. This enables quickly and easily checking what structured data are  being collected in the project, and will raise exceptions if incorrect data is used with the Item.
 
-7. **[Statsmodels](https://www.statsmodels.org)**
+`Installation:`
+~~~~
+pip install Scrapy
+~~~~
+`Or ideally using Conda:`
+~~~~
+conda install -c conda-forge scrapy
+~~~~
 
-8. **[Keras](https://keras.io)**
+Open Source Status: BSD-3-Clause license.
 
-9. **[PyTorch](https://pytorch.org)**
+[GitHub Page](https://github.com/scrapy/scrapy))
 
-10. **[NLTK](http://www.nltk.org)** 
+6. **[NLTK](http://www.nltk.org)**
+Natural Language Toolkit (NLTK) is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in Python. It is the best known natural language processing tool and various books and tutorials exists how to use it. Needless to say, a lot of Project Catalyst data is text like CA/CR reviews, proposal bodies, Github readmes and so on so this package is crucial to convert text into numbers, which Machine Learning models can then easily work with. It is also powerful for sentiment analysis parsing Twitter/X posts.
+
+`Installation:`
+~~~~
+pip install nltk
+~~~~
+
+Open Source Status: Apache 2.0 license.
+
+GitHub Page: [NLTK GitHub](https://github.com/nltk/nltk)
+
+`How NLTK works (DataCamp):`
+
+![NLTK](https://images.datacamp.com/image/upload/v1679592730/text_preprocessing_steps_in_sequence_1bcfc50bd0.png)
+
+8. **[Statsmodels](https://www.statsmodels.org)**
+
+9. **[Keras](https://keras.io)**
+
+10. **[PyTorch](https://pytorch.org)**
 
 11. **[Gensim](https://radimrehurek.com/gensim/)**
 
