@@ -33,6 +33,7 @@ For those who prefer to install using the command line, we have provided the [pi
 
 or pip3 for Linux and WSL if working with Python 3 (as we do).
 
+
 **1. [Seaborn](https://seaborn.pydata.org)**
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. It is particularly useful for making complex visualizations from data in pandas DataFrames. Seaborn arguably looks better and requires less code than Matplotlib, but lacks some cutomization features of its older sibling. When DataFrames are used instead of spreadsheets for Fund data, plotting with Seaborn would be particularly easy and attractive.
 
