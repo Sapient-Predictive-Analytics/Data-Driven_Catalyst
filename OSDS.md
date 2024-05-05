@@ -69,23 +69,34 @@ Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep
 ![TensorFlow](https://www.simplilearn.com/ice9/free_resources_article_thumb/TensorFlow2.0Architecture.PNG)
 
 4. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+BeautifulSoup is the classic webscraping package for Python data applications. This lets users define and run scraping "bots" to collect data anywhere accessible on the web, either static data as part of a larger scale (re)search operation, or the same data as it is updated periodically to keep track of change. In a decentralized ecosystem like Catalyst, this is extremely usesful as it can bypass APIs requirements or simply access data that is in their own silo or community while being highly relevant to the overall truth discovery (such as community governance projects and DAOs). It works by allowing parsing HTML and XML documents. It creates a parse tree for parsed web pages based on specific criteria that can be used to extract, navigate, search, and modify data from HTML.
 
-5. **[Scrapy](https://scrapy.org/)**
+`Installation:`
+~~~~
+pip install beautifulsoup4
+~~~~
+Open Source Status: MIT license.
+
+Uses [Libraries.io](https://libraries.io/pypi/beautifulsoup4) instead of Github.
+
+![Fun Image](https://proxyway.com/wp-content/uploads/2023/05/web-scraping-with-beautiful-soup.png)
+
+6. **[Scrapy](https://scrapy.org/)**
 Scrapy is a comprehensive web scraping framework, perfect for large-scale data extraction projects and offers built-in support for crawling, whereas Beautiful Soup is a parsing library best suited for smaller, more straightforward scraping tasks without the built-in crawling capabilities.
 
-6. **[Statsmodels](https://www.statsmodels.org)**
+7. **[Statsmodels](https://www.statsmodels.org)**
 
-7. **[Keras](https://keras.io)**
+8. **[Keras](https://keras.io)**
 
-8. **[PyTorch](https://pytorch.org)**
+9. **[PyTorch](https://pytorch.org)**
 
-9. **[NLTK](http://www.nltk.org)** 
+10. **[NLTK](http://www.nltk.org)** 
 
-10. **[Gensim](https://radimrehurek.com/gensim/)**
+11. **[Gensim](https://radimrehurek.com/gensim/)**
 
-11. **[Spacy](https://spacy.io)**
+12. **[Spacy](https://spacy.io)**
 
-12. **[Plotly](https://plotly.com)**
+13. **[Plotly](https://plotly.com)**
 
 
 ### More experimental packages
