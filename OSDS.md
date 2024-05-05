@@ -23,7 +23,7 @@ Used by 279k on [Github](https://github.com/jupyter/notebook) with 4.6k forks an
 ### "The Next 12"
 Chosen from the most used and most popular, but excluding complex Deep Learning, LLM and Machine Learning Optimization as our Catalyst datasets are likely small and we want to avoid black boxes when communicating data-driven insights to the wider community. Some packages that used to enjoy considerable popularity have been deprecated or neglected for others that are maintained by more active communities or seen are more suitable for the boom in generative AI. Theano and Chainer for deep learning are good examples.
 
-***1. [Seaborn](https://seaborn.pydata.org)**
+**1. [Seaborn](https://seaborn.pydata.org)**
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. It is particularly useful for making complex visualizations from data in pandas DataFrames. Seaborn arguably looks better and requires less code than Matplotlib, but lacks some cutomization features of its older sibling. When DataFrames are used instead of spreadsheets for Fund data, plotting with Seaborn would be particularly easy and attractive.
 
 `Installation:`
