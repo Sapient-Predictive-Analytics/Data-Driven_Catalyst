@@ -50,6 +50,8 @@ Open Source Status: BSD-3-Clause license.
 
 ![Seaborn Plots](https://seaborn.pydata.org/_images/scatterplot_sizes.png)
 
+***
+
 **2. [SciKit Learn (SKL)](https://scikit-learn.org)**
 Scikit-learn is a machine learning library for Python. It features various classification, regression, and clustering algorithms, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. For pure machine learning, this is the go-to workhorse that can easily benefit Catalyst by looking for clusters in data or understand relationships that go beyond spreadsheet (linear) regression but do not need or benefit from "emergent" AI treatment. k-nearest neighbors algorithm is a perfect example of where SKL shines.
 
@@ -64,6 +66,8 @@ Open Source Status: BSD license.
 `Example of KNN visualization from SciKit Learn:`
 
 ![KNN](https://scikit-learn.org/stable/_images/sphx_glr_plot_nca_classification_001.png)
+
+***
 
 **3. [TensorFlow](https://www.tensorflow.org)**
 TensorFlow is an end-to-end open source platform for machine learning that works across platforms and programming languages. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML-powered applications. For the multi-faceted Catalyst ecosystem with decentralized, community-powered apps and analytics, it can be used integrating various different sources and endpoints. It is somewhat more cutting-edge and heavyweight than "oldie-but-goldie" SKL. It was developed by the Google Brain team for Google's internal use in research and production. For Catalyst, if you have the right idea, TF is likely to be able to help. It can be used to develop models for various tasks including natural language processing, image recognition, similarity recognition, and different computational-based simulations covering unsupervised, supervised and black-box modelss.
@@ -80,6 +84,8 @@ Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep
 
 ![TensorFlow](https://www.simplilearn.com/ice9/free_resources_article_thumb/TensorFlow2.0Architecture.PNG)
 
+***
+
 **4. [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
 BeautifulSoup is the classic webscraping package for Python data applications. This lets users define and run scraping "bots" to collect data anywhere accessible on the web, either static data as part of a larger scale (re)search operation, or the same data as it is updated periodically to keep track of change. In a decentralized ecosystem like Catalyst, this is extremely usesful as it can bypass APIs requirements or simply access data that is in their own silo or community while being highly relevant to the overall truth discovery (such as community governance projects and DAOs). It works by allowing parsing HTML and XML documents. It creates a parse tree for parsed web pages based on specific criteria that can be used to extract, navigate, search, and modify data from HTML.
 
@@ -92,6 +98,8 @@ Open Source Status: MIT license.
 Uses [Libraries.io](https://libraries.io/pypi/beautifulsoup4) instead of Github.
 
 ![Fun Image](https://proxyway.com/wp-content/uploads/2023/05/web-scraping-with-beautiful-soup.png)
+
+***
 
 **5. [Scrapy](https://scrapy.org/)**
 Scrapy is a comprehensive web scraping framework, perfect for large-scale data extraction projects and offers built-in support for crawling, whereas Beautiful Soup is a parsing library best suited for smaller, more straightforward scraping tasks without the built-in crawling capabilities. Scrapy allows defining "Items", a data structure that holds the user's data. Instead of yielding scraped data in the form of a dictionary for example, it allows defining an Item schema beforehand in an items.py file and use this schema when scraping data. This enables quickly and easily checking what structured data are  being collected in the project, and will raise exceptions if incorrect data is used with the Item.
@@ -109,6 +117,8 @@ Open Source Status: BSD-3-Clause license.
 
 [GitHub Page](https://github.com/scrapy/scrapy)
 
+***
+
 **6. [NLTK](http://www.nltk.org)**
 Natural Language Toolkit (NLTK) is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in Python. It is the best known natural language processing tool and various books and tutorials exists how to use it. Needless to say, a lot of Project Catalyst data is text like CA/CR reviews, proposal bodies, Github readmes and so on so this package is crucial to convert text into numbers, which Machine Learning models can then easily work with. It is also powerful for sentiment analysis parsing Twitter/X posts. If text suddenly becomes numbers, a whole new universe of possibilities for analysis opens up. This makes NLTK one of the most useful packages - but this isn't trivial. Careful production planning from ideation over signal processing to dimensionality reduction need to be considered, making this a science onto itself. We will try to open up as much Catalyst text to analysis as possible, but expect the first steps to be quite basic before deeper insights can be gained from large datasets of free-form text such as the entirety of proposal reviews in one Fund.
 
@@ -124,6 +134,8 @@ GitHub Page: [NLTK GitHub](https://github.com/nltk/nltk)
 `How NLTK works (DataCamp):`
 
 ![NLTK](https://images.datacamp.com/image/upload/v1679592730/text_preprocessing_steps_in_sequence_1bcfc50bd0.png)
+
+***
 
 7. **[Statsmodels](https://www.statsmodels.org)**
 
