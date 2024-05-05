@@ -113,17 +113,17 @@ GitHub Page: [NLTK GitHub](https://github.com/nltk/nltk)
 
 ![NLTK](https://images.datacamp.com/image/upload/v1679592730/text_preprocessing_steps_in_sequence_1bcfc50bd0.png)
 
-8. **[Statsmodels](https://www.statsmodels.org)**
+7. **[Statsmodels](https://www.statsmodels.org)**
 
-9. **[Keras](https://keras.io)**
+8. **[Keras](https://keras.io)**
 
-10. **[PyTorch](https://pytorch.org)**
+9. **[PyTorch](https://pytorch.org)**
 
-11. **[Gensim](https://radimrehurek.com/gensim/)**
+10. **[Gensim](https://radimrehurek.com/gensim/)**
 
-12. **[Spacy](https://spacy.io)**
+11. **[Spacy](https://spacy.io)**
 
-13. **[Plotly](https://plotly.com)**
+12. **[Plotly](https://plotly.com)**
 
 
 ### More experimental packages
