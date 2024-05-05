@@ -68,23 +68,24 @@ Example of TF flow from [Simplilearn](https://www.simplilearn.com/tutorials/deep
 
 ![TensorFlow](https://www.simplilearn.com/ice9/free_resources_article_thumb/TensorFlow2.0Architecture.PNG)
 
-4. **[Statsmodels](https://www.statsmodels.org)**
+4. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
 
-5. **[Keras](https://keras.io)**
+5. **[Scrapy](https://scrapy.org/)**
+Scrapy is a comprehensive web scraping framework, perfect for large-scale data extraction projects and offers built-in support for crawling, whereas Beautiful Soup is a parsing library best suited for smaller, more straightforward scraping tasks without the built-in crawling capabilities.
 
-6. **[PyTorch](https://pytorch.org)**
+6. **[Statsmodels](https://www.statsmodels.org)**
 
-7. **[NLTK](http://www.nltk.org)**
+7. **[Keras](https://keras.io)**
 
-8. **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+8. **[PyTorch](https://pytorch.org)**
 
-9. **[Gensim](https://radimrehurek.com/gensim/)**
+9. **[NLTK](http://www.nltk.org)** 
 
-10. **[Spacy](https://spacy.io)**
+10. **[Gensim](https://radimrehurek.com/gensim/)**
 
-11. **[Plotly](https://plotly.com)**
+11. **[Spacy](https://spacy.io)**
 
-12. **[Gephi](https://gephi.org)**
+12. **[Plotly](https://plotly.com)**
 
 
 ### More experimental packages
@@ -96,4 +97,6 @@ A few more to experiment with “next level” applications. We have a separate 
    
 3. [**NetworkX**](https://github.com/networkx)
 
-4. [**LangChain**](https://github.com/LangChain/langchain)
+4. **[Gephi](https://gephi.org)**
+
+5. [**LangChain**](https://github.com/LangChain/langchain)
