@@ -95,7 +95,7 @@ conda install -c conda-forge scrapy
 
 Open Source Status: BSD-3-Clause license.
 
-[GitHub Page](https://github.com/scrapy/scrapy))
+[GitHub Page](https://github.com/scrapy/scrapy)
 
 6. **[NLTK](http://www.nltk.org)**
 Natural Language Toolkit (NLTK) is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in Python. It is the best known natural language processing tool and various books and tutorials exists how to use it. Needless to say, a lot of Project Catalyst data is text like CA/CR reviews, proposal bodies, Github readmes and so on so this package is crucial to convert text into numbers, which Machine Learning models can then easily work with. It is also powerful for sentiment analysis parsing Twitter/X posts.
