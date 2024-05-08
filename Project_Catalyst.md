@@ -4,6 +4,16 @@
 ### Iteration and The Experiment
 ![img](https://i.imgur.com/GSo0wpa.jpeg)
 
+### Transition to In-House Stack (Catalyst Voices & Hermes)
+Clone this repository:
+
+~~~
+git clone https://github.com/input-output-hk/catalyst-voices.git
+cd catalyst-voices
+~~~
+
+Navigate to individual project folders and follow their respective setup instructions.
+
 ### High Level Governance
 
 ### Liquid Democracy and dReps
