@@ -4,15 +4,20 @@
 ### Iteration and The Experiment
 ![img](https://i.imgur.com/GSo0wpa.jpeg)
 
-### High Level Governance
+### Decentralized Governance
+This section looks at how community roles past, present and future shape Project Catalyst and how quantitative tools can make their work easier and inform improvements in the process.
 
 ### Liquid Democracy and dReps
+With the advent of the [Voltaire era](https://roadmap.cardano.org/en/voltaire/) ADA holders will be able to delegate their voting power to Catalyst dReps. This is likely to increase voting participation and proposal scrutiny - can past fund rule changes predict those changes?
 
 ### Community Reviewer and Proposal Scores
+Review scores' influence of voting outcomes has changed dramatically across past funds - can we visualize and explain this?
 
 ### Funding and Voting
+Relationships between funding requested, funding available and voter response are important to understand decentralized allocation of Treasury capital.
 
 ### Performance and Milestones
+
 
 ### Abuse and Policing
 
