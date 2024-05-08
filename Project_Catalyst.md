@@ -22,6 +22,11 @@ AI and quantitative analysis of the milestones module could greatly facilitate m
 ### Abuse and Policing
 Level 2 [Reviewers](https://docs.projectcatalyst.io/current-fund-basics/community-review-guidelines-fund12/community-reviewer-levels) currently use common sense and their experience to filter out profanity, use of AI and substandard reviews - but could AI or data science help them do a better job?
 
+How do we use data to spot irregularity in proposal submission, review and voting?
+
+As believers in "code as law" can we hard code fund rules and simulate or test automatic enforcement?
+
+
 ### Transition to In-House Stack (Catalyst Voices & Hermes)
 
 **Catalyst Voices**
