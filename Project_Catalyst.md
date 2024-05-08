@@ -5,7 +5,8 @@
 ![img](https://i.imgur.com/GSo0wpa.jpeg)
 
 ### Transition to In-House Stack (Catalyst Voices & Hermes)
-***Catalyst Voices***
+**Catalyst Voices**
+
 Clone this repository:
 
 ~~~
@@ -14,6 +15,7 @@ cd catalyst-voices
 ~~~
 
 Navigate to individual project folders and follow their respective setup instructions.
+
 
 ***Hermes***
 
@@ -25,6 +27,7 @@ cd hermes
 
 `Install global dependencies:`
 coming soon
+
 [Navigate to individual project folders and follow their respective setup instructions.](https://github.com/input-output-hk/hermes/tree/main/hermes#build-notes)
 
 
