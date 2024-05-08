@@ -1,7 +1,7 @@
 ### What is Project Catalyst exactly and how to make it more Data-Driven
 [Project Catalyst](https://projectcatalyst.io/)
 
-*under construction*
+*Section under construction, feedback wanted.*
 
 ### Iteration and The Experiment
 ![img](https://i.imgur.com/GSo0wpa.jpeg)
