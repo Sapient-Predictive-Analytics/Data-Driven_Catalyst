@@ -117,6 +117,9 @@ Open Source Status: BSD-3-Clause license.
 
 [GitHub Page](https://github.com/scrapy/scrapy)
 
+
+![Scrapy](https://repository-images.githubusercontent.com/529502/dab2bd00-0ed2-11eb-8588-5e10679ace4d)
+
 ***
 
 **6. [NLTK](http://www.nltk.org)**
