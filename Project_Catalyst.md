@@ -4,7 +4,20 @@
 ### Iteration and The Experiment
 ![img](https://i.imgur.com/GSo0wpa.jpeg)
 
+### High Level Governance
+
+### Liquid Democracy and dReps
+
+### Community Reviewer and Proposal Scores
+
+### Funding and Voting
+
+### Performance and Milestones
+
+### Abuse and Policing
+
 ### Transition to In-House Stack (Catalyst Voices & Hermes)
+
 **Catalyst Voices**
 
 Clone this repository:
@@ -30,18 +43,6 @@ coming soon
 
 [Navigate to individual project folders and follow their respective setup instructions.](https://github.com/input-output-hk/hermes/tree/main/hermes#build-notes)
 
-
-### High Level Governance
-
-### Liquid Democracy and dReps
-
-### Community Reviewer and Proposal Scores
-
-### Funding and Voting
-
-### Performance and Milestones
-
-### Abuse and Policing
 
 TODO: Formats, database and stack evolution, fund history and evolution, notes on 
 
