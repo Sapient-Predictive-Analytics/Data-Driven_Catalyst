@@ -17,9 +17,10 @@ Review scores' influence of voting outcomes has changed dramatically across past
 Relationships between funding requested, funding available and voter response are important to understand decentralized allocation of Treasury capital.
 
 ### Performance and Milestones
-
+AI and quantitative analysis of the milestones module could greatly facilitate measuring KPIs like reviewer response times, check for duplicate or plagiarized evidence or search for proposals that contribute to open source collaboration or essential libraries.
 
 ### Abuse and Policing
+Level 2 [Reviewers](https://docs.projectcatalyst.io/current-fund-basics/community-review-guidelines-fund12/community-reviewer-levels) currently use common sense and their experience to filter out profanity, use of AI and substandard reviews - but could AI or data science help them do a better job?
 
 ### Transition to In-House Stack (Catalyst Voices & Hermes)
 
