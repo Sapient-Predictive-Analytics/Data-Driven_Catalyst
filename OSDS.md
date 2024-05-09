@@ -127,6 +127,8 @@ Open Source Status: BSD-3-Clause license.
 **6. [NLTK](http://www.nltk.org)**
 Natural Language Toolkit (NLTK) is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in Python. It is the best known natural language processing tool and various books and tutorials exists how to use it. Needless to say, a lot of Project Catalyst data is text like CA/CR reviews, proposal bodies, Github readmes and so on so this package is crucial to convert text into numbers, which Machine Learning models can then easily work with. It is also powerful for sentiment analysis parsing Twitter/X posts. If text suddenly becomes numbers, a whole new universe of possibilities for analysis opens up. This makes NLTK one of the most useful packages - but this isn't trivial. Careful production planning from ideation over signal processing to dimensionality reduction need to be considered, making this a science onto itself. We will try to open up as much Catalyst text to analysis as possible, but expect the first steps to be quite basic before deeper insights can be gained from large datasets of free-form text such as the entirety of proposal reviews in one Fund.
 
+There is also a useful discussion of NLP for beginners and the available toolkit on [LinkedIN](https://www.linkedin.com/advice/0/what-most-user-friendly-natural-language-processing-kimrc)
+
 `Installation:`
 ~~~~
 pip install nltk
