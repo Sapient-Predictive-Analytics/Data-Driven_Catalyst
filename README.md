@@ -3,8 +3,8 @@ Research and showcase optimal technology stack and procedures to build publicly 
 
 ![Imgur](https://i.imgur.com/ViLBYv9.png)
 
-` *Data-driven predictions can succeed - and they can fail. It is when we deny our role in the process that the odds of failure rise. Before we demand more of our data, we need to demand more of ourselves.* `
-`Nate Silver`
+`Data-driven predictions can succeed - and they can fail. It is when we deny our role in the process that the odds of failure rise. Before we demand more of our data, we need to demand more of ourselves.`
+*Nate Silver*
 
 ## Structure
 
