@@ -26,4 +26,4 @@ No data platform is complete without a suitable database, for example Cloud SQL,
 
 ![Medium](https://miro.medium.com/v2/resize:fit:925/1*Hezz0cwwf5XZT5za-D29gw.jpeg)
 
-[Creator: Anil Akyildirim](https://medium.com/@anilak1978_94291/data-mining-process-basics-7984241d7a45) 
+[Diagram by Anil Akyildirim](https://medium.com/@anilak1978_94291/data-mining-process-basics-7984241d7a45) 
