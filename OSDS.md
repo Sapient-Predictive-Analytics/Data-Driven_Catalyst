@@ -159,15 +159,26 @@ pip install statsmodels
 ![Statsmodels](https://www.statsmodels.org/devel/_images/ols.png)
 
 
-9. **[Keras](https://keras.io)**
+8. **[Keras](https://keras.io)**
 
-10. **[PyTorch](https://pytorch.org)**
+9. **[PyTorch](https://pytorch.org)**
 
-11. **[Gensim](https://radimrehurek.com/gensim/)**
+10. **[Gensim](https://radimrehurek.com/gensim/)**
+Gensim is an open-source library for unsupervised topic modeling and natural language processing, using modern statistical machine learning. By representing text as semantic vectors, it enables the extraction of semantic topics from a large collection of documents using algorithms. A typical use case would be extracting the underlying topics from large volumes of text, for example to categorize a proposal as "DeFi" or "RWA" based on its content. It is a somewhat specialized alternative to NLTK if the text is known to be structured, as would often be the case in likely Catalyst data-analysis.
 
-12. **[Spacy](https://spacy.io)**
+`Installation:`
+~~~~
+pip install gensim
+~~~~
 
-13. **[Plotly](https://plotly.com)**
+`Comparison of NLP packages and their capabilities.`
+
+![NLP Table](https://community.alteryx.com/t5/image/serverpage/image-id/32567iB339C01413D652A2?v=v2)
+
+
+11. **[Spacy](https://spacy.io)**
+
+12. **[Plotly](https://plotly.com)**
 
 
 ### More experimental packages
