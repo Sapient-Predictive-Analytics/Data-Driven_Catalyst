@@ -165,11 +165,14 @@ pip install statsmodels
 
 10. **[Gensim](https://radimrehurek.com/gensim/)**
 Gensim is an open-source library for unsupervised topic modeling and natural language processing, using modern statistical machine learning. By representing text as semantic vectors, it enables the extraction of semantic topics from a large collection of documents using algorithms. A typical use case would be extracting the underlying topics from large volumes of text, for example to categorize a proposal as "DeFi" or "RWA" based on its content. It is a somewhat specialized alternative to NLTK if the text is known to be structured, as would often be the case in likely Catalyst data-analysis.
+Open Source Status: Open source, LGPL license.
 
 `Installation:`
 ~~~~
 pip install gensim
 ~~~~
+
+[Gensim Github](https://github.com/RaRe-Technologies/gensim)
 
 `Comparison of NLP packages and their capabilities.`
 
