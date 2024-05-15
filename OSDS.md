@@ -196,3 +196,5 @@ A few more to experiment with “next level” applications. We have a separate 
 4. **[Gephi](https://gephi.org)**
 
 5. [**LangChain**](https://github.com/LangChain/langchain)
+
+More information about LangChain and using LLMs in general can also be found in [our section about AI.](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Using_AI.md)
