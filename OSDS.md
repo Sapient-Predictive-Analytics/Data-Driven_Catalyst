@@ -145,16 +145,29 @@ GitHub Page: [NLTK GitHub](https://github.com/nltk/nltk)
 ***
 
 7. **[Statsmodels](https://www.statsmodels.org)**
+Statsmodels is a library for statistical and econometric analysis in Python. It supports many kinds of classic but also more advanced statistical models and tests, making it useful for regression, time series analysis, and hypothesis testing. Do not discount this as "old school statistics" though, as many intuitions about complex relationships require initial sanity checks and without basic foundation in correlation and hypothesis testing, spurious relationships and biases creep in. Together with Pandas and Numpy, this is one of the workhorses for working with data, developing and testing ideas.
+Open Source Status: Open source, BSD license.
 
-8. **[Keras](https://keras.io)**
+`Installation:`
+~~~~
+pip install statsmodels
+~~~~
 
-9. **[PyTorch](https://pytorch.org)**
+[Statsmodels GitHub](https://github.com/statsmodels/statsmodels)
 
-10. **[Gensim](https://radimrehurek.com/gensim/)**
+`Example of Statsmodels (from their website):`
+![Statsmodels](https://www.statsmodels.org/devel/_images/ols.png)
 
-11. **[Spacy](https://spacy.io)**
 
-12. **[Plotly](https://plotly.com)**
+9. **[Keras](https://keras.io)**
+
+10. **[PyTorch](https://pytorch.org)**
+
+11. **[Gensim](https://radimrehurek.com/gensim/)**
+
+12. **[Spacy](https://spacy.io)**
+
+13. **[Plotly](https://plotly.com)**
 
 
 ### More experimental packages
