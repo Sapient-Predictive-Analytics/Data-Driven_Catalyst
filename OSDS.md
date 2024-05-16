@@ -180,7 +180,7 @@ pip install torch
 
 Open Source Status: BSD license.
 
-`Illustration by [NVIDIA](https://www.nvidia.com/en-us/glossary/pytorch/) about the advantages of PyTorch.`
+*Illustration by [NVIDIA](https://www.nvidia.com/en-us/glossary/pytorch/) about the advantages of PyTorch.*
 
 ![NVIDIA](https://www.nvidia.com/content/dam/en-zz/Solutions/glossary/data-science/pytorch/img-1.png)
 
