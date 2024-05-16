@@ -144,7 +144,7 @@ GitHub Page: [NLTK GitHub](https://github.com/nltk/nltk)
 
 ***
 
-7. **[Statsmodels](https://www.statsmodels.org)**
+**7. [Statsmodels](https://www.statsmodels.org)**
 Statsmodels is a library for statistical and econometric analysis in Python. It supports many kinds of classic but also more advanced statistical models and tests, making it useful for regression, time series analysis, and hypothesis testing. Do not discount this as "old school statistics" though, as many intuitions about complex relationships require initial sanity checks and without basic foundation in correlation and hypothesis testing, spurious relationships and biases creep in. Together with Pandas and Numpy, this is one of the workhorses for working with data, developing and testing ideas.
 Open Source Status: Open source, BSD license.
 
@@ -159,11 +159,33 @@ pip install statsmodels
 ![Statsmodels](https://www.statsmodels.org/devel/_images/ols.png)
 
 
-8. **[Keras](https://keras.io)**
+**8. [Keras](https://keras.io)**
+Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It enables fast experimentation with deep neural networks. It was developed by Google and is primarily used to make the implementation of neural networks easy(ier). It also supports multiple backend neural network computation. Keras is used for distributed training of deep learning models and especially popular by companies that require complex studies of customer behavior, for example Netflix or Uber. Some traders have successfully used it to develop crypto trading algorithms but for Catalyst it is probably a bit too "black box" to yield results that can inform governance. Most likely use cases are in spotting AI impersonation through learning models or other similar highly complex tasks.
 
-9. **[PyTorch](https://pytorch.org)**
+`Installation:`
+~~~~
+pip install keras
+~~~~
 
-10. **[Gensim](https://radimrehurek.com/gensim/)**
+Open Source Status: MIT license.
+[GitHub Page](https://github.com/keras-team/keras)
+
+**9. [PyTorch](https://pytorch.org)**
+PyTorch is an open source machine learning library based on the Torch library, used for applications such as natural language processing. It is primarily developed by Facebook's AI Research lab. According to [6sense](https://6sense.com/tech/data-science-machine-learning/pytorch-market-share), the top alternatives for PyTorch data-science-machine-learning tool are TensorFlow with 38.39%, OpenCV with 19.45%, Keras with 18.28% market share - so it is used for similar jobs even though we would utilize it mainly for the support of NLP applications and use TensorFlow as the go-to solution for doing complex ML with numbers or vectors (other thank vectorized text tokens). This is based on Sapient's preferences and the Catalyst Team or community users may develop their own favorites.
+
+`Installation:`
+~~~~
+pip install torch
+~~~~
+
+Open Source Status: BSD license.
+
+`Illustration by [NVIDIA](https://www.nvidia.com/en-us/glossary/pytorch/) about the advantages of PyTorch.`
+
+![NVIDIA](https://www.nvidia.com/content/dam/en-zz/Solutions/glossary/data-science/pytorch/img-1.png)
+
+
+**10. [Gensim](https://radimrehurek.com/gensim/)**
 Gensim is an open-source library for unsupervised topic modeling and natural language processing, using modern statistical machine learning. By representing text as semantic vectors, it enables the extraction of semantic topics from a large collection of documents using algorithms. A typical use case would be extracting the underlying topics from large volumes of text, for example to categorize a proposal as "DeFi" or "RWA" based on its content. It is a somewhat specialized alternative to NLTK if the text is known to be structured, as would often be the case in likely Catalyst data-analysis.
 Open Source Status: Open source, LGPL license.
 
