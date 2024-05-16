@@ -201,22 +201,44 @@ pip install gensim
 ![NLP Table](https://community.alteryx.com/t5/image/serverpage/image-id/32567iB339C01413D652A2?v=v2)
 
 
-11. **[Spacy](https://spacy.io)**
+**11. [SpaCy](https://spacy.io)**
+SpaCy is another open-source software library for advanced natural language processing, designed specifically for production use and helps you build applications that process and "understand" large volumes of text. You can refer to the image under Gensim for differences and strengths or likely use cases. We will delve deeper into NLP package comparison when dealing with text analysis of Catalyst fund data.
 
-12. **[Plotly](https://plotly.com)**
+`Installation:`
+~~~~
+pip install spacy
+~~~~
+
+Open Source Status: MIT license.
+[GitHub Page](https://github.com/explosion/spaCy)
+
+
+**12. [Plotly](https://plotly.com)**
+Plotly is a graphing library that makes interactive, publication-quality graphs online. Examples of plots are line charts, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts. So what's the difference to other charting tools like Matplotlib and Seaborn? It has a somewhat smaller community but according to some of its users, Plotly is "far ahead of the other options - easier to use, just as customizable, and offers interactivity if you want to show it on a website". This of course depends a lot on what you are trying to do - charting for trading and visualization of changes from fund to fund in CR score impact require very different chart types and some packages may excel at one type and look weird for others - it is literally down to who developed it for which main purpose initially.
+
+`Installation:`
+~~~~
+pip install plotly
+~~~~
+
+Open Source Status: MIT license.
+[GitHub Page](https://github.com/plotly/plotly.py)
 
 
 ### More experimental packages
 A few more to experiment with “next level” applications. We have a separate section for AI, but for high level, statistical and prediction machine learning, there is a rich sophisticated, niche package ecosystem for any need and any task. Some areas however increasingly rely on expensive non-open source APIs like OpenAI's. If there is a need for a deeper dive as we come across more use cases and community requests, we may expand on this section.
 
 1. [**LightGBM**](https://github.com/microsoft/LightGBM)
+LightGBM (Light Gradient Boosting Machine) is a highly efficient, distributed, and fast implementation of gradient boosting framework based on decision tree algorithms. It provides feature importance metrics which can help in understanding which factors are most influential in the scoring and voting outcomes. While not primarily designed for interpretability, various tools and methods (like SHAP values) can be used alongside LightGBM to understand model predictions, which is useful in understanding the comparative outcomes of different funding rounds. For Catalyst fund use, it is initially quite certainly overkill, but will prove invaluable for model optimization to the experienced user or later stage refinement.
 
-2. [**cadCAD**](https://github.com/cadCAD-org/cadCAD)
-   
-3. [**NetworkX**](https://github.com/networkx)
+3. [**cadCAD**](https://github.com/cadCAD-org/cadCAD)
+cadCAD (Complex Adaptive Dynamics Computer-Aided Design) is a Python-based modeling framework for research, validation, and Computer Aided Design of complex systems. It supports discrete-time simulations, enabling the study of system dynamics. cadCAD is particularly useful for understanding the dynamics and interdependencies within the funding process. It can model how different variables and their interactions affect outcomes over time.  Ideal for systems with feedback loops and complex interactions, which are often present in voting and scoring systems involving multiple reviewers and proposals.
 
-4. **[Gephi](https://gephi.org)**
+5. [**NetworkX**](https://github.com/networkx)
+NetworkX is a Python package for the creation, manipulation, and study of complex networks of nodes and edges. It is used for the analysis of the structure and dynamics of networks. Useful for identifying clusters or communities within the network, such as groups of reviewers who tend to score similarly.
 
-5. [**LangChain**](https://github.com/LangChain/langchain)
+7. **[Gephi](https://gephi.org)**
+Gephi is an open-source network analysis and visualization software package written in Java on the NetBeans platform. It is primarily used for graph and network visualization. Provides an interactive interface for exploring the network, which can help in understanding the distribution of scores and votes across different proposals.
 
-More information about LangChain and using LLMs in general can also be found in [our section about AI.](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Using_AI.md)
+9. [**LangChain**](https://github.com/LangChain/langchain)
+More information about LangChain and using LLMs in general can also be found in [our section about AI.](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Using_AI.md) This is an entire science to itself and has boomed after chatGPT made LLMs famous, although results are still somewhat experimental and can be "weird" or "moody" due to the emergent character of the AI.
