@@ -34,7 +34,7 @@ Here is a simplified example of how to use Pandas to analyze Catalyst data to in
 import pandas as pd
 
 # Load data into a DataFrame
-data = pd.read_csv('project_catalyst_data.csv')
+data = pd.read_csv('fundX.csv')
 
 # Group by proposer and calculate the mean score for each proposer
 mean_scores = data.groupby('proposer')['score'].mean()
