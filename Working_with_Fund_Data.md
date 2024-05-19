@@ -189,4 +189,4 @@ plt.show()
 
 [IPython Notebook](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Case1F8F9F10.ipynb)
 
-![Heatmap]((https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/heatmap.png))
+![img](https://i.imgur.com/9JQlEnq.png)
