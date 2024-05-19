@@ -89,32 +89,100 @@ We start by importing Pandas, and loading the 3 available VCA files from the Fun
 Case Study: Working with fund data.
 Catalyst funds VCA sheet F8, F9, F10.
 """
-
 # Import libraries
 import pandas as pd
 
-# Load data into a DataFrames for each Fund
-fund8 = pd.read_csv('fund8.csv', names=['ID', 'Title', 'Challenge', 'Link', 'Reviewer',
-                                          'Impact', 'Score_i', 'Feasibility', 'Score_ii', 'Cat3', 'Score_iii',                                         
-                                          'Rationale', 'Exc', 'Good', 'FO'], header=None, encoding='cp1252')
-fund9 = pd.read_csv('fund9.csv', names=['ID', 'Challenge', 'Title', 'Link', 'Reviewer',
-                                          'xID1', 'xID2', 'xID3', 'Impact', 'Score_i', 'Feasibility', 
-                                          'Score_ii', 'Cat3', 'Score_iii', 'Mark', 'Rationale'], header=None, 
-                                            encoding='cp1252')
-fund10 = pd.read_csv('fund10.csv', names=['ID', 'Reviewer', 'Impact', 'Score_i', 'Feasibility', 'Score_ii',
-                                            'Cat3', 'Score_iii', 'Level', 'Alloc', 'xID1', 'Link', 'Title', 'Tot',
-                                            'Valid', 'Pct', 'In'], header=None, encoding='cp1252')
+# Display working directory to extract data there
+import os
+print(os.getcwd())
 
-# Add Fund column, remove idiosyncracies
+# Read data into DataFrames for each fund and encode for foreign language reviews
+fund8 = pd.read_csv('fund8.csv', encoding='cp1252')
+fund9 = pd.read_csv('fund9.csv', encoding='cp1252')
+fund10 = pd.read_csv('fund10.csv', encoding='cp1252')
+
+# Display the column names to assess compatibility across funds
+print(fund8.columns)
+print(fund9.columns)
+print(fund10.columns)
+~~~
+
+Next, we create one "Master" DataFrame across all funds, add a new column that reflect which fund each assessment is from, and also count the length of each Impact assessment. We do some further sanity checks like ensuring scores are numbers and comments are strings, and then go to calculate Groupby information and plot as desired. For this simple example, the predictive power is not so important. But it is still very interesting to note that reducing incentives for excellent and good assessments in Fund-10 have not reduced the amount of text that reviewers write. However, the risk of being filtered out for bad reviews has clearly motivated reviewers to write longer reviews if they want to give a "bad" review in Fund-9. In Fund=10, this effect disappeared. The interactive IPython notebook allows inline plotting. This may not be reflected in the markdown Github so there is a separate image of the output below even though as mentioned the predictive power of this exercise is not meant to be significant.
+
+~~~
+"""
+Case Study: Working with fund data.
+Catalyst funds VCA sheet F8, F9, F10.
+"""
+# Import libraries
+import pandas as pd
+import numpy as np
+
+# Read data into DataFrames for each fund and encode for foreign language reviews
+fund8 = pd.read_csv('fund8.csv', encoding='cp1252')
+fund9 = pd.read_csv('fund9.csv', encoding='cp1252')
+fund10 = pd.read_csv('fund10.csv', encoding='cp1252')
+
+# We streamline the data by using consistent labels across funds
+fund8 = fund8.filter(['id','Assessor', 'Impact / Alignment Note', 'Impact / Alignment Rating'], axis=1)
+fund9 = fund9.filter(['id','Assessor', 'Impact / Alignment Note', 'Impact / Alignment Rating'], axis=1)
+fund10 = fund10.filter(['id','Reviewer', 'Impact Note', 'Impact Rating'], axis=1)
+fund8.rename(columns={'Assessor':'Reviewer', 'Impact / Alignment Note':'Impact Note', 'Impact / Alignment Rating':'Impact Rating'}, inplace=True)
+fund9.rename(columns={'Assessor':'Reviewer', 'Impact / Alignment Note':'Impact Note', 'Impact / Alignment Rating':'Impact Rating'}, inplace=True)
 fund8['Fund'] = 'Fund8'
 fund9['Fund'] = 'Fund9'
 fund10['Fund'] = 'Fund10'
-fund8 = fund8.drop(labels=['Challenge', 'Exc', 'Good', 'FO', 'Rationale'], axis=1)
-fund9 = fund9.drop(labels=['Challenge', 'xID1', 'xID2', 'xID3', 'Mark', 'Rationale'], axis=1)
-fund10 = fund10.drop(labels=['Level', 'Alloc', 'xID1', 'Tot', 'Valid', 'Pct', 'In'], axis=1)
 
-# Concatenate funds and save to new file (to save resources)
-frames = [fund8, fund9, fund10]
-masterfile = pd.concat(frames, ignore_index=True)
-masterfile.to_csv('fund_agg.csv')
+# Display the column names again to check if it worked as expected
+print(fund8.columns)
+print(fund9.columns)
+print(fund10.columns)
+
+# Concatenate the DataFrames
+funds_agg = pd.concat([fund8, fund9, fund10])
+
+# Ensure 'Impact Note' is a string and 'Impact Rating' is numeric
+funds_agg['Impact Note'] = funds_agg['Impact Note'].astype(str)
+funds_agg['Impact Rating'] = pd.to_numeric(funds_agg['Impact Rating'], errors='coerce')
+
+# Create a new column for the length of 'Impact Note'
+funds_agg['lenComment'] = funds_agg['Impact Note'].apply(len)
+
+# Check the aggregated DataFrame
+print(funds_agg.head())
+
+# Group by 'Fund' and calculate mean for 'Impact Rating' and 'Impact Note Length'
+grouped_data = funds_agg.groupby('Fund')[['Impact Rating', 'lenComment']].mean()
+
+# Display the results
+print(grouped_data)
+
+# Configure IPython to display plots inline
+%matplotlib inline
+
+# Import plotting packages
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Set the aesthetic style of the plots
+sns.set()
+
+# Create a pivot table with funds ordered
+# Assuming 'Impact Rating' as columns, 'Fund' as index, and the values are the means of 'Impact Note Length'
+pivot_table = funds_agg.pivot_table(values='lenComment', index='Fund', columns='Impact Rating', aggfunc=np.mean)
+
+# Explicitly order the index for the funds
+pivot_table = pivot_table.reindex(['Fund8', 'Fund9', 'Fund10'])
+
+# Plotting the heatmap
+plt.figure(figsize=(12, 8))  # Adjust size as needed
+heatmap = sns.heatmap(pivot_table, annot=True, cmap='coolwarm', fmt=".1f", linewidths=.5)
+
+# Customizing the plot with labels and a title
+plt.title('Heatmap of Average Impact Note Length by Impact Rating and Fund')
+plt.xlabel('Impact Rating')
+plt.ylabel('Fund')
+
+# Show the plot
+plt.show()
 ~~~
