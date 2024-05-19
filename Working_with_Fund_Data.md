@@ -81,7 +81,7 @@ One of the major advantages of working with the Pandas DataFrame for this projec
 ![RealPandas](https://realpython.com/cdn-cgi/image/width=1920,format=auto/https://files.realpython.com/media/How-to-Plot-With-Pandas_Watermarked.5bb0299e061b.jpg)
 
 
-### Interactive IPython Notebook
+### CaseStudy 1: Working across funds (simple example)
 We start by importing Pandas, and loading the 3 available VCA files from the Funds data. The imports attempt to streamline the column names across different fund formats and category names, and try to cope with different language formats that may throw errors such as Vietnamese reviewer commentary etc.
 
 ~~~
