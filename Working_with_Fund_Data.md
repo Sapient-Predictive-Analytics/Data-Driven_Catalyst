@@ -31,12 +31,13 @@ Pandas integrates well with other Python libraries such as NumPy for numerical o
 Here is a simplified example of how to use Pandas to analyze Catalyst data to introduce the syntax:
 
 ~~~
+# Import Pandas library
 import pandas as pd
 
 # Load data into a DataFrame
 data = pd.read_csv('fundX.csv')
 
-# Group by proposer and calculate the mean score for each proposer
+# Group by proposer and calculate the mean score for each proposer (assumes prior data cleaning or giving instructions to read_csv above)
 mean_scores = data.groupby('proposer')['score'].mean()
 
 # Group by reviewer and count the number of assessments each reviewer made
