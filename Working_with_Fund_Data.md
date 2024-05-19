@@ -82,3 +82,26 @@ One of the major advantages of working with the Pandas DataFrame for this projec
 
 
 ### Interactive IPython Notebook
+We start by importing Pandas, and loading the 3 available VCA files from the Funds data. The imports attempt to streamline the column names across different fund formats and category names, and try to cope with different language formats that may throw errors such as Vietnamese reviewer commentary etc.
+
+~~~
+"""
+Case Study: Working with fund data.
+Catalyst funds VCA sheet F8, F9, F10.
+"""
+
+# Import libraries
+import pandas as pd
+
+# Load data into a DataFrames for each Fund
+fund8 = pd.read_csv('fund8.csv', names=['ID', 'Idea', 'Title', 'Challenge', 'Link',
+                                          'Reviewer', 'Impact', 'Score_i', 'Feasibility', 
+                                          'Score_ii', 'Cat3', 'Score_iii', 
+                                          'Rationale', 'Exc', 'Good', 'FO'], header=None, encoding='cp1252')
+fund9 = pd.read_csv('fund9.csv', names=['ID', 'Challenge', 'Idea', 'Link', 'Reviewer',
+                                          'xID1', 'xID2', 'xID3', 'Impact', 'Score_i', 'Feasibility', 
+                                          'Score_ii', 'Cat3', 'Score_iii', 'Mark', 'Rationale'], header=None, encoding='cp1252')
+fund10 = pd.read_csv('fund10.csv', names=['ID', 'Reviewer', 'Impact', 'Score_i', 'Feasibility', 'Score_ii',
+                                            'Cat3', 'Score_iii', 'Level', 'Alloc', 'xID1', 'Link', 'Title', 'Tot',
+                                            'Valid', 'Pct', 'In'], header=None, encoding='cp1252')
+~~~
