@@ -26,7 +26,7 @@ Pandas supports a variety of operations for both text and numerical data. It all
 One of the most powerful features of Pandas is the groupby functionality. This allows splitting the data into groups based on some criteria, apply a function to each group independently, and then combine the results. For example, in analyzing Project Catalyst aggregate VCA/CA data, we can group proposals by proposers, reviewers, or other criteria, and then calculate average scores, count the length of comments by category, or perform other aggregations.
 
 **Integration with Other Libraries**
-Pandas integrates well with other Python libraries such as NumPy for numerical operations, Matplotlib and Seaborn for data visualization, and Scikit-learn for machine learning, enhancing its utility for comprehensive data analysis. See section OSDS for the complete stack and how it builds nicely on Pandas.
+Pandas integrates well with other Python libraries such as NumPy for numerical operations, Matplotlib and Seaborn for data visualization, and Scikit-learn for machine learning, enhancing its utility for comprehensive data analysis. See section [OSDS](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md) for the complete stack and how it builds nicely on Pandas.
 
 Here is a simplified example of how to use Pandas to analyze Catalyst data to introduce the syntax:
 
