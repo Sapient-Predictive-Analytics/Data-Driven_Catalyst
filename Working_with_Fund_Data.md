@@ -48,6 +48,26 @@ print(assessment_counts)
 ~~~
 
 ### Aggregation and Pandas Groupby Operations
+As shown above, the Groupby object is a very useful data preparation step to avoid resource-consuming iteration and work database-like with our spreadsheet data. The first parameter to .groupby() can accept several different arguments:
+* A column or list of columns
+* A dict or pandas Series
+* A NumPy array or pandas Index, or an array-like iterable of these
+  
+We can take advantage of the latter to group by for example bins of average scores etc.
+
+A more detailed breakdown of how groupby works:
+
+**Split**: The data is divided into groups based on some criteria. This criteria can be one or more columns in your DataFrame. When we call groupby on a DataFrame, we specify which column(s) we want to group by. This divides the DataFrame into multiple groups based on unique values in the specified column(s).
+**Apply**: A function is applied to each group independently. This function can be a built-in aggregation function (such as sum, mean, count, etc.), a custom function, or even a combination of multiple functions. We apply various functions to each group. Common functions include aggregation: calculating a single value for each group, such as mean, sum, count, etc. Transformation: returning an object that's the same size as the group, typically used for normalization or other element-wise operations. Filtration: Returning subsets of the original object based on some group-wise criteria.
+**Combine**: The results of the function applications are combined into a new DataFrame or Series. The results of the applied functions are combined into a new DataFrame or Series, which can be used for further analysis or visualization.
+
+**Similarity to SQL**
+The groupby functionality in Pandas is conceptually similar to the GROUP BY clause in SQL. In SQL, GROUP BY is used to group rows that have the same values in specified columns into summary rows, like calculating the sum or average of each group.
+For example, in SQL, to calculate the average score per proposer:
+`SELECT proposer, AVG(score)`
+`FROM data`
+`GROUP BY proposer;`
+Similar to Pandas, SQL's GROUP BY clause splits the data into groups based on the specified column(s) and then applies aggregation functions to each group.
 
 ### Plotting Data from our DataFrame
 
