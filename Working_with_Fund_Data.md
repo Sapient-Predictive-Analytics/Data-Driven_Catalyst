@@ -39,12 +39,12 @@ data = pd.read_csv('fundX.csv')
 # Group by proposer and calculate the mean score for each proposer
 mean_scores = data.groupby('proposer')['score'].mean()
 
-# Group by reviewer and count the number of comments each reviewer made
-comment_counts = data.groupby('reviewer')['comments'].count()
+# Group by reviewer and count the number of assessments each reviewer made
+assessment_counts = data.groupby('reviewer')['assessments'].count()
 
 # Display the results
 print(mean_scores)
-print(comment_counts)
+print(assessment_counts)
 ~~~
 
 ### Aggregation and Pandas Groupby Operations
