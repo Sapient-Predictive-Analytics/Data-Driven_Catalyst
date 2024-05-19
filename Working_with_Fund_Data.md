@@ -186,3 +186,6 @@ plt.ylabel('Fund')
 # Show the plot
 plt.show()
 ~~~
+
+
+![Heatmap](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/heatmap.png)
