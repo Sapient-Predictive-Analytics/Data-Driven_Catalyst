@@ -191,18 +191,7 @@ plt.show()
 
 ![img](https://i.imgur.com/9JQlEnq.png)
 
-And the raw output is this:
-
-Index(['id', 'Reviewer', 'Impact Note', 'Impact Rating', 'Fund'], dtype='object')
-Index(['id', 'Reviewer', 'Impact Note', 'Impact Rating', 'Fund'], dtype='object')
-Index(['id', 'Reviewer', 'Impact Note', 'Impact Rating', 'Fund'], dtype='object')
-   id         Reviewer                                        Impact Note  \
-0   1  z_assessor_1003  CBDCs can either be the enemy of crypto or it'...   
-1   2  z_assessor_1003  The project effectively addresses the challeng...   
-2   3  z_assessor_1003  The proposal should include audibility improve...   
-3   4  z_assessor_1003  Yes the proposal fits the challenge setting. C...   
-4   5  z_assessor_1003  This one fooled me at first. My initial reacti...   
-
+And the values of the Groupby table are like this:
 
 | Fund    | Rating | len Comment
 | -------- | ------- | ------- 
