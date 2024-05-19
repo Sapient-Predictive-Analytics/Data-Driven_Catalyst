@@ -20,20 +20,20 @@ Pandas provides two primary data structures – Series (1-dimensional) and DataF
 With Pandas, you can easily clean and prepare data by handling missing values, transforming data types, and performing operations like merging, reshaping, and filtering data.
 
 **Text and Numerical Analysis**
-Pandas supports a variety of operations for both text and numerical data. You can leverage functions for text processing, such as string manipulation and applying regular expressions, alongside numerical operations like aggregation, descriptive statistics, and more.
+Pandas supports a variety of operations for both text and numerical data. It allows the user to leverage functions for text processing, such as string manipulation and applying regular expressions, alongside numerical operations like aggregation, descriptive statistics, and more.
 
 **GroupBy Functionality** 
-One of the most powerful features of Pandas is the groupby functionality. This allows you to split your data into groups based on some criteria, apply a function to each group independently, and then combine the results. For example, in analyzing "Project Catalyst" data, you can group proposals by proposers, reviewers, or other criteria, and then calculate average scores, count the number of comments, or perform other aggregations.
+One of the most powerful features of Pandas is the groupby functionality. This allows splitting the data into groups based on some criteria, apply a function to each group independently, and then combine the results. For example, in analyzing Project Catalyst aggregate VCA/CA data, we can group proposals by proposers, reviewers, or other criteria, and then calculate average scores, count the length of comments by category, or perform other aggregations.
 
 **Integration with Other Libraries**
-Pandas integrates well with other Python libraries such as NumPy for numerical operations, Matplotlib and Seaborn for data visualization, and Scikit-learn for machine learning, enhancing its utility for comprehensive data analysis.
+Pandas integrates well with other Python libraries such as NumPy for numerical operations, Matplotlib and Seaborn for data visualization, and Scikit-learn for machine learning, enhancing its utility for comprehensive data analysis. See section OSDS for the complete stack and how it builds nicely on Pandas.
 
 Here is a simplified example of how to use Pandas to analyze Catalyst data to introduce the syntax:
 
 ~~~
 import pandas as pd
 
-# Load your data into a DataFrame
+# Load data into a DataFrame
 data = pd.read_csv('project_catalyst_data.csv')
 
 # Group by proposer and calculate the mean score for each proposer
