@@ -64,6 +64,7 @@ A more detailed breakdown of how groupby works:
 **Similarity to SQL**
 The groupby functionality in Pandas is conceptually similar to the GROUP BY clause in SQL. In SQL, GROUP BY is used to group rows that have the same values in specified columns into summary rows, like calculating the sum or average of each group.
 For example, in SQL, to calculate the average score per proposer:
+
 `SELECT proposer, AVG(score)`
 
 `FROM data`
