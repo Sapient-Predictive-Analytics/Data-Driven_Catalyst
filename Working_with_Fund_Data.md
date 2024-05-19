@@ -203,14 +203,9 @@ Index(['id', 'Reviewer', 'Impact Note', 'Impact Rating', 'Fund'], dtype='object'
 3   4  z_assessor_1003  Yes the proposal fits the challenge setting. C...   
 4   5  z_assessor_1003  This one fooled me at first. My initial reacti...   
 
-   Impact Rating   Fund  lenComment  
-0              4  Fund8         772  
-1              4  Fund8         833  
-2              3  Fund8        2235  
-3              4  Fund8         742  
-4              5  Fund8        1048  
-        Impact Rating   lenComment
-Fund                              
-Fund10       4.003818   859.273920
-Fund8        4.060180   811.357448
-Fund9        4.252046  1035.888232
+
+| Fund    | Rating | len Comment
+| -------- | ------- | ------- 
+| Fund8  | 4.06018   | 811.357448
+| Fund9  | 4.25205   | 1035.888232
+| Fund10 | 4.00382   | 859.273920
