@@ -75,6 +75,7 @@ For example, in SQL, to calculate the average score per proposer:
 
 Similar to Pandas, SQL's GROUP BY clause splits the data into groups based on the specified column(s) and then applies aggregation functions to each group.
 
-### Plotting Data from our DataFrame
+### Visualizing Data from DataFrame
+One of the major advantages of working with the Pandas DataFrame for this project is the ability to plot directly from the native dataset using Seaborn, Plotly, Matplotlib etc. Any changes, improvements or additional data happening in the DataFrame will immediately update our plots if we work with an interactive IPython notebook or an IDE like Spyder.
 
 ### Interactive IPython Notebook
