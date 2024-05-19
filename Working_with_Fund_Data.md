@@ -94,14 +94,27 @@ Catalyst funds VCA sheet F8, F9, F10.
 import pandas as pd
 
 # Load data into a DataFrames for each Fund
-fund8 = pd.read_csv('fund8.csv', names=['ID', 'Idea', 'Title', 'Challenge', 'Link',
-                                          'Reviewer', 'Impact', 'Score_i', 'Feasibility', 
-                                          'Score_ii', 'Cat3', 'Score_iii', 
+fund8 = pd.read_csv('fund8.csv', names=['ID', 'Title', 'Challenge', 'Link', 'Reviewer',
+                                          'Impact', 'Score_i', 'Feasibility', 'Score_ii', 'Cat3', 'Score_iii',                                         
                                           'Rationale', 'Exc', 'Good', 'FO'], header=None, encoding='cp1252')
-fund9 = pd.read_csv('fund9.csv', names=['ID', 'Challenge', 'Idea', 'Link', 'Reviewer',
+fund9 = pd.read_csv('fund9.csv', names=['ID', 'Challenge', 'Title', 'Link', 'Reviewer',
                                           'xID1', 'xID2', 'xID3', 'Impact', 'Score_i', 'Feasibility', 
-                                          'Score_ii', 'Cat3', 'Score_iii', 'Mark', 'Rationale'], header=None, encoding='cp1252')
+                                          'Score_ii', 'Cat3', 'Score_iii', 'Mark', 'Rationale'], header=None, 
+                                            encoding='cp1252')
 fund10 = pd.read_csv('fund10.csv', names=['ID', 'Reviewer', 'Impact', 'Score_i', 'Feasibility', 'Score_ii',
                                             'Cat3', 'Score_iii', 'Level', 'Alloc', 'xID1', 'Link', 'Title', 'Tot',
                                             'Valid', 'Pct', 'In'], header=None, encoding='cp1252')
+
+# Add Fund column, remove idiosyncracies
+fund8['Fund'] = 'Fund8'
+fund9['Fund'] = 'Fund9'
+fund10['Fund'] = 'Fund10'
+fund8 = fund8.drop(labels=['Challenge', 'Exc', 'Good', 'FO', 'Rationale'], axis=1)
+fund9 = fund9.drop(labels=['Challenge', 'xID1', 'xID2', 'xID3', 'Mark', 'Rationale'], axis=1)
+fund10 = fund10.drop(labels=['Level', 'Alloc', 'xID1', 'Tot', 'Valid', 'Pct', 'In'], axis=1)
+
+# Concatenate funds and save to new file (to save resources)
+frames = [fund8, fund9, fund10]
+masterfile = pd.concat(frames, ignore_index=True)
+masterfile.to_csv('fund_agg.csv')
 ~~~
