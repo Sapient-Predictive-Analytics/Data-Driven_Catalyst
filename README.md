@@ -22,6 +22,8 @@ For data mining and data science, "garbage in, garbage out" is an important cave
 
 No data platform is complete without a suitable database, for example Cloud SQL, and at least a lightweight API to allow other apps to interact with its data. Stack discussion for this is crucial but depends on other stakeholders and will be discussed at a more advanced stage when we have gathered enough feedback what kind of analysis the community wants to see and what is most suited to help improve Project Catalyst going forward.
 
+*A note on external references: Where possible, we link sources directly as hyperlinks, linked images etc. instead of footnotes, as this in our opinion works better for Github/Gitbook formats.*
+
 `Data Mining Workflow`
 
 ![Medium](https://miro.medium.com/v2/resize:fit:925/1*Hezz0cwwf5XZT5za-D29gw.jpeg)
