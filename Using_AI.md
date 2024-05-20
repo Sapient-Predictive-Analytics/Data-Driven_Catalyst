@@ -118,6 +118,7 @@ LLM can uncover insight when it applies to large database. The process for Catal
 Well known community tooling like LidoNation <https://www.lidonation.com/en/catalyst-explorer/proposals?fs%5B%5D=139&cs%5B%5D=141&bs%5B%5D=0&bs%5B%5D=6281500> has been a major tooling that community members/voters search for the above questions. However, its usage among newcomers is still little known as they are unaware of this very useful community tool as shown in the discussion among new funded proposer chat groups.
 
 LangChain would be able to summarize multiple perspectives and diverse datasets and shed light on these questions. It preprocesses data to minimize bias, chooses training data sources thoughtfully, and maintains ongoing oversight to spot and fix any biases that arise. These measures help create fairer and more balanced AI outputs.
+***
 
 \*\*References:\*\*
 
