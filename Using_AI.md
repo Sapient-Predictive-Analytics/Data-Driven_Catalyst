@@ -132,5 +132,3 @@ LangChain would be able to summarize multiple perspectives and diverse datasets 
 [_https://medium.com/@charlesjsq/intoduction-to-langchain-a-powerful-framework-for-applications-with-llms-e327db7ac5f4_](https://medium.com/@charlesjsq/intoduction-to-langchain-a-powerful-framework-for-applications-with-llms-e327db7ac5f4)
 
 [_https://medium.com/@johnidouglasmarangon/how-to-summarize-text-with-openai-and-langchain-e038fc922af_](https://medium.com/@johnidouglasmarangon/how-to-summarize-text-with-openai-and-langchain-e038fc922af)
-
-![Map](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/e23cd04ed00bd.jpg)
