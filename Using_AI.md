@@ -93,3 +93,35 @@ Traditional LLMs also don't support real-time data capabilities. They rely solel
 Additionally, traditional LLMs can be expensive to deploy and maintain due to high infrastructure costs, making them less accessible for smaller organizations or individual developers.
 
 LangChain overcomes these issues by integrating with various external data sources, enabling real-time data access, and offering a more cost-effective and flexible solution, making it a superior choice for advanced AI applications.
+
+
+**Unleashing LangChain: recent development in Artificial Intelligence / LLM and their relevance to a data-driven Catalyst**
+
+
+LangChain is a versatile, open-source framework that helps AI developers connect large language models (LLMs) with various external data sources, enables them to experiment and locate the right models.
+
+- How it works >> Traditional LLMs can forget parts of long texts because they have limited memory. LangChain solves this by keeping track of the context during longer interactions. Earlier parts of the conversation can be pushed back into the model, so it gives more coherent and context-aware responses.
+- LangChain’s modular approach allows you to dynamically compare different prompts and models with minimal code changes. This flexibility is great for applications using multiple LLMs, such as one model to interpret user queries and another to generate responses. It reduces the need for extensive coding, making it easier for both experts and beginners to experiment and prototype with generative AI.
+- LangChain uses the MIT license, which is worth noting for its impact on development freedom. This permissive license lets developers use, modify, and distribute the software in their own projects, including commercial products, without any restrictions. However, you must include the original copyright notice and disclaimers. This openness encourages innovation and helps the technology spread across different industries
+
+**LangChain's potential applications on Project Catalyst (risk & opportunities)**
+
+Opportunities:
+
+LLM can uncover insight when it applies to large database. The process for Catalyst project would be more transparent and voters can obtain insight about the projects more accurately. Not only the data retrieved from previous fund could be put into better use, the external data would also be utilized. This could lead to specific answers for some of the following important questions:
+
+- Does Proposer complete their previous funding tasks up to fund 8 before proposing in fund 12?
+- How much in total they have requested in the current funding round? Should there be a cap of budget imposed so that the fund could be allocated more efficiently?
+- How much is the total fund requested by proposers?
+
+Well known community tooling like LidoNation <https://www.lidonation.com/en/catalyst-explorer/proposals?fs%5B%5D=139&cs%5B%5D=141&bs%5B%5D=0&bs%5B%5D=6281500> has been a major tooling that community members/voters search for the above questions. However, its usage among newcomers is still little known as they are unaware of this very useful community tool as shown in the discussion among new funded proposer chat groups.
+
+LangChain would be able to summarize multiple perspectives and diverse datasets and shed light on these questions. It preprocesses data to minimize bias, chooses training data sources thoughtfully, and maintains ongoing oversight to spot and fix any biases that arise. These measures help create fairer and more balanced AI outputs.
+
+\*\*References:\*\*
+
+[_https://builtin.com/articles/langchain#:~:text=LangChain%20helps%20AI%20developers%20integrate,well%2Dversed%20in%20the%20framework_](https://builtin.com/articles/langchain#:~:text=LangChain%20helps%20AI%20developers%20integrate,well%2Dversed%20in%20the%20framework)
+
+[_https://medium.com/@charlesjsq/intoduction-to-langchain-a-powerful-framework-for-applications-with-llms-e327db7ac5f4_](https://medium.com/@charlesjsq/intoduction-to-langchain-a-powerful-framework-for-applications-with-llms-e327db7ac5f4)
+
+[_https://medium.com/@johnidouglasmarangon/how-to-summarize-text-with-openai-and-langchain-e038fc922af_](https://medium.com/@johnidouglasmarangon/how-to-summarize-text-with-openai-and-langchain-e038fc922af)
