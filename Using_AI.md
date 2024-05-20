@@ -125,7 +125,7 @@ Well known community tooling like [LidoNation](https://www.lidonation.com/en/cat
 LangChain would be able to summarize multiple perspectives and diverse datasets and shed light on these questions. It preprocesses data to minimize bias, chooses training data sources thoughtfully, and maintains ongoing oversight to spot and fix any biases that arise. These measures help create fairer and more balanced AI outputs.
 ***
 
-\*\*References:\*\*
+*References:*
 
 [_https://builtin.com/articles/langchain#:~:text=LangChain%20helps%20AI%20developers%20integrate,well%2Dversed%20in%20the%20framework_](https://builtin.com/articles/langchain#:~:text=LangChain%20helps%20AI%20developers%20integrate,well%2Dversed%20in%20the%20framework)
 
