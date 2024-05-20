@@ -43,7 +43,8 @@ Our project will integrate their tooling and formats into our database and API e
 
 Growing importance of on-chain data and ability to track currently opaque interactions like Google form submissions through [Hermes/Voices infra](https://youtu.be/44z4_GznyBc?si=dO5LnQakbWOIals6&t=1033)
 
-From Milestone 4 onwards, November 2024, the data-relevant stack decisions are part of Milestone deliverables, and highly relevant. By then, our project will already have concluded so early involvement of the team in our "stakeholder inputs" and Workshop will be important and so will be keeping our own stack flexible, open source and scalable.
+From Milestone 4 onwards, November 2024, the data-relevant stack decisions are part of Milestone deliverables, and highly relevant. By then, our project will already have concluded so early involvement of the team in our "stakeholder inputs" and Workshop will be important and so will be keeping our own stack **flexible**, **open source** and **scalable**. Use of vectorization, C-integration, PostgreSQL database and other such measures have so far been discussed but need to be expanded on heavility until July - see Roadmap.
+
 *These parts of their acceptance criteria are the earliest really pertinent ones for data-driven stack:*
 **Update Catalyst Database Schema to Support Proposal Submission**
 * Add Proposal Definition data per Fund Challenge or Category.
