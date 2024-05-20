@@ -105,9 +105,8 @@ LangChain is a versatile, open-source framework that helps AI developers connect
 - LangChain uses the MIT license, which is worth noting for its impact on development freedom. This permissive license lets developers use, modify, and distribute the software in their own projects, including commercial products, without any restrictions. However, you must include the original copyright notice and disclaimers. This openness encourages innovation and helps the technology spread across different industries
   ***
 
-**LangChain's potential applications on Project Catalyst (risk & opportunities)**
+**LangChain's potential applications on Project Catalyst (risk/ limitation & opportunities)**
 
-Opportunities:
 
 LLM can uncover insight when it applies to large database. The process for Catalyst project would be more transparent and voters can obtain insight about the projects more accurately. Not only the data retrieved from previous fund could be put into better use, the external data would also be utilized. This could lead to specific answers for some of the following important questions:
 
