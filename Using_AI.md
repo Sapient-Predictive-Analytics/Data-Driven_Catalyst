@@ -103,7 +103,7 @@ LangChain is a versatile, open-source framework that helps AI developers connect
 - How it works >> Traditional LLMs can forget parts of long texts because they have limited memory. LangChain solves this by keeping track of the context during longer interactions. Earlier parts of the conversation can be pushed back into the model, so it gives more coherent and context-aware responses.
 - LangChain’s modular approach allows you to dynamically compare different prompts and models with minimal code changes. This flexibility is great for applications using multiple LLMs, such as one model to interpret user queries and another to generate responses. It reduces the need for extensive coding, making it easier for both experts and beginners to experiment and prototype with generative AI.
 - LangChain uses the MIT license, which is worth noting for its impact on development freedom. This permissive license lets developers use, modify, and distribute the software in their own projects, including commercial products, without any restrictions. However, you must include the original copyright notice and disclaimers. This openness encourages innovation and helps the technology spread across different industries
-  ***
+***
 
 **LangChain's potential applications on Project Catalyst (risk/ limitation & opportunities)**
 
