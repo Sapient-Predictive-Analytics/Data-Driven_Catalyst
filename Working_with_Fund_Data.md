@@ -198,3 +198,7 @@ And the values of the Groupby table are like this:
 | Fund8  | 4.06018   | 811.357448
 | Fund9  | 4.25205   | 1035.888232
 | Fund10 | 4.00382   | 859.273920
+
+### Exercise
+* Add Feasibility Rank & Note, 3rd category (Auditability or Value for Money Rank & Note) to make our result more meaningful.
+* Improve the heatmap by removing values from chart and adding granularity to the color formatting. Averaging the score across scores resulting in a floating number helps.
