@@ -82,3 +82,14 @@ smaller data sets. There are a number of other models derived from this, such as
 LeRF combines the ability to reconstruct a 3D scene from a handful of still images using Neural Radiance Fields
 (NeRF) with LLMs, allowing easy searching of a 3D scene using natural language. The models and code are open
 source but currently without a license, and so not yet commercially usable.
+
+
+**Challenges faced by traditional LLM architecture**
+
+Traditional large language models (LLMs) have several limitations. They often lack access to external data sources, so they can't retrieve or interact with up-to-date information, which limits their effectiveness for tasks requiring current data.
+
+Traditional LLMs also don't support real-time data capabilities. They rely solely on pre-existing knowledge and cannot update or fetch new information on the fly, making them less useful in scenarios needing timely data.
+
+Additionally, traditional LLMs can be expensive to deploy and maintain due to high infrastructure costs, making them less accessible for smaller organizations or individual developers.
+
+LangChain overcomes these issues by integrating with various external data sources, enabling real-time data access, and offering a more cost-effective and flexible solution, making it a superior choice for advanced AI applications**.**
