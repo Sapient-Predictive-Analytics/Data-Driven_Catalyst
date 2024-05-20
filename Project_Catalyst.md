@@ -72,7 +72,11 @@ cd catalyst-voices
 Navigate to individual project folders and follow their respective setup instructions.
 
 
-***Hermes***
+***Hermes Core***
+
+Most of the infrastructure elements of Hermes Core exceed the scope of our project. *The Catalyst team has more than 20 core contributors, mostly full-time employees, who benefit from sharing resources across IOG, allowing the Catalyst team to dynamically increase or scale back its resource capacity when needed to leverage UI/UX design research, full-stack development, technical and cryptographic research, and product marketing as required.* Having said that, liquid democracy and on-chain governance are going to be crucially important to discussions about opportunities and risks from [AI](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Using_AI.md) for decentralized ecosystems.
+
+Infrastructure is currently not available as testnet etc but Milestone code will be published and evolve in the public domain on Github:
 
 Clone this repository:
 ~~~
