@@ -82,7 +82,7 @@ smaller data sets. There are a number of other models derived from this, such as
 LeRF combines the ability to reconstruct a 3D scene from a handful of still images using Neural Radiance Fields
 (NeRF) with LLMs, allowing easy searching of a 3D scene using natural language. The models and code are open
 source but currently without a license, and so not yet commercially usable.
-
+***
 
 **Challenges faced by traditional LLM architecture**
 
