@@ -1,21 +1,25 @@
 ## Fund-8
 
-* Improving Integrity of CA Processes
-* Incremental CA assessments
-* Logyq Protocol: blockchain tracking
-* 1,000+ projects on Interactive Map
-* Adaglass Data Intelligence Platform
-* AI Mentor matching software
-* Proposer-tool on chain – AIM
-* cReport – Catalyst analyzer & KPIs
-* Wolfram Governance Analytics
-* Project Management & Track Directory
+* [Improving Integrity of CA Processes](https://www.lidonation.com/sw/proposals/improving-integrity-of-ca-processes-f8)
+  Somewhat specific to past format of Catalyst governance and outputs relevant to Circle and VCA reviewers (replaced by LVL2)
+* [Incremental CA assessments](https://www.lidonation.com/sw/proposals/incremental-ca-assessments-f8)
+  Small funding requested, not finished and specifically dealing with Community Advisor tooling of previous funds.
+* [Adaglass Data Intelligence Platform](https://www.lidonation.com/sw/proposals/adaglass-data-intelligence-platform-f8)
+  Project did not finish, potentially highly relevant outputs but need to provide final milestone and open source releases.
+* [Proposer-tool on chain – AIM](https://www.lidonation.com/sw/proposals/proposer-tool-on-chain-aim-f8)
+  Co-proposer is a Catalyst Team member and findings are partially used in / informing Hermes Core roll-out.
+* [cReport – Catalyst analyzer & KPIs](https://www.lidonation.com/sw/proposals/creport-catalyst-analyzer-kpis-f8)
+  Finished project and Google docs in the public domain, could inform further data-driven improvements.
+* [Wolfram Governance Analytics](https://www.lidonation.com/sw/proposals/wolfram-governance-analytics-f8)
+  Team have various funded proposals useful to this project and will be contacted for collaboration.
 
 ## Fund-9
 
 * [Scoring Social/Environmental Impact](https://cardano.ideascale.com/c/idea/64138)
+  Tracking project impact is a possible use case if the community decides to nominate it for one of the 7 core research areas and this project could help us with their metric.
 * [Catalyst Research & Voter Tool](https://cardano.ideascale.com/c/idea/64116)
 * [TapTools: All-In-One Platform](https://cardano.ideascale.com/c/idea/64621)
+  Relevant for proposers' native tokens and analysis of the connection between Catalyst and trading on DEXes.
 
 ## Fund-10
 
