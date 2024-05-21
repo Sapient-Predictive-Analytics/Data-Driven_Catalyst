@@ -50,6 +50,8 @@ What we already know about the infrastructure development as it is taking shape 
 
 It will therefore be important to create our own API and database functionality to be able to read JSON format and make this useable with the Python packages that often already have ways to process this kind of metadata very efficiently.
 
+![Metadata](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/metadata.jpg)
+
 *These parts of their acceptance criteria are the earliest really pertinent ones for data-driven stack:*
 **Update Catalyst Database Schema to Support Proposal Submission**
 * Add Proposal Definition data per Fund Challenge or Category.
