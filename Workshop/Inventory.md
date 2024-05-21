@@ -1,3 +1,9 @@
+## Fund-7
+
+* [AI Resolution of Smart Contracts](https://www.lidonation.com/sw/proposals/ai-resolution-of-smart-contracts-f7)
+* [On-Chain Data Analytics](https://www.lidonation.com/sw/proposals/on-chain-data-analytics-f7)
+* [Progress and KPI reporting tool](https://www.lidonation.com/sw/proposals/progress-and-kpi-reporting-tool-f7)
+
 ## Fund-8
 
 * [Improving Integrity of CA Processes](https://www.lidonation.com/sw/proposals/improving-integrity-of-ca-processes-f8)
