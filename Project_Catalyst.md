@@ -45,6 +45,11 @@ Growing importance of on-chain data and ability to track currently opaque intera
 
 From Milestone 4 onwards, November 2024, the data-relevant stack decisions are part of Milestone deliverables, and highly relevant. By then, our project will already have concluded so early involvement of the team in our "stakeholder inputs" and Workshop will be important and so will be keeping our own stack **flexible**, **open source** and **scalable**. Use of vectorization, C-integration, PostgreSQL database and other such measures have so far been discussed but need to be expanded on heavility until July - see Roadmap.
 
+What we already know about the infrastructure development as it is taking shape and from the first two milestones is that on-chain data will be much richer and allow for data analysis of liquid democracy processes like delegation choices.
+![DRep](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/deleg.jpg)
+
+It will therefore be important to create our own API and database functionality to be able to read JSON format and make this useable with the Python packages that often already have ways to process this kind of metadata very efficiently.
+
 *These parts of their acceptance criteria are the earliest really pertinent ones for data-driven stack:*
 **Update Catalyst Database Schema to Support Proposal Submission**
 * Add Proposal Definition data per Fund Challenge or Category.
