@@ -97,6 +97,11 @@ coming soon
 [Navigate to individual project folders and follow their respective setup instructions.](https://github.com/input-output-hk/hermes/tree/main/hermes#build-notes)
 
 
+`Overview of Cardano Transaction processing and the data this may generate for posterity / analysis.`
+
+![TxOverview](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/tx_processing.jpg)
+
+
 TODO: Formats, database and stack evolution, fund history and evolution, notes on 
 
 **[Discovery](https://cardano.ideascale.com/c/campaigns/409/about)**
