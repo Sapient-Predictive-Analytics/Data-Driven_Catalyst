@@ -10,6 +10,10 @@ This section will demonstrate from simple examples to complex ones how past fund
 ### Fund-10 "CA/VCA Sheet"
 [Zipped CSV File of Aggregated Community Reviews Raw Data Fund-10](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/fund10.zip)
 
+### Fund-11 Review Sheet
+[Zipped CSV File of Valid Proposal Assessor Reviews Raw Data Fund-11](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/F11%20Community%20Review%20-%20Valid%20Reviews.zip)
+
+
 ### The Pandas DataFrame
 Pandas is a an essential Python package (see OSDS) that we use a lot. It was designed for data manipulation and analysis by Wes McKinney in 2008, and has become an essential tool for data scientists and analysts due to its ability to handle diverse types of data and its rich in-built functionality. McKinney, who at the time worked in quantitative finance at quant hedge fund AQR Capital Management, developed Pandas to address the need for a more efficient and state of the art tool for data analysis in Python. His motivation was to enable more streamlined data manipulation, allowing users to spend less time on data preparation and more on deriving insights. He also wrote the excellent book [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) that was one of the first stepping stones for our own quant finance journey over the last decade. The 2nd edition is not great for integrating the newest ML and plotting packages but gives an outstanding start with Pandas from its very creator. For analyzing our initial demo datasets from Catalyst funds 8 to 10, where proposers submitted close to 1000 proposals each and several hundred community reviewers scored them and wrote scoring ratione, Pandas offers several key features:
 
@@ -202,3 +206,6 @@ And the values of the Groupby table are like this:
 ### Exercise
 * Add Feasibility Rank & Note, 3rd category (Auditability or Value for Money Rank & Note) to make our result more meaningful.
 * Improve the heatmap by removing values from chart and adding granularity to the color formatting. Averaging the score across scores resulting in a floating number helps.
+
+### More Fund data
+As you would expect in a decentralized ecosystem, data sources and data gathering efforts are not just to be found in one place. [Lido Nation](https://www.lidonation.com/catalyst-explorer/api#/fund) API and Explorer are a great community-funded independent resource, among others.
