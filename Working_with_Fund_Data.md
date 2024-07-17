@@ -122,7 +122,7 @@ Catalyst funds VCA sheet F8, F9, F10.
 import pandas as pd
 import numpy as np
 
-# Read data into DataFrames for each fund and encode for foreign language reviews
+# Read data into DataFrames for each fund and encode for non-English language reviews
 fund8 = pd.read_csv('fund8.csv', encoding='cp1252')
 fund9 = pd.read_csv('fund9.csv', encoding='cp1252')
 fund10 = pd.read_csv('fund10.csv', encoding='cp1252')
