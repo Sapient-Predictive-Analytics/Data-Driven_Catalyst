@@ -4,6 +4,8 @@ Rationale: we want to showcase potential for useful community reporting based in
 
 Based on these examples, much more in-depth analysis will be carried out for 7 directions provided by the community or stakeholders that have exceptional potential to improve decision making or help voters, proposers and governance functions in steering the Catalyst process towards better funding outcomes.
 
+Deliberately leaving out F-11 and F-12 allows us to improve significantly on the in-depth analysis and preserve unused data to test assumptions and conclusions out of sample while maintaining a large enough dataset that includes mixed USD and ADA funding amounts.
+
 
 ## The Datasets
 
