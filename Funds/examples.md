@@ -15,8 +15,8 @@ We collected, cleaned and simplified public voting results data into a single vo
 ### Community Reviewer Dataset
 Based on the casestudy Community Reviewer files, this large dataset comprises all proposal assessments for scoring in the voting app.
 
-### The Lido Nation Dataset
-This dataset is built from downloads of the publicly accessible Lido Nation Explorer.
+### The LidoNation Dataset
+This dataset is built from downloads of the publicly accessible [LidoNation Explorer](https://www.lidonation.com/en/catalyst-explorer/).
 
 
 ## The Reports
