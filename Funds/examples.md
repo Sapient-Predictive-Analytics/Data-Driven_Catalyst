@@ -77,3 +77,10 @@ The outliers, marked with a star and labeled in red, are proposals that signific
 
 The presence of an outlier in the upper right region suggests that there are a few proposals that requested and received much higher amounts compared to others. This could indicate exceptional cases or specific funding scenarios that need further investigation.
 
+### 7. SpiderChart to Visualize Fund Growth
+
+![SpiderChart](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/spiderChart.jpg)
+
+*From Fund7 to Fund10, the fund size and number of proposals has grown exponentially. This Radar chart aka Spider chart shows this nicely*
+
+Radar or Spider charts can visualize multiple dimensions on a 2D plot, with each dimension represented by a ray of the radar or line on web while the other 2 elements of the chart plot the axis. This allows any kind of complex analysis to be easily understood. While there might be better use of this technique for fund data, keep in mind that this plot type exists in our open source plotting library as it may come in handy!
