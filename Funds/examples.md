@@ -60,4 +60,18 @@ Treemaps are somewhat contoversial in the Data Science community as they are oft
 *The log-transformed histogram shows a concentrated range of requested amounts with a prominent peak around the log value of 10, and it also reveals the spread and occasional outliers in the data.* 
 The peak around the log value of 10 suggests a significant number of proposals requested amounts in that range. This corresponds to a requested amount of approximately 𝑒10 or 22,026 in the original scale. The distribution tapers off on both sides, indicating fewer proposals requested significantly lower or higher amounts. There are very few proposals with extremely high log values (above 13), indicating that only a small number of requests are significantly larger than the majority.
 
+### 6. Scatter Plot of Log-Transformed Amount Requested vs Amount Received with Clusters and Outliers (Spot exceptional proposals)
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/scatter_plot.png)
+
+*A positive correlation between the amount requested and the amount received, with distinct clusters representing different ranges of funding. The outliers highlight exceptional cases that do not follow the general trend.*
+
+Clusters:
+Cluster 0 (Teal): This cluster predominantly occupies the lower left region of the plot, indicating proposals that requested and received relatively lower amounts.
+Cluster 1 (Yellow): This cluster spans the middle range, showing proposals that requested and received moderate amounts.
+Cluster 2 (Purple): This cluster is located towards the upper right region, indicating proposals that requested and received higher amounts.
+
+The outliers, marked with a star and labeled in red, are proposals that significantly deviate from the general trend. These outliers have been identified using z-scores, with a threshold of 3 standard deviations from the mean.
+
+The presence of an outlier in the upper right region suggests that there are a few proposals that requested and received much higher amounts compared to others. This could indicate exceptional cases or specific funding scenarios that need further investigation.
 
