@@ -6,6 +6,8 @@ Based on these examples, much more in-depth analysis will be carried out for 7 d
 
 Deliberately leaving out F-11 and F-12 allows us to improve significantly on the in-depth analysis and preserve unused data to test assumptions and conclusions out of sample while maintaining a large enough dataset that includes mixed USD and ADA funding amounts.
 
+This section was collated by combining various team inputs. If you have feedback, suggestions or requests for data reports, please submit an [Issue](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues) (which we "abuse" like a simplified Slack Channel) or send us a [DM or Tweet](https://x.com/SapientSwarm).
+
 
 ## The Datasets
 
