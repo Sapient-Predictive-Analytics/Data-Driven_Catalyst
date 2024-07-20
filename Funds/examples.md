@@ -49,7 +49,7 @@ Useful for: voters (bias, funding direction, ecosystem growth), proposers (boost
 
 *Treemap showing as box height percentage of funded proposals and box length total funding rewarded* 
 
-The detailed clickable treemap can be found [here](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/category_funding_treemap.html)
+The detailed clickable treemap can be found [here](https://drive.google.com/file/d/125f62rf1xEASlvJ-QG1Wx1LcRMcKaWPa/view?usp=sharing)
 
 Treemaps are somewhat contoversial in the Data Science community as they are often showy and worse than a simple barchart or histogram for the same dataset. Here, the color coding of funds and meaningful box sizes and shapes are in our opinion a very good use of this complex data visualization technique and ideally suited for Catalyst analysis.
 
