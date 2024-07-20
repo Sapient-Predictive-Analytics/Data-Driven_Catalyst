@@ -8,9 +8,13 @@ Based on these examples, much more in-depth analysis will be carried out for 7 d
 ## The Datasets
 
 ### Voting Results Dataset
-We collected, cleaned and simplified public voting results data into a single [voting results dataset](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/datasetFunds.csv)
+We collected, cleaned and simplified public voting results data into a single voting results dataset.
 
 ### Community Reviewer Dataset
+Based on the casestudy Community Reviewer files, this large dataset comprises all proposal assessments for scoring in the voting app.
+
+### The Lido Nation Dataset
+This dataset is built from downloads of the publicly accessible Lido Nation Explorer.
 
 
 ## The Reports
