@@ -126,3 +126,11 @@ This heatmap has now been refined (see below) to take full advantage of the capa
 ### 11. Converting Milestone Tool Data to JSON
 
 Reports do not necessary have to be executive data visualization reports for decision makers like voters, assessors or governance to glance over and make more informed decisions. There are a lot of examples where Catalyst ecosystem data can be made into reports and data can be retrieved that is meaningful to certain tools or communities and allow them in turn to improve the process. One member of the community sent us this special request and we have created a script and example output for it. If this report is voted into the Top-7, a lot more can be done to prepare data for example from the Milestone Module for use with open source data science tools
+
+### 12. Project Funding and Completion Rates Across Catalyst Funds 7-10
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/CompletedProject.png)
+
+*The completion rate appears to decrease in later funds, particularly in Fund 10, which could be due to ongoing projects or changes in the funding process.*
+
+
