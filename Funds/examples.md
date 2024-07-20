@@ -28,3 +28,11 @@ This dataset is built from downloads of the publicly accessible Lido Nation Expl
 Proposals with *Africa* in the title performed a lot better than *DeFi* with similar occurrence in the 100 proposals ballpark. This shows the perception of Cardano strength on the continent and its importance for strategic differentiation compared to perceived weakness or undesirability of decentralized financial markets. Adding more similar keywords to the study, looking at more funds could improve this analysis further.
 
 Useful for: voters (bias, funding direction, ecosystem growth), proposers (boosting chances), governance (understanding voting power)
+
+### 2. Funding Request by Fund and Status
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/funding_request_bubble_plot_log_scale.png)
+
+*This plot shows in green proposals that were funded from Fund7 through Fund10 and red those that were not funded plotted along a log scale of funding requested*
+
+
