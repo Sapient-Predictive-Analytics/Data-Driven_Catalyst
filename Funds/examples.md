@@ -4,6 +4,7 @@ Rationale: we want to showcase potential for useful community reporting based in
 
 Based on these examples, much more in-depth analysis will be carried out for 7 directions provided by the community or stakeholders that have exceptional potential to improve decision making or help voters, proposers and governance functions in steering the Catalyst process towards better funding outcomes.
 
+
 ## The Datasets
 
 ### Voting Results Dataset
@@ -11,9 +12,10 @@ We collected, cleaned and simplified public voting results data into a single [v
 
 ### Community Reviewer Dataset
 
+
 ## The Reports
 
-### Keyword Occurrences vs Funding Ratio
+### 1. Keyword Occurrences vs Funding Ratio
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/keyword_status_analysis.png)
 
