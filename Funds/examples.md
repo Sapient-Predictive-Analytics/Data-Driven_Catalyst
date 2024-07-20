@@ -84,3 +84,13 @@ The presence of an outlier in the upper right region suggests that there are a f
 *From Fund7 to Fund10, the fund size and number of proposals has grown exponentially. This Radar chart aka Spider chart shows this nicely*
 
 Radar or Spider charts can visualize multiple dimensions on a 2D plot, with each dimension represented by a ray of the radar or line on web while the other 2 elements of the chart plot the axis. By normalizing the axis to the maximum amount, it allows comparison of number of proposals with the median requested amount. This reveals that the number of proposals submitted picked up even before the funding amount caught up. This chart type allows any kind of complex analysis to be easily understood. While there might be better use of this technique for fund data, keep in mind that this plot type exists in our open source plotting library as it may come in handy!
+
+### 8. Removal of Challenge Categorization Visualized
+
+![DonutChart](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/fund_category_donuts.png)
+
+*In Fund7 and Fund8, niche challenge setting were encouraged to flourish whereas from Fund9 onwards, protection of specialized topics was greatly reduced.*
+
+Using our Open Source Data Science stack introduced in Milestone-1 for advanced plotting allows four donut charts of Fund-7 to Fund-10 to appear in the same plot with their challenge settings / categories as % of the total fund shown inside.
+
+
