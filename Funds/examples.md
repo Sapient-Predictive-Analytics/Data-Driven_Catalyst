@@ -35,4 +35,8 @@ Useful for: voters (bias, funding direction, ecosystem growth), proposers (boost
 
 *This plot shows in green proposals that were funded from Fund7 through Fund10 and red those that were not funded plotted along a log scale of funding requested*
 
+### 3. YES votes Required for Funding across Funds
 
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/yes_votes_bubble_plot.png)
+
+*A similar data visualization with very different focus and on different data: how many YES votes were required from fund to fund to get voted in*
