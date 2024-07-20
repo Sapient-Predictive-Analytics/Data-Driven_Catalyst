@@ -112,3 +112,11 @@ Using our Open Source Data Science stack introduced in Milestone-1 for advanced 
 ![Fund7](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
 
 *Fund-7 was still early in the process with very little in terms of "abuse" being observed*
+
+### 10. Heatmap of Community Reviewer Note Length and Score (Refined)
+
+![Previous](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/heatmap.png)
+
+*For Milestone 1 we presented this simple heatmap and suggested that rule changes to CR can alter their behavior from fund to fund.*
+
+This heatmap has now been refined (see below) to take full advantage of the capability of the open source data science libraries introduced.
