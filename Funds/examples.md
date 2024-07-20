@@ -105,11 +105,11 @@ Using our Open Source Data Science stack introduced in Milestone-1 for advanced 
 
 *Fund-9 stood out mainly because of the large funding amount in one challenge setting, but the number per entity was also too large.*
   
-![Fund8](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
+![Fund8](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund8.png)
 
 *And the same analysis for Fund-8, in between F7 and F9/F10 in terms of severity.*
 
-![Fund7](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
+![Fund7](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund7.png)
 
 *Fund-7 was still early in the process with very little in terms of "abuse" being observed*
 
