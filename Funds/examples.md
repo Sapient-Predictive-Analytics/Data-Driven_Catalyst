@@ -68,7 +68,9 @@ The peak around the log value of 10 suggests a significant number of proposals r
 
 Clusters:
 Cluster 0 (Teal): This cluster predominantly occupies the lower left region of the plot, indicating proposals that requested and received relatively lower amounts.
+
 Cluster 1 (Yellow): This cluster spans the middle range, showing proposals that requested and received moderate amounts.
+
 Cluster 2 (Purple): This cluster is located towards the upper right region, indicating proposals that requested and received higher amounts.
 
 The outliers, marked with a star and labeled in red, are proposals that significantly deviate from the general trend. These outliers have been identified using z-scores, with a threshold of 3 standard deviations from the mean.
