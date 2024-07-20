@@ -103,7 +103,7 @@ Using our Open Source Data Science stack introduced in Milestone-1 for advanced 
 
 ![Fund9](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
 
-* Fund-9 stood out mainly because of the large funding amount in one challenge setting, but the number per entity was also too large.*
+*Fund-9 stood out mainly because of the large funding amount in one challenge setting, but the number per entity was also too large.*
   
 ![Fund8](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
 
