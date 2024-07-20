@@ -1,5 +1,4 @@
-
-**20 examples of Data-Driven Reports using Funds 7 to 10**
+# 20 examples of Data-Driven Reports using Funds 7 to 10
 
 Rationale: we want to showcase potential for useful community reporting based initially on 3 datasets. At later milestones, more data sources can be added, as "everything is data". This could include social media, Github, LinkedIn, the Milestone module, community-driven or catalyst-funded explorers, databases and APIs like Lido Nation, Wolfram, Cardano Cube and so on.
 
