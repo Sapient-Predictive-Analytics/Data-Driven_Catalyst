@@ -131,6 +131,6 @@ Reports do not necessary have to be executive data visualization reports for dec
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/CompletedProject.png)
 
-*The completion rate appears to decrease in later funds, particularly in Fund 10, which could be due to ongoing projects or changes in the funding process.*
-
+*The completion rate appears to decrease in later funds, particularly in Fund 10, which could be due to ongoing projects or changes in the funding process.
+The number of funded projects varies between funds, with Fund 8 showing the highest number of funded projects.*
 
