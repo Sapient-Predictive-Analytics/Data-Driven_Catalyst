@@ -93,4 +93,22 @@ Radar or Spider charts can visualize multiple dimensions on a 2D plot, with each
 
 Using our Open Source Data Science stack introduced in Milestone-1 for advanced plotting allows four donut charts of Fund-7 to Fund-10 to appear in the same plot with their challenge settings / categories as % of the total fund shown inside.
 
+### 9. Plotting Number of Submissions per Fund per Entity
 
+*This report shows how many proposals were submitted by the most active Groups (entities submitting proposals for the Catalyst vote) prior to this number being limited to 5 in Fund-11 and then 6 in Fund-12*
+
+![Fund10](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund10.png)
+
+*Seeing the total number by some entities that may not necessarily have the capacity to close all proposals if funded makes it obvious why the rule of 6 was introduced. It also puts undue workload on community reviewers having to sift through large quantities instead of digesting a lower number of quality proposals.*
+
+![Fund9](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
+
+* Fund-9 stood out mainly because of the large funding amount in one challenge setting, but the number per entity was also too large.*
+  
+![Fund8](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
+
+*And the same analysis for Fund-8, in between F7 and F9/F10 in terms of severity.*
+
+![Fund7](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/groupsFund9.png)
+
+*Fund-7 was still early in the process with very little in terms of "abuse" being observed*
