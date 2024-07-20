@@ -47,7 +47,7 @@ Useful for: voters (bias, funding direction, ecosystem growth), proposers (boost
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/lnhist_python.png)
 
-* The distribution appears to be roughly normal but with some notable peaks and valleys.
-The peak around the log value of 10 suggests a significant number of proposals requested amounts in that range. This corresponds to a requested amount of approximately 𝑒10 or 22,026 in the original scale. The distribution tapers off on both sides, indicating fewer proposals requested significantly lower or higher amounts. There are very few proposals with extremely high log values (above 13), indicating that only a small number of requests are significantly larger than the majority.*
+*The log-transformed histogram shows a concentrated range of requested amounts with a prominent peak around the log value of 10, and it also reveals the spread and occasional outliers in the data.* 
+The peak around the log value of 10 suggests a significant number of proposals requested amounts in that range. This corresponds to a requested amount of approximately 𝑒10 or 22,026 in the original scale. The distribution tapers off on both sides, indicating fewer proposals requested significantly lower or higher amounts. There are very few proposals with extremely high log values (above 13), indicating that only a small number of requests are significantly larger than the majority.
 
 
