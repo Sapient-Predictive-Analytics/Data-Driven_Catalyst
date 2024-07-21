@@ -211,6 +211,8 @@ This wordcloud goes beyond beautiful optics of what you may expect people to pro
 
 ### 19. Interactive Massive Scatterplots
 
+Do Proposal Assessors who score high in Impact also score high in the other metrics? Plotting with our libraries allows to slice this question and look at various funds in one interactive output.
+
 *Only looking at F9 data*
 
 ![F9](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PAdispesionF9.png)
