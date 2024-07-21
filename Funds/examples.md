@@ -131,6 +131,11 @@ Using our Open Source Data Science stack introduced in Milestone-1 for advanced 
 
 This heatmap has now been refined (see below) to take full advantage of the capability of the open source data science libraries introduced.
 
+![Revamp](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/revampedHeatmap.png)
+
+As per our "exercise" in the Casestudy, this adds Fund-7 data, plots more smoothly and uses a score aggregate instead of only the Impact score which is consistent across funds. This visualized dramatically how changing the Filtered Out features of community reviews changed over time. Fund7 was permissive, then CRs were not paid for proposer filtered scored that violate the rules so comment length skyrocketed. Relaxing the filtering out process reversed some of this. Later analysis of Fund-11 and Fund-11 will very likely show a dramatic decline in word count, regardless of scoring given, as the filtering out was completely dropped and the pay lowered. Also noteworthy is the length of negative comments, which are especially prone to proposer complaint (F8 and F9).
+
+
 ### 12. Converting Milestone Tool Data to JSON
 
 Reports do not necessary have to be executive data visualization reports for decision makers like voters, assessors or governance to glance over and make more informed decisions. There are a lot of examples where Catalyst ecosystem data can be made into reports and data can be retrieved that is meaningful to certain tools or communities and allow them in turn to improve the process. One member of the community sent us this special request and we have created a script and example output for it. If this report is voted into the Top-7, a lot more can be done to prepare data for example from the Milestone Module for use with open source data science tools.
