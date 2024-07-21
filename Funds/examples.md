@@ -199,3 +199,9 @@ By encouraging high-success groups to take a break between funding rounds, we cr
 *There is too much going on om this plot, but as a comprehensive plot covering all funds, all assessors and all scores it can give the observer a lot of ideas.*
 
 Excessive amounts of reviews per assessor and inactive reviewers giving very high and very low scores for tactical reasons are both huge problems of decentralized ranking and have been addressed by fine-tuning the allocation of proposals to reviewers and changing filtering and moderation rules from fund to fund. Although gaming among proposals increased over the funds, the reviewers have arguably become more well-behaved.
+
+### 18. Getting Started with NLP: Proposal Title Wordcloud
+
+![Wordcloud](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/expanded_keyword_wordcloud.png)
+
+*Although advanced natural language processing will only start with the next Milestone, here is a sneak-preview showing the most popular words appearing in 6000 proposal titles in the funds dataset.*
