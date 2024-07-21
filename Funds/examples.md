@@ -229,4 +229,6 @@ Plotly allows output as dynamic HTML files, here allowing the dispersion metric 
 
 ![Challenges Bubbles](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/challenge_bubbles.png)
 
-This plot shows how much funding has already been received by each challenge setting from the four historical fund datasets. This is again an example of a high level, broad focus data visualization that may give community members good ideas which aspects they like to hone in and have investigated more thoroughly, instead of looking of dozens of plots with limited dimensionality.
+This plot shows how much funding has already been received by each challenge setting from the four historical fund datasets. This is again an example of a high level, broad focus data visualization that may give community members good ideas which aspects they like to hone in and have investigated more thoroughly, instead of looking at dozens of plots with limited dimensionality. Some improvements are of course possible, for example forcing the script to prevent two very similar hues of red to appear in the same fund. Currently, the large amount of sample reports does not allow to make everyone perfect though, but hopefully shows a high level overview of what is possible with our open source Python tools and public fund data.
+
+If you enjoyed reading these sample reports, don't forget to star the repo, follow us on Twitter and submit your requests for the detailed reports we will spin off from this sneak preview.
