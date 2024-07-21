@@ -150,3 +150,22 @@ We have scraped out own Milestone 1 with Selenium, which has the ability to prod
 The number of funded projects varies between funds, with Fund 8 showing the highest number of funded projects.*
 
 Further Analysis Opportunity: This data suggests the potential for an in-depth investigation into project completion patterns. Specifically, it may be valuable to identify teams that have proposed projects but failed to complete them prior to Fund 9. Such an analysis could provide insights into factors affecting project completion rates and inform future funding decisions.
+
+### 13. Analysis of Top 3 Dominating Groups by Amount Requested Across Funds for Each Challenge/Category
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/stacked_f7_group.png)
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/stacked_f8_group.png)
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/stacked_f9_group.png)
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/stacked_f10_group.png)
+
+*The stacked bar chart shows the total amount requested by the top 3 groups in each fund.
+It highlights how a few groups dominate the funding requests, potentially overshadowing smaller or newer teams.*
+
+The need for "Cap the Total Amount Requested by Each Group per Challenge/Category"
+Currently, the rules only limit the amount that can be requested per individual proposal within each challenge/category. However, this analysis reveals a critical issue: groups can still dominate by submitting multiple proposals, effectively circumventing the cap on individual proposals. This creates an uneven playing field where a few established groups with strong reputations can submit 5-6 proposals, making it difficult for other teams to compete fairly.
+
+
+
