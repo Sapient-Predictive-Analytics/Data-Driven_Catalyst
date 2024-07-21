@@ -156,7 +156,7 @@ The number of funded projects varies between funds, with Fund 8 showing the high
 
 Further Analysis Opportunity: This data suggests the potential for an in-depth investigation into project completion patterns. Specifically, it may be valuable to identify teams that have proposed projects but failed to complete them prior to Fund 9. Such an analysis could provide insights into factors affecting project completion rates and inform future funding decisions.
 
-### 13. Analysis of Top 3 Dominating Groups by Amount Requested Across Funds for Each Challenge/Category
+### 14. Analysis of Top 3 Dominating Groups by Amount Requested Across Funds for Each Challenge/Category
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/stacked_f7_group.png)
 
