@@ -33,19 +33,27 @@ Proposals with *Africa* in the title performed a lot better than *DeFi* with sim
 
 Useful for: voters (bias, funding direction, ecosystem growth), proposers (boosting chances), governance (understanding voting power)
 
-### 2. Funding Request by Fund and Status
+### 2. Boxplot of Proposal Assessor Scores and Funding Success
+
+![Boxplot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/fund_boxplot.png)
+
+*Inspired by OG community member Victor Corcino's post on the Community Advisor Telegram channel and teased in our Fund-11 proposal submission* 
+
+This chart is a good way to visualized the increasing and then dropping influence of the CA/CR/PA score for the voter. In Fund-10, maybe partially motivated by Victor's findings, but mainly to counter the incentive for "fake" or "friendly" reviews, some changes were introduce to blunt, but not remove, the importance of community scoring: the voting app no longer sorts automatically by score, and the pay per review was also reduced to "encourage" shorter proposal reviews.
+
+### 3. Funding Request by Fund and Status
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/funding_request_bubble_plot_log_scale.png)
 
 *This plot shows in green proposals that were funded from Fund7 through Fund10 and red those that were not funded plotted along a log scale of funding requested*
 
-### 3. YES votes Required for Funding across Funds
+### 4. YES votes Required for Funding across Funds
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/yes_votes_bubble_plot.png)
 
 *A similar data visualization with very different focus and on different data: how many YES votes were required from fund to fund to get voted in*
 
-### 4. Treemap of Historical Challenges
+### 5. Treemap of Historical Challenges
 
 ![Thumbnail](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/treemap.jpg)
 
@@ -55,14 +63,14 @@ The detailed clickable treemap can be downloaded [here](https://github.com/Sapie
 
 Treemaps are somewhat contoversial in the Data Science community as they are often showy and worse than a simple barchart or histogram for the same dataset. Here, the color coding of funds and meaningful box sizes and shapes are in our opinion a very good use of this complex data visualization technique and ideally suited for Catalyst analysis.
 
-### 5. Distribution of Amount Requested
+### 6. Distribution of Amount Requested
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/lnhist_python.png)
 
 *The log-transformed histogram shows a concentrated range of requested amounts with a prominent peak around the log value of 10, and it also reveals the spread and occasional outliers in the data.* 
 The peak around the log value of 10 suggests a significant number of proposals requested amounts in that range. This corresponds to a requested amount of approximately 𝑒10 or 22,026 in the original scale. The distribution tapers off on both sides, indicating fewer proposals requested significantly lower or higher amounts. There are very few proposals with extremely high log values (above 13), indicating that only a small number of requests are significantly larger than the majority.
 
-### 6. Scatter Plot of Log-Transformed Amount Requested vs Amount Received with Clusters and Outliers (Spot exceptional proposals)
+### 7. Scatter Plot of Log-Transformed Amount Requested vs Amount Received with Clusters and Outliers (Spot exceptional proposals)
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/scatter_plot.png)
 
@@ -79,7 +87,7 @@ The outliers, marked with a star and labeled in red, are proposals that signific
 
 The presence of an outlier in the upper right region suggests that there are a few proposals that requested and received much higher amounts compared to others. This could indicate exceptional cases or specific funding scenarios that need further investigation.
 
-### 7. SpiderChart to Visualize Fund Growth
+### 8. SpiderChart to Visualize Fund Growth
 
 ![SpiderChart](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/spiderChart.jpg)
 
@@ -87,7 +95,7 @@ The presence of an outlier in the upper right region suggests that there are a f
 
 Radar or Spider charts can visualize multiple dimensions on a 2D plot, with each dimension represented by a ray of the radar or line on web while the other 2 elements of the chart plot the axis. By normalizing the axis to the maximum amount, it allows comparison of number of proposals with the median requested amount. This reveals that the number of proposals submitted picked up even before the funding amount caught up. This chart type allows any kind of complex analysis to be easily understood. While there might be better use of this technique for fund data, keep in mind that this plot type exists in our open source plotting library as it may come in handy!
 
-### 8. Removal of Challenge Categorization Visualized
+### 9. Removal of Challenge Categorization Visualized
 
 ![DonutChart](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/fund_category_donuts.png)
 
@@ -95,7 +103,7 @@ Radar or Spider charts can visualize multiple dimensions on a 2D plot, with each
 
 Using our Open Source Data Science stack introduced in Milestone-1 for advanced plotting allows four donut charts of Fund-7 to Fund-10 to appear in the same plot with their challenge settings / categories as % of the total fund shown inside.
 
-### 9. Plotting Number of Submissions per Fund per Entity
+### 10. Plotting Number of Submissions per Fund per Entity
 
 *This report shows how many proposals were submitted by the most active Groups (entities submitting proposals for the Catalyst vote) prior to this number being limited to 5 in Fund-11 and then 6 in Fund-12*
 
@@ -115,7 +123,7 @@ Using our Open Source Data Science stack introduced in Milestone-1 for advanced 
 
 *Fund-7 was still early in the process with very little in terms of "abuse" being observed*
 
-### 10. Heatmap of Community Reviewer Note Length and Score (Refined)
+### 11. Heatmap of Community Reviewer Note Length and Score (Refined)
 
 ![Previous](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/heatmap.png)
 
@@ -123,11 +131,11 @@ Using our Open Source Data Science stack introduced in Milestone-1 for advanced 
 
 This heatmap has now been refined (see below) to take full advantage of the capability of the open source data science libraries introduced.
 
-### 11. Converting Milestone Tool Data to JSON
+### 12. Converting Milestone Tool Data to JSON
 
 Reports do not necessary have to be executive data visualization reports for decision makers like voters, assessors or governance to glance over and make more informed decisions. There are a lot of examples where Catalyst ecosystem data can be made into reports and data can be retrieved that is meaningful to certain tools or communities and allow them in turn to improve the process. One member of the community sent us this special request and we have created a script and example output for it. If this report is voted into the Top-7, a lot more can be done to prepare data for example from the Milestone Module for use with open source data science tools
 
-### 12. Project Funding and Completion Rates Across Catalyst Funds 7-10
+### 13. Project Funding and Completion Rates Across Catalyst Funds 7-10
 
 ![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/CompletedProject.png)
 
