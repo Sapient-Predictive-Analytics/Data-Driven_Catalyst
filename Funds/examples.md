@@ -173,4 +173,13 @@ The need for "Cap the Total Amount Requested by Each Group per Challenge/Categor
 Currently, the rules only limit the amount that can be requested per individual proposal within each challenge/category. However, this analysis reveals a critical issue: groups can still dominate by submitting multiple proposals, effectively circumventing the cap on individual proposals. This creates an uneven playing field where a few established groups with strong reputations can submit 5-6 proposals, making it difficult for other teams to compete fairly.
 
 
+### 15. Plotly Interactive Column Chart of all Scoring by PA per Fund
+
+![JPG](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PAscoresStack.jpg)
+
+*Some of the plotting packages introduced in our OSDS section allow interactive plots that the user can twist and turn. This makes hard to read multi-dimensional analysis easier to understand.*
+
+[Download](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/pa_3d_stacked_column_chart.html) the HTML file to play with in your own brower.
+
+This analysis shows total number of reviews per fund color-coded by the bin of the average score across 3 category. This may help governance functions to understand how gaming of average scores occurs or what policy changes did to CA/PA/CR behavior.
 
