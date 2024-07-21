@@ -207,3 +207,16 @@ Excessive amounts of reviews per assessor and inactive reviewers giving very hig
 *Although advanced natural language processing will only start with the next Milestone, here is a sneak-preview showing the most popular words appearing in 6000 proposal titles in the funds dataset.*
 
 This wordcloud goes beyond beautiful optics of what you may expect people to proposed about. If applied by fund, for example, it can show how themes and directions change over time and can allow governance functions to encourage certain areas that may fall out of favor but require urgent attention, like DeFi, DAO and multi-sig.
+
+
+### 19. Interactive Massive Scatterplots
+
+*Only looking at F9 data*
+
+![F9](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PAdispesionF9.png)
+
+*All funds selected*
+
+![All funds](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PAdispesionFx.png)
+
+Plotly allows output as dynamic HTML files, here allowing the dispersion metric (how far apart are the scores in Impact, Value and Feasibility rating measured by Sigma) versus average scores for each assessor. You can play with this yourself if you download the [HTML output](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PA_score_dispersion_plot.html) and view in your Chrome browser.
