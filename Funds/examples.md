@@ -191,3 +191,11 @@ This analysis shows total number of reviews per fund color-coded by the bin of t
 
 By encouraging high-success groups to take a break between funding rounds, we create space for new and underrepresented teams to shine. This rotational approach not only nurtures fresh ideas and perspectives but also mitigates the risk of stagnation, fostering a more inclusive and dynamic environment for all innovators. 
 
+
+### 17. Identifying Proposal Assessor "Factories" and Clusters of Low/High Scores
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/assessorFactories.jpg)
+
+*There is too much going on om this plot, but as a comprehensive plot covering all funds, all assessors and all scores it can give the observer a lot of ideas.*
+
+Excessive amounts of reviews per assessor and inactive reviewers giving very high and very low scores for tactical reasons are both huge problems of decentralized ranking and have been addressed by fine-tuning the allocation of proposals to reviewers and changing filtering and moderation rules from fund to fund. Although gaming among proposals increased over the funds, the reviewers have arguably become more well-behaved.
