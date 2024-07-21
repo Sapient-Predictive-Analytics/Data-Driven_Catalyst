@@ -181,7 +181,7 @@ Currently, the rules only limit the amount that can be requested per individual 
 
 [Download](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/pa_3d_stacked_column_chart.html) the HTML file to play with in your own brower.
 
-This analysis shows total number of reviews per fund color-coded by the bin of the average score across 3 category. This may help governance functions to understand how gaming of average scores occurs or what policy changes did to CA/PA/CR behavior.
+This analysis shows total number of reviews per fund color-coded by the bin of the average score across 3 category. This may help governance functions to understand how gaming of average scores occurs or what policy changes did to CA/PA/CR behavior. What this plot shows quite clearly is how policy changes affect assessor "kindness" resulting in a spike of friendly reviews (the only way to get paid) in Fund-9. Corrective measures of this undesired effect have already been taken by the Catalyst Team / rulebook.
 
 ### 16. Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding
 
