@@ -183,3 +183,11 @@ Currently, the rules only limit the amount that can be requested per individual 
 
 This analysis shows total number of reviews per fund color-coded by the bin of the average score across 3 category. This may help governance functions to understand how gaming of average scores occurs or what policy changes did to CA/PA/CR behavior.
 
+### 16. Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding
+
+![Plot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/pastsuccessyaxis.png)
+
+*To sustain a vibrant and diverse innovation ecosystem, it's crucial to prevent a few dominant players from monopolizing funding opportunities.*
+
+By encouraging high-success groups to take a break between funding rounds, we create space for new and underrepresented teams to shine. This rotational approach not only nurtures fresh ideas and perspectives but also mitigates the risk of stagnation, fostering a more inclusive and dynamic environment for all innovators. 
+
