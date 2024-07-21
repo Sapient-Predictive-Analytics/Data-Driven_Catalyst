@@ -205,3 +205,5 @@ Excessive amounts of reviews per assessor and inactive reviewers giving very hig
 ![Wordcloud](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/expanded_keyword_wordcloud.png)
 
 *Although advanced natural language processing will only start with the next Milestone, here is a sneak-preview showing the most popular words appearing in 6000 proposal titles in the funds dataset.*
+
+This wordcloud goes beyond beautiful optics of what you may expect people to proposed about. If applied by fund, for example, it can show how themes and directions change over time and can allow governance functions to encourage certain areas that may fall out of favor but require urgent attention, like DeFi, DAO and multi-sig.
