@@ -222,3 +222,11 @@ Do Proposal Assessors who score high in Impact also score high in the other metr
 ![All funds](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PAdispesionFx.png)
 
 Plotly allows output as dynamic HTML files, here allowing the dispersion metric (how far apart are the scores in Impact, Value and Feasibility rating measured by Sigma) versus average scores for each assessor. You can play with this yourself if you download the [HTML output](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/PA_score_dispersion_plot.html) and view in your Chrome browser.
+
+### 20. Challenge Funding Received - Creative Plotting: Legends with Duplicate Colors
+
+*This may seem counterintuitive, but if the axis separates funds, we can easily use the whole rainbow for each sub-legend to make them more distinguishable*
+
+![Challenges Bubbles](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/challenge_bubbles.png)
+
+This plot shows how much funding has already been received by each challenge setting from the four historical fund datasets. This is again an example of a high level, broad focus data visualization that may give community members good ideas which aspects they like to hone in and have investigated more thoroughly, instead of looking of dozens of plots with limited dimensionality.
