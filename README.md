@@ -25,11 +25,15 @@ No data platform is complete without a suitable database, for example Cloud SQL,
 
 *A note on external references: Where possible, we link sources directly as hyperlinks, linked images etc. instead of footnotes, as this in our opinion works better for Github/Gitbook formats.*
 
+***
 
 We have added **[Issues](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues)** to this repository as a way of submitting community feedback and suggestions how to improve Catalyst processes with data insights and consolidation of data sources.
 
+***
+
 Here are **[20 Examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md)** of data reports from publicly available datesets to give insights into what is driving voters, reviewers and funded proposers or how changes in Catalyst rules had an impact on behavior.
 
+***
 
 `Data Mining Workflow`
 
