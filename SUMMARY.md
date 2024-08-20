@@ -8,6 +8,7 @@
 * [Working with Fund Data](Working\_with\_Fund\_Data.md)
 * [Funds](funds/README.md)
   * [20 examples of Data-Driven Reports using Funds 7 to 10](Funds/examples.md)
+  * [Milestone 3](funds/milestone-3.md)
 * [Workshop](workshop/README.md)
   * [Breakout](Workshop/Breakout.md)
   * [Inventory](Workshop/Inventory.md)
