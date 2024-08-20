@@ -6,13 +6,11 @@ description: >-
 
 # Milestone 3
 
-
-
-1\. **Introduction about milestone 3**
+## 1. **Introduction about Milestone 3**
 
 This milestone 3 report details the progress and outcomes of an on-demand data analytics project, focusing on community voting to identify the 7 most sought-after tools or datasets. The key objective for this milestone is to identify the 7 most voted issues and findings, along with the data analytics tools and datasets, that require urgent attention to prevent gaming and abuse across Catalyst fundings.
 
-2\. **Community Voting Process**
+## 2. **Community Voting Process**
 
 The community was engaged to vote on the most critical tools or datasets required to support ongoing and future fund data analytics projects. This voting process was designed to ensure that the selected tools/datasets align with the needs and priorities of the community. The outcome identified the top 7 most sought-after tools or datasets, which will be crucial for the success of future projects within the ecosystem.
 
@@ -88,8 +86,6 @@ For all issues logged by the community on GitHub, please refer to \[ref(3)]
 
 ·     Tools: Pandas, Scikit-learn (for regression analysis), Matplotlib or Seaborn (for  visualizations)
 
-&#x20;
-
 **8. Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
 
 Please refer to GitHub issue that was logged by a community member (Udai Solanki)
@@ -99,17 +95,17 @@ Please refer to GitHub issue that was logged by a community member (Udai Solanki
 * Approach: Use Natural Language Processing (NLP) techniques to detect similarities between proposals, especially those submitted close to deadlines. Compare these proposals with earlier ones to identify potential cloning or plagiarism.
 * Tools: Pandas, NLTK or SpaCy (for NLP and similarity detection), FuzzyWuzzy (for string matching), Matplotlib (for reporting findings).
 
-**3. Feedback and Documentation**
+## **3. Feedback and Documentation**
 
 Following the voting process, feedback was solicited from the community to ensure that the selected tools and datasets met the diverse needs of stakeholders. This feedback was thoroughly documented and has been made publicly available on GitHub and GitBook. The documentation provides transparency and allows for continuous community engagement as the project evolves.
 
 The community voting result and the screenshot of the survey form is in excel spreadsheet in this google drive: [https://docs.google.com/spreadsheets/d/180HgmAnyaoC9We4iSUSK1WcEAVYN9q7H/edit?usp=sharing\&ouid=114192021221088455069\&rtpof=true\&sd=true](https://docs.google.com/spreadsheets/d/180HgmAnyaoC9We4iSUSK1WcEAVYN9q7H/edit?usp=sharing\&ouid=114192021221088455069\&rtpof=true\&sd=true)
 
-**4. Integration with Catalyst System**
+## **4. Integration with Catalyst System**
 
 Close liaison with the Catalyst Team was maintained throughout the project to ensure that the chosen tools and datasets could be seamlessly integrated into the ongoing liquid democracy implementation. This collaboration also involved aligning the process and licenses with the requirements of the Catalyst Voices initiative. The outcome is a flexible, well-documented approach that supports the broader goals of liquid democracy and ensures that future projects can build on a solid foundation. We will create a database and API
 
-**5. Next milestone**
+## **5. Next milestone**
 
 This milestone 3 has successfully identified the community’s top priorities in terms of tools and datasets, ensured their alignment with liquid democracy efforts, and formalized the process through public documentation. Moving forward, these results will guide future developments and support ongoing innovation for the Catalyst Projects.
 
