@@ -103,9 +103,21 @@ The community voting result and the screenshot of the survey form is in excel sp
 
 ## **4. Integration with Catalyst System**
 
-Close liaison with the Catalyst Team was maintained throughout the project to ensure that the chosen tools and datasets could be seamlessly integrated into the ongoing liquid democracy implementation. This collaboration also involved aligning the process and licenses with the requirements of the Catalyst Voices initiative. The outcome is a flexible, well-documented approach that supports the broader goals of liquid democracy and ensures that future projects can build on a solid foundation. We will create a database and API
+Close liaison with the Catalyst Team was maintained throughout the project to ensure that the chosen tools and datasets could be seamlessly integrated into the ongoing liquid democracy implementation. This collaboration also involved aligning the process and licenses with the requirements of the Catalyst Voices initiative. The outcome is a flexible, well-documented approach that supports the broader goals of liquid democracy and ensures that future projects can build on a solid foundation.&#x20;
 
-## **5. Next milestone**
+Please refer to our communication with Catalyst Team on 13 Aug 2024&#x20;
+
+{% embed url="https://docs.google.com/document/d/1DDb4PIUGSHLaAqie0Jt_PZ3kCfjl56my/edit" %}
+
+We have also communicated with Catalyst Voice Team member but the response has been slow as the Catalyst Voice team has experienced the delay on their side (as per this telegram evidence and the change request of Catalyst Voice team which we submitted earlier)&#x20;
+
+[https://drive.google.com/file/d/1OVO16cPh2PDpYDbriobLrLHbpzOxSMr9/view?usp=sharing](https://drive.google.com/file/d/1OVO16cPh2PDpYDbriobLrLHbpzOxSMr9/view?usp=sharing)
+
+We have another upcoming meeting with Catalyst team to discuss further on our project as per this office hour link
+
+[https://drive.google.com/file/d/142zYT7wPWDoUGi5JphGNKfqvmaHF8f4u/view?usp=sharing](https://drive.google.com/file/d/142zYT7wPWDoUGi5JphGNKfqvmaHF8f4u/view?usp=sharing)
+
+## **5. Preparation for in-depth data report**
 
 This milestone 3 has successfully identified the community’s top priorities in terms of tools and datasets, ensured their alignment with liquid democracy efforts, and formalized the process through public documentation. Moving forward, these results will guide future developments and support ongoing innovation for the Catalyst Projects.
 
@@ -131,11 +143,15 @@ We already conducted an appointment to liaise with Catalyst Team and Catalyst vo
 
 &#x20;
 
-4\.     Evidence of Catalyst team and community leader liaison
+4\.     Evidence of Catalyst team & Catalyst Voice communication with Sapient Team
 
 [https://docs.google.com/document/d/1DDb4PIUGSHLaAqie0Jt\_PZ3kCfjl56my/edit?usp=sharing\&ouid=114192021221088455069\&rtpof=true\&sd=true](https://docs.google.com/document/d/1DDb4PIUGSHLaAqie0Jt\_PZ3kCfjl56my/edit?usp=sharing\&ouid=114192021221088455069\&rtpof=true\&sd=true)
 
-&#x20;
+{% embed url="https://drive.google.com/file/d/1OVO16cPh2PDpYDbriobLrLHbpzOxSMr9/view?usp=sharing" %}
+
+Office Hours booking:&#x20;
+
+{% embed url="https://drive.google.com/file/d/142zYT7wPWDoUGi5JphGNKfqvmaHF8f4u/view?usp=sharing" %}
 
 NB: The evidence is also available on GitHub under the workshop tab, which we will continuously update after each meeting.
 
