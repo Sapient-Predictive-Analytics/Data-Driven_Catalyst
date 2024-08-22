@@ -153,6 +153,3 @@ Office Hours booking:&#x20;
 
 {% embed url="https://drive.google.com/file/d/142zYT7wPWDoUGi5JphGNKfqvmaHF8f4u/view?usp=sharing" %}
 
-NB: The evidence is also available on GitHub under the workshop tab, which we will continuously update after each meeting.
-
-https://github.com/Sapient-Predictive-Analytics/Data-Driven\_Catalyst/blob/main/Workshop/CSI\_evidence.docx
