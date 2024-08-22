@@ -1,7 +1,7 @@
 ---
 description: >-
   Report on On-Demand Data Analytics Projects: Community Voting on 7 Most
-  Sought-After Tools or Datase
+  Sought-After Tools or Dataset
 ---
 
 # Milestone 3
@@ -109,7 +109,7 @@ Please refer to our communication with Catalyst Team on 13 Aug 2024&#x20;
 
 {% embed url="https://docs.google.com/document/d/1DDb4PIUGSHLaAqie0Jt_PZ3kCfjl56my/edit" %}
 
-We have also communicated with Catalyst Voice Team member but the response has been slow as the Catalyst Voice team has experienced the delay on their side (as per this telegram evidence and the change request of Catalyst Voice team which we submitted earlier)&#x20;
+We have also communicated with Catalyst Voice Team member but the response has been slow as the Catalyst Voice team has experienced the delay on their side (as per this telegram evidence and the change request of Catalyst Voice Team which we mentioned earlier)&#x20;
 
 [https://drive.google.com/file/d/1OVO16cPh2PDpYDbriobLrLHbpzOxSMr9/view?usp=sharing](https://drive.google.com/file/d/1OVO16cPh2PDpYDbriobLrLHbpzOxSMr9/view?usp=sharing)
 
