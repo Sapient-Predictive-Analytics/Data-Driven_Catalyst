@@ -14,7 +14,14 @@ During this period of providing data report "teasers" and before implementing ou
 
 ![TgLB](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/telegramlb.jpg)
 
+
 ### Office Hours
+
+![OH](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1).jpg)
+
 
 ### Catalyst Presentation
 
+![TgDR](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/ribartg.jpg)
+
+![email](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/emailCatT.jpg)
