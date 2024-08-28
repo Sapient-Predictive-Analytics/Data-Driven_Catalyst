@@ -32,3 +32,10 @@ We have also reached out to Daniel from Project Catalyst again via Telegram DM a
 ![TgDR](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/ribartg.jpg)
 
 ![email](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/emailCatT.jpg)
+
+### External Links
+Most recent milestone of Catalyst Voices for reference only.
+
+[On  Module](https://milestones.projectcatalyst.io/projects/1000096/milestones/2)
+
+[On Github](https://github.com/input-output-hk/catalyst-voices/milestone/2)
