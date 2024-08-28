@@ -27,7 +27,7 @@ Given the difficulty of communication with the Catalyst team, we have also booke
 
 
 ### Catalyst Presentation
-We have also reached out to Daniel from Project Catalyst again via Telegram DM and requested on his suggestion to present to a wider Catalyst team audience chosen by their team. Our repository URL and ongoing developments are regularly published on public channels with 1000+ members or via DM, call etc to members of Catalyst we get in touch with.
+We have also reached out to Daniel from Project Catalyst again via Telegram DM and following his suggestion in the chat requested to present to a wider Catalyst team audience chosen by their team via email. Our repository URL and ongoing developments are regularly published on public channels with 1000+ members or via DM, call etc to members of Catalyst we get in touch with.
 
 ![TgDR](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/ribartg.jpg)
 
