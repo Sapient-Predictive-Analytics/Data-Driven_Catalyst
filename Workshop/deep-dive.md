@@ -1,6 +1,10 @@
 ## Voting outcome to select 8 deep-dive data reports
 
-We [asked](https://t.me/ProjectCatalystChat/80325) the Project Catalyst community to pick 7 out of our 20 [examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md) for data-driven analysis and reporting. Due to a tie in the vote, we have now selected 8 of them to get into detail and present our findings along with open source code of how to improve the funding, voting and governance processes based on publicly available, often scattered or unformatted, past funds' data. These are the ideas that were chosen:
+We [asked](https://t.me/ProjectCatalystChat/80325) the Project Catalyst community to pick 7 out of our 20 [examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md) for data-driven analysis and reporting. Due to a tie in the vote, we have now selected 8 of them to get into detail and present our findings along with open source code of how to improve the funding, voting and governance processes based on publicly available, often scattered or unformatted, past funds' data. 
+
+For the toolkit of open source data science tools please refer to the [OSDS](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md) section. 
+
+These are the ideas that were chosen:
 
 
 **1.Proposal Keyword Occurrences vs Funding Success**
@@ -65,7 +69,6 @@ visualizations)
 
 **8. Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
 Please refer to [GitHub issue](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues/8) that was logged by a community member (Udai Solanki)
-https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues/8
 
 * Approach: Use Natural Language Processing (NLP) techniques to detect similarities
 between proposals, especially those submitted close to deadlines. Compare these
