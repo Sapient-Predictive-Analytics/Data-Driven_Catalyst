@@ -26,8 +26,6 @@ Given the difficulty of communication with the Catalyst team, we have also booke
 
 ![OH](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1).jpg)
 
- <img src="https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1" alt="OH" width="200" height="350">
-
 
 ### Video call with Catalyst Team (Milestones Module)
 On August 13th we had a call with the Catalyst Team (Ewa) to discuss our collected issues and feedback from this project regarding the Milestone Review and Milestone Module.
