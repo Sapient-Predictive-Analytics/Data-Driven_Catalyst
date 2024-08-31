@@ -23,7 +23,7 @@ We have also reached out to Daniel from Project Catalyst again via Telegram DM a
 
 ### Office Hours
 Given the difficulty of communication with the Catalyst team, we have also booked an Office Hours slot to ask questions about Catalyst developments and share progress about our project.
-![OH](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1).jpg)
+![OH](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1).jpg | width=300)
 
 
 ### Video call with Catalyst Team (Milestones Module)
