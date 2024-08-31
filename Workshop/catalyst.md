@@ -7,23 +7,10 @@ We are prioritizing a lightweight, open source and interoperable [stack](https:/
 During this period of providing data report "teasers" and before implementing our main infrastructure, this utility is mainly in community-facing interaction and the Milestone module, where we have received the most feedback in response to our social posts and Github [issues](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues).
 
 
-### Video call with Catalyst Team (Milestones Module)
-On August 13th we had a call with the Catalyst Team (Ewa) to discuss our collected issues and feedback from this project regarding the Milestone Review and Milestone Module.
-
-As you can see in the screenshot below, we shared our project ID and Github repo so the team is aware of our work. We received the Google form from them, and shared it with the repo Issues. This, along with frequent sharing of our project questions and outputs on Telegram, Twitter etc. puts the development into the public domain and increases visibility so stakeholders can easily follow the progress, get in touch, contribute or comment.
-
-![Meet](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/googleMeet.jpg)
-
-
 ### Keeping Voices Tech Team "in the loop"
 We also reached out again to Lucio from Catalyst Voices who - like the entire Catalyst team - is currently extremely stretched and two-way communication is nearly impossible. However, sharing our repo and "checking-in" frequently ensures they are aware of our work and we are available anytime to present, share, discuss.
 
 ![TgLB](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/telegramlb.jpg)
-
-
-### Office Hours
-Given the difficulty of communication with the Catalyst team, we have also booked an Office Hours slot to ask questions about Catalyst developments and share progress about our project.
-![OH](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1).jpg)
 
 
 ### Catalyst Presentation
@@ -32,6 +19,20 @@ We have also reached out to Daniel from Project Catalyst again via Telegram DM a
 ![TgDR](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/ribartg.jpg)
 
 ![email](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/emailCatT.jpg)
+
+
+### Office Hours
+Given the difficulty of communication with the Catalyst team, we have also booked an Office Hours slot to ask questions about Catalyst developments and share progress about our project.
+![OH](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/officeHours%20(1).jpg)
+
+
+### Video call with Catalyst Team (Milestones Module)
+On August 13th we had a call with the Catalyst Team (Ewa) to discuss our collected issues and feedback from this project regarding the Milestone Review and Milestone Module.
+
+As you can see in the screenshot below, we shared our project ID and Github repo so the team is aware of our work. We received the Google form from them, and shared it with the repo Issues. This, along with frequent sharing of our project questions and outputs on Telegram, Twitter etc. puts the development into the public domain and increases visibility so stakeholders can easily follow the progress, get in touch, contribute or comment.
+
+![Meet](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/catalyst/googleMeet.jpg)
+
 
 ### External Links
 Most recent milestone of Catalyst Voices for reference only.
