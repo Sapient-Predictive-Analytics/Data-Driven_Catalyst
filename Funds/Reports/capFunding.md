@@ -113,10 +113,6 @@ A network graph was used to visualize the relationships between highly similar p
 - The network graph highlighted several **densely connected groups**, indicating potential cloning activities.
 
 
-
-
-
-
 Based on the analysis, several proposals have been flagged as potential clones. Here are the recommended next steps:
 
 1. **Manual Review**:
@@ -133,14 +129,4 @@ Based on the analysis, several proposals have been flagged as potential clones. 
 
 
 
-
-
-
-
-
-![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund10capped10pc.png)
-
-![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund10capped10pc.png)
-
-![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund10capped10pc.png)
 
