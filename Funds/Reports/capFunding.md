@@ -46,6 +46,18 @@ General Observations:
 •	The original distributions highlight the concentration of funding among a few dominant players, whereas the capped distribution aims for more diverse participation.
 
 
+# ### **Research Topic 8: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
+
+#### **Objective**:
+To identify and analyze the phenomenon of cloned or copied proposals submitted close to the deadline in a funding environment. The goal is to understand the prevalence, characteristics, and impact of such fraudulent activities on the integrity of the funding process and to develop strategies for detecting and mitigating these practices.
+
+**Textual Analysis and Similarity Detection**:
+**Unsupervised Learning**: Apply natural language processing (NLP) techniques such as TF-IDF (Term Frequency-Inverse Document Frequency) or word embeddings to measure the similarity between proposals. This can help in identifying cases where proposals are not just similar in content but potentially identical or minimally altered.
+**Generative AI**: Generate paraphrased versions of original proposals to simulate potential cloning attempts. This can improve the robustness of detection algorithms by training them to recognize both direct copies and slightly altered clones.
+
+The shortest and simplest approach to detect cloned proposals while still providing effective results would be using TF-IDF (Term Frequency-Inverse Document Frequency) combined with **Cosine Similarity**. This approach is computationally efficient, easy to implement, and provides reliable results for detecting text similarities without requiring complex models or extensive preprocessing.
+- **TF-IDF**: Captures the importance of terms in each proposal (titles, problems, solutions) and transforms the text into numerical vectors.
+- **Cosine Similarity**: Measures how similar two proposals are based on their TF-IDF vectors. It’s a quick and effective way to compare textual data.
 
 
 
