@@ -59,6 +59,85 @@ The shortest and simplest approach to detect cloned proposals while still provid
 - **TF-IDF**: Captures the importance of terms in each proposal (titles, problems, solutions) and transforms the text into numerical vectors.
 - **Cosine Similarity**: Measures how similar two proposals are based on their TF-IDF vectors. It’s a quick and effective way to compare textual data.
 
+#### **Methodology**
+
+We used a **TF-IDF + Cosine Similarity** approach to measure the textual similarity between proposals. The analysis was based on the following key components of each proposal:
+1. **Title**
+2. **Problem Statement**
+3. **Solution Statement**
+
+**Steps**:
+1. **Data Preprocessing**: We combined the title, problem, and solution statements of each proposal into a single text field.
+2. **Text Vectorization**: The combined text for each proposal was vectorized using **TF-IDF** (Term Frequency-Inverse Document Frequency), which converts the text into numerical vectors based on the importance of words.
+3. **Cosine Similarity Calculation**: We calculated the cosine similarity between the vectors to determine how similar each proposal was to every other proposal.
+4. **Threshold for Cloning Detection**: A similarity score threshold of **0.85** was set to flag potential clones, with scores closer to 1.0 indicating near-identical proposals.
+
+#### **Key Findings**
+The analysis identified several pairs of proposals with high similarity scores. These pairs are considered **potential cloned proposals**. Below are the top findings:
+- **Top Similarity Scores**: Some proposals had perfect or near-perfect similarity scores of **1.0**, indicating that they may be identical or only slightly modified versions of each other. This could be due to moving proposal across different challenges or categories. 
+  Examples of highly similar proposal pairs:
+  - Proposal with index `30` and Proposal with index `416` had a similarity score of **1.0**.
+  - Proposal with index `33` and Proposal with index `367` had a similarity score of **0.865**.
+  
+- **Multiple Cloning**: Several proposals appeared in multiple high-similarity pairs, suggesting the presence of **duplicated or highly similar proposals submitted by the same or different groups**.
+
+- 
+#### **Visualization of Results**
+##### **1. Heatmap of Cosine Similarities**
+A heatmap was generated to visualize the overall **cosine similarity** between proposals. This allowed us to quickly identify clusters of similar proposals.
+**Key Insights**:
+- The heatmap revealed distinct clusters of highly similar proposals, indicated by darker colors.
+- These clusters represent groups of proposals that are likely cloned or heavily borrowed from each other.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/heatmapclone_fund7.png)
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/heatmapclone_fund8.png)
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/heatmapclone_fund9.png)
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/heatmapclone_fund10.png)
+
+##### **2. Network Graph of Similar Proposals**
+A network graph was used to visualize the relationships between highly similar proposals (similarity > 0.85).
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/similarity_network_fund7.png)
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/similarity_network_fund8.png)
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/similarity_network_fund9.png)
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/similarity_network_fund10.png)
+
+**Key Insights**:
+- Nodes represented individual proposals, and edges (connections) indicated high similarity between proposals.
+- The network graph highlighted several **densely connected groups**, indicating potential cloning activities.
+
+
+
+
+
+
+Based on the analysis, several proposals have been flagged as potential clones. Here are the recommended next steps:
+
+1. **Manual Review**:
+   - A manual review of the flagged proposals should be conducted, especially for pairs with similarity scores greater than **0.85**. This review will help confirm whether the proposals are indeed clones.
+2. **Policy Review**:
+   - Consider introducing stricter **guidelines and checks** to detect and prevent the submission of cloned proposals in future funding rounds.
+   - Implement an automated system to flag similar proposals before the final submission deadline to avoid cloning issues.
+3. **Further Exploration**:
+   - **Investigate Proposer Networks**: Analyze the proposers' connections to see if the same teams or individuals are submitting multiple similar proposals.
+   - **Expand the Analysis**: Apply the same method across other funds to detect cloning trends over time.
+
+
+
+
+
+
+
+
+
+
+
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund10capped10pc.png)
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund10capped10pc.png)
