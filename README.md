@@ -10,7 +10,7 @@ Research and showcase optimal technology stack and procedures to build publicly 
 
 This binder has six distinct sections:
 
-1. The [**Roadmap**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Using_AI.md) of this project - its parts and planned delivery dates
+1. The [**Roadmap**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Roadmap.md) of this project - its parts and planned delivery dates
 2. Overview of the Open Source Data Science ([**OSDS**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md)) ecosystem and stack and how this can bring cutting edge machine learning, data visualization and artificial intelligence applications to everyone thanks to permissive licenses and easy, low-code modules.
 3. Overview of how [**Project Catalyst**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Project_Catalyst.md) generates data and can be understood and improved with data science, and how this has changed over the funds and is likely or desirable to evolve in the future.
 4. [**Working with fund data**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Working_with_Fund_Data.md) takes the theoretical and introductory outline of Catalyst data to concrete applications and examples and works through demonstrations that are either particularly elegant or of didactic value, or have been requested by the community and stakeholders as part of this project.
