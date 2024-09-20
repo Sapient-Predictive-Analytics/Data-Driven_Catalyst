@@ -1,6 +1,47 @@
 # Deep-dive Data Reports
 
-# Placing cap on total funding amount per team
+# ### **Research Topic 7: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
+
+#### **Objective**:
+To analyze how the success of entities in previous funding rounds affects their chances in current and future rounds. The concept of "rotational breaks" explores whether taking a break from awarding funds to big winners could create a more equitable distribution of resources.
+
+# Scenario 1: Big winners take rotational break
+
+Generate synthetic historical funding data to simulate different scenarios where big winners take rotational breaks. This can help in understanding how the distribution of funds might change if certain entities are temporarily excluded from receiving funding. 
+
+To explore **"Rotational Breaks for Big Winners"** and simulate scenarios where past successful applicants are given breaks or reduced priority, generative AI can help model and simulate various outcomes based on historical data. 
+
+#### Methodology 
+### **Step 1: Gather and Prepare Data**
+
+First, collect your historical funding data, including:
+- Proposal submission data.
+- Amount requested and received.
+- Success rates by proposer.
+- Group/entity information.
+- Time of submissions (to track when winners apply for funding).
+  
+### **Step 2: Define "Big Winners"**
+Define criteria for "big winners" based on your dataset. This could be:
+- Entities with a high success rate (e.g., winning more than 70% of the time).
+- Entities that have won above a certain threshold (e.g., those who have received the highest percentage of total funds).
+Create a binary flag in your dataset indicating whether a group is a big winner.
+
+### **Step 3: Model Rotational Breaks for Big Winners**
+Using **Generative AI**, we can simulate the effect of rotational breaks by generating various scenarios based on different rules. Here's a simplified structure of how you could implement this. In our simultion, we assume that big winners cannot apply for funding in consecutive rounds.
+
+### **Step 4: Analyze the Impact of Rotational Breaks**
+Using the simulation technique in Python, you can analyze:
+- How funding distribution changes.
+- Whether new entities (that were previously underfunded) receive more funds.
+- Whether diversity in the winning groups increases.
+
+### **Step 5: Visualization**
+Visualize the difference in funding distribution with and without rotational breaks:
+- **Bar charts** showing the amount of funding received by big winners before and after breaks.
+- **Line charts** showing the success rate of big winners and other groups across different funding rounds.
+
+# Scenario 2: Placing cap on total funding amount per team
 
 Given that there is already a cap in place limiting the amount per proposal to no more than 10% of the budget in each funding category, you might wonder whether an additional cap on the "total funding" a team can receive is still useful or necessary. 
 
@@ -59,8 +100,6 @@ The shortest and simplest approach to detect cloned proposals while still provid
 - **TF-IDF**: Captures the importance of terms in each proposal (titles, problems, solutions) and transforms the text into numerical vectors.
 - **Cosine Similarity**: Measures how similar two proposals are based on their TF-IDF vectors. It’s a quick and effective way to compare textual data.
 
-#### **Methodology**
-
 We used a **TF-IDF + Cosine Similarity** approach to measure the textual similarity between proposals. The analysis was based on the following key components of each proposal:
 1. **Title**
 2. **Problem Statement**
@@ -81,7 +120,7 @@ The analysis identified several pairs of proposals with high similarity scores. 
   
 - **Multiple Cloning**: Several proposals appeared in multiple high-similarity pairs, suggesting the presence of **duplicated or highly similar proposals submitted by the same or different groups**.
 
-- 
+ 
 #### **Visualization of Results**
 ##### **1. Heatmap of Cosine Similarities**
 A heatmap was generated to visualize the overall **cosine similarity** between proposals. This allowed us to quickly identify clusters of similar proposals.
