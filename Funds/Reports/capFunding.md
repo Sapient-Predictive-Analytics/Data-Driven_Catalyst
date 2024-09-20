@@ -41,6 +41,63 @@ Visualize the difference in funding distribution with and without rotational bre
 - **Bar charts** showing the amount of funding received by big winners before and after breaks.
 - **Line charts** showing the success rate of big winners and other groups across different funding rounds.
 
+### Analysis Overview: Funding Distribution Before and After the Exclusion of Big Winners (Funds 7–10)
+
+#### **Fund 7**
+- **Before Exclusion**: In Fund 7, we observed a highly concentrated distribution of funding, with groups like **Wolfram Blockchain Labs** and **ZenGate Global** dominating the funding received. Several other smaller groups received significantly less funding.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+  
+- **After Exclusion**: Once the big winners were excluded, the funding became more evenly distributed among smaller groups such as **RootsID**, **dcSpark**, and **LATAM Cardano Community**, who previously had lower shares of funding. **dcSpark** emerged as a top recipient, showcasing the ability for other groups to secure funding when dominant players are removed.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+
+---
+
+#### **Fund 8**
+- **Before Exclusion**: In Fund 8, the distribution before exclusion was again dominated by a few major players, including **ZenGate Global**, **Wolfram Blockchain Labs**, and **VIPER Staking**, which received large amounts of funding. Smaller groups struggled to receive substantial shares of the total funding available.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+
+- **After Exclusion**: After excluding the big winners, groups like **PolyCrypt**, **MigMake Pte Ltd**, and **LATAM Cardano Community** saw a marked increase in their share of funding. **Wada** and **PolyCrypt** emerged as significant beneficiaries after the exclusion, reinforcing the fact that removing dominant players opens up opportunities for smaller or less-represented groups.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+---
+
+#### **Fund 9**
+- **Before Exclusion**: In Fund 9, the distribution pattern was similar, with **ZenGate Global** and **Wolfram Blockchain Labs** again receiving a significant portion of the total available funding. Smaller groups, while present, had comparatively lower levels of funding.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+  
+- **After Exclusion**: Post-exclusion, the removal of dominant players like **ZenGate Global** allowed groups such as **SWARM**, **LATAM Cardano Community**, and **Hippocrates** to secure larger portions of funding. **Geneva** also emerged as a major recipient in this fund. The exclusion process demonstrated that smaller players could access more resources when larger ones were removed from the equation.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+---
+
+#### **Fund 10**
+- **Before Exclusion**: In Fund 10, funding was even more concentrated, with **ZenGate Global** and **Wolfram Blockchain Labs** dominating the total amount received. Smaller groups were again overshadowed by the large players.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+  
+- **After Exclusion**: After the big winners were excluded, we observed a dramatic shift. Groups like **dcSpark**, **LATAM Cardano Community**, and **Wolfram Blockchain Labs** saw significant improvements in their relative share of funding. Smaller groups that were previously underfunded gained a more equitable share of the available resources.
+
+![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
+---
+
+### Key Insights:
+1. **Impact of Exclusion**: Across all funds, excluding big winners resulted in a more **equitable distribution of funding**. Groups that had previously received small portions of the available funding were able to secure more significant shares once dominant players were removed.
+   
+2. **Rebalancing the Ecosystem**: Excluding big winners allows for the rebalancing of the ecosystem, promoting diversity and giving smaller, underrepresented groups a better chance to secure resources. In all four funds (7 through 10), the exclusion of top recipients led to a more balanced funding landscape, which could promote innovation and encourage wider participation.
+
+3. **Dominant Players**: Before exclusion, dominant players like **ZenGate Global** and **Wolfram Blockchain Labs** received large portions of the funding across multiple funds. The consistent dominance of these groups highlights the potential challenge of monopolization in funding rounds, and how policies like exclusions can provide relief to smaller groups.
+
+---
+
+### Conclusion:
+The analysis of Funds 7 through 10 demonstrates that excluding big winners results in more diverse funding outcomes and provides opportunities for a broader range of participants to benefit. These findings highlight the importance of considering policies that prevent the same groups from monopolizing funding rounds, thus fostering a healthier and more inclusive ecosystem.
+
+---
+
 # Scenario 2: Placing cap on total funding amount per team
 
 Given that there is already a cap in place limiting the amount per proposal to no more than 10% of the budget in each funding category, you might wonder whether an additional cap on the "total funding" a team can receive is still useful or necessary. 
