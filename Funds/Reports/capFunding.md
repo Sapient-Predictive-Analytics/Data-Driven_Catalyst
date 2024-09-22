@@ -1,6 +1,6 @@
 # Deep-dive Data Reports
 
-# **Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
+# **Research Topic 5: Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
 
 Due to the non-open-source nature of the Milestone Module, an API request could not be performed to access the necessary data. As a workaround, web scraping was employed to retrieve the required information from the portal. Given the technical complexity of the webpage, Selenium was chosen over BeautifulSoup as it allows for better interaction with dynamic elements on the page, such as JavaScript-rendered content.
 
@@ -20,7 +20,7 @@ The Data-Driven Catalyst project has successfully laid the foundation for a tran
 
 The data retrieved will be used in future analyses to assess the success of governance improvements, the influence of AI on decision-making, and the impact of community feedback. Future milestones will build on this work, ensuring the continued integration of stakeholder input and the development of a robust data-driven governance model for Project Catalyst.
 
-# **Research Topic 7: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
+# **Research Topic 6: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
 ## **Objective**:
 To analyze how the success of entities in previous funding rounds affects their chances in current and future rounds. The concept of "rotational breaks" explores whether taking a break from awarding funds to big winners could create a more equitable distribution of resources.
@@ -174,7 +174,7 @@ General Observations:
 •	The original distributions highlight the concentration of funding among a few dominant players, whereas the capped distribution aims for more diverse participation.
 
 
-# **Research Topic 8: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
+# **Research Topic 7: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
 
 ## **Objective**:
 To identify and analyze the phenomenon of cloned or copied proposals submitted close to the deadline in a funding environment. The goal is to understand the prevalence, characteristics, and impact of such fraudulent activities on the integrity of the funding process and to develop strategies for detecting and mitigating these practices.
