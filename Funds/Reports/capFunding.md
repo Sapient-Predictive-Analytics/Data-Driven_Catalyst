@@ -1,17 +1,17 @@
 # Deep-dive Data Reports
 
-# ### **Research Topic 7: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
+# **Research Topic 7: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
-#### **Objective**:
+## **Objective**:
 To analyze how the success of entities in previous funding rounds affects their chances in current and future rounds. The concept of "rotational breaks" explores whether taking a break from awarding funds to big winners could create a more equitable distribution of resources.
 
-# Scenario 1: Big winners take rotational break
+### Scenario 1: Big winners take rotational break
 
 Generate synthetic historical funding data to simulate different scenarios where big winners take rotational breaks. This can help in understanding how the distribution of funds might change if certain entities are temporarily excluded from receiving funding. 
 
 To explore **"Rotational Breaks for Big Winners"** and simulate scenarios where past successful applicants are given breaks or reduced priority, generative AI can help model and simulate various outcomes based on historical data. 
 
-#### Methodology 
+## Methodology 
 ### **Step 1: Gather and Prepare Data**
 
 First, collect your historical funding data, including:
@@ -43,7 +43,7 @@ Visualize the difference in funding distribution with and without rotational bre
 
 ### Analysis Overview: Funding Distribution Before and After the Exclusion of Big Winners (Funds 7–10)
 
-#### **Fund 7**
+### **Fund 7**
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/BeforeExclusionF7.png)
 
@@ -57,7 +57,7 @@ Visualize the difference in funding distribution with and without rotational bre
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/BeforeExclusionF8.png)
 
-#### **Fund 8**
+### **Fund 8**
 - **Before Exclusion**: In Fund 8, the distribution before exclusion was again dominated by a few major players, including **ZenGate Global**, **Wolfram Blockchain Labs**, and **VIPER Staking**, which received large amounts of funding. Smaller groups struggled to receive substantial shares of the total funding available.
 
 
@@ -67,7 +67,7 @@ Visualize the difference in funding distribution with and without rotational bre
 
 ---
 
-#### **Fund 9**
+### **Fund 9**
 
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/BeforeExclusionF9.png)
@@ -81,7 +81,7 @@ Visualize the difference in funding distribution with and without rotational bre
 
 ---
 
-#### **Fund 10**
+### **Fund 10**
 
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/BeforeExclusionF10.png)
@@ -108,7 +108,7 @@ The analysis of Funds 7 through 10 demonstrates that excluding big winners resul
 
 ---
 
-# Scenario 2: Placing cap on total funding amount per team
+### Scenario 2: Placing cap on total funding amount per team
 
 Given that there is already a cap in place limiting the amount per proposal to no more than 10% of the budget in each funding category, you might wonder whether an additional cap on the "total funding" a team can receive is still useful or necessary. 
 
@@ -116,12 +116,12 @@ o	Without a total funding cap per team, big winners could consistently secure la
 o	By implementing a total funding cap per team, you create a system where the total allocation across all proposals submitted by a team is limited, ensuring a broader distribution of funds.
 A total cap ensures that no single team can accumulate an excessive share of the funding, thereby opening the door for smaller, innovative teams that may have fewer proposals but are working on impactful projects.
 
-# Effects of placing 10% cap
+### Effects of placing 10% cap
 
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund7capped10pc.png)
 
-#Fund 7
+* Fund 7
 •	Original distribution shows some groups, like Wolfram Blockchain Labs and Hippocrates, receiving large amounts of funding.
 
 •	After applying the 10% cap, the distribution becomes more balanced, with larger recipients being brought down, allowing smaller groups like Protospace and RootsID to receive relatively higher amounts.
@@ -129,7 +129,7 @@ A total cap ensures that no single team can accumulate an excessive share of the
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund8capped10pc.png)
 
-#Fund 8
+* Fund 8
 •	Clear dominance of groups like M Labs and Dandelion Inc in the original distribution, with very large amounts allocated.
 
 •	The 10% cap reduces their share significantly, resulting in a more equitable distribution, allowing underfunded groups like NFT-DAO and Dynamic Strategies to receive more in comparison.
@@ -137,14 +137,14 @@ A total cap ensures that no single team can accumulate an excessive share of the
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund9capped10pc.png)
 
 
-#Fund 9
+* Fund 9
 •	Several groups, such as LIDO Nation and Wolfram Blockchain Labs, received large amounts in the original distribution.
 
 •	With the cap applied, their funding is limited, leading to a more equal allocation, benefiting smaller groups like Hippocrates and The Art.
 
 ![Samples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/fund10capped10pc.png)
 
-#Fund 10
+* Fund 10
 •	A standout large recipient is FLUID7, which received a significantly higher share in the original distribution.
 •	After the cap is applied, the funding becomes more balanced, and groups like DAOGEN.AI and Andamio Platform see their shares increased relatively.
 
@@ -154,9 +154,9 @@ General Observations:
 •	The original distributions highlight the concentration of funding among a few dominant players, whereas the capped distribution aims for more diverse participation.
 
 
-# ### **Research Topic 8: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
+# **Research Topic 8: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
 
-#### **Objective**:
+## **Objective**:
 To identify and analyze the phenomenon of cloned or copied proposals submitted close to the deadline in a funding environment. The goal is to understand the prevalence, characteristics, and impact of such fraudulent activities on the integrity of the funding process and to develop strategies for detecting and mitigating these practices.
 
 **Textual Analysis and Similarity Detection**:
