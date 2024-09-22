@@ -1,5 +1,25 @@
 # Deep-dive Data Reports
 
+# **Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
+
+Due to the non-open-source nature of the Milestone Module, an API request could not be performed to access the necessary data. As a workaround, web scraping was employed to retrieve the required information from the portal. Given the technical complexity of the webpage, Selenium was chosen over BeautifulSoup as it allows for better interaction with dynamic elements on the page, such as JavaScript-rendered content.
+
+The script we developed using Selenium performed as expected and successfully extracted the milestone data into a JSON format. This format will be invaluable for future analysis of each project's Catalyst journey, tracking milestones, performance reviews, and stakeholder feedback.
+
+# Methodology:
+
+Web scraping to gather milestone data, ensuring comprehensive data extraction despite the absence of API access.
+Public documentation of project milestones, which were stored in GitHub repositories and GitBook, ensuring transparency and accessibility to the community.
+Stakeholder involvement: Continuous feedback from key stakeholders—Catalyst Team, developers, AI experts, and community reviewers—was integrated into the project, ensuring alignment with governance improvement goals.
+AI Integration: Discussions around the role of AI in Catalyst governance were a focal point, with explorations of both the risks and opportunities that AI presents.
+This combination of technical data scraping, stakeholder engagement, and AI integration ensures that the analysis is robust and designed to evolve with future developments.
+
+# Conclusion:
+
+The Data-Driven Catalyst project has successfully laid the foundation for a transparent and collaborative data analytics framework. By overcoming technical challenges with web scraping and using Selenium to gather key milestone data, the project is equipped with the necessary information to analyze project performance and track the progression of various Catalyst initiatives.
+
+The data retrieved will be used in future analyses to assess the success of governance improvements, the influence of AI on decision-making, and the impact of community feedback. Future milestones will build on this work, ensuring the continued integration of stakeholder input and the development of a robust data-driven governance model for Project Catalyst.
+
 # **Research Topic 7: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
 ## **Objective**:
