@@ -101,4 +101,35 @@ Large Language Models (LLMs) are a specific application of **Generative AI** tha
 - **LLMs** are a subset of **Generative AI** and focus on generating language and understanding context in text-based tasks.
 - **Unsupervised Learning** helps in discovering patterns from unlabelled data and can be used alongside or within generative models to extract insights without prior knowledge of the data's structure.
 
+Integrate generative AI and unsupervised learning into our current Python script for detecting cloned proposals
+
+### Current Approach:
+Our existing script uses **TF-IDF** and **cosine similarity** to detect cloned proposals by measuring the textual similarity between them. This is a solid foundation using unsupervised learning for proposal comparison.
+
+### Enhancing with Generative AI:
+To integrate **Generative AI**, we could build upon script in the following ways:
+
+1. **Variational Autoencoder (VAE)** or **Generative Adversarial Network (GAN)**:
+   - You could use a VAE or a GAN to generate synthetic proposals based on the features learned from the existing dataset. This will help you analyze if certain proposals are too close to artificially generated ones, indicating a lack of originality.
+   
+   - For example, you can train a VAE to generate text embeddings of proposals, and compare existing proposals against these generated examples. Proposals that are too close to the generated versions may indicate cloning.
+
+2. **Anomaly Detection**:
+   - By training a VAE to learn the normal patterns in proposal data, you can use it to detect anomalies. Proposals that significantly deviate from the generated proposal patterns (or fall within highly similar generated patterns) may be flagged as cloned or suspicious.
+
+3. **Advanced Clustering**:
+   - You could combine generative AI with clustering techniques (such as **DBSCAN** or **K-Means**) to group proposals based on their learned embeddings. Proposals within the same cluster may be more likely to be duplicates or clones.
+
+
+### Suggested Generative AI and Unsupervised Learning Section
+
+#### Generative AI Integration for Clone Detection
+After identifying potential clones through TF-IDF and cosine similarity, we integrated **generative AI** techniques to enhance our analysis. A **Variational Autoencoder (VAE)** was trained on the proposal text to generate synthetic proposals. These generated proposals allowed us to:
+   - **Compare originality**: By comparing real proposals to the generated ones, we were able to identify proposals that closely mirrored the generated samples, suggesting potential cloning.
+   - **Detect anomalies**: Using the latent space representation from the VAE, we identified anomalies or unusual patterns in proposal similarities that further indicated cloning.
+
+#### Unsupervised Learning Clustering
+We then applied unsupervised learning techniques to group similar proposals into clusters. Using **DBSCAN** on the VAE-generated embeddings allowed us to detect clusters of proposals that were nearly identical. Proposals within these clusters were flagged for further manual review.
+
+
 
