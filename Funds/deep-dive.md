@@ -1,19 +1,19 @@
-## Voting outcome to select 8 deep-dive data reports
+## Voting Outcome to Select 7 Deep-Dive Data Reports
 
-We [asked](https://t.me/ProjectCatalystChat/80325) the Project Catalyst community to pick 7 out of our 20 [examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md) for data-driven analysis and reporting. Due to a tie in the vote, we have now selected 8 of them to get into detail and present our findings along with open source code of how to improve the funding, voting and governance processes based on publicly available, often scattered or unformatted, past funds' data. 
+We [asked](https://t.me/ProjectCatalystChat/80325) the Project Catalyst community to pick 7 out of our 20 [examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md) for data-driven analysis and reporting. These will include more sophisticated machine learning and plotting approaches get into more detail to present our findings to the community.
 
 For the toolkit of open source data science tools please refer to the [OSDS](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md) section. 
 
-These are the ideas that were chosen:
+These are the ideas that were chosen by vote:
 
 
 **1.Proposal Keyword Occurrences vs Funding Success**
 
-* Approach: Use Natural Language Processing (NLP) with Pandas and Scikit-learn to
+* Approach: Use Natural Language Processing (NLP) with Pandas and Machine learning library to
 analyze keyword frequency in proposals. Compare keyword occurrences with funding
 success rates using statistical correlations or machine learning models.
 
-Tools: Pandas, Scikit-learn, NLTK or SpaCy for NLP
+Refinement: add Fund-11 data, more keywords and smart algorithm
 
 
 **2.Boxplot of Proposal Assessor Scores vs Funding Success**
@@ -22,7 +22,7 @@ Tools: Pandas, Scikit-learn, NLTK or SpaCy for NLP
 Funding success. Use Matplotlib or Seaborn to create boxplots that visualize the
 distribution of scores across successful and unsuccessful proposals.
 
-Tools: Pandas, Matplotlib, Seaborn.
+Refinement: add Fund-11 data, better visualization, better data composability and cleaning
 
 **3.Votes Required Evolution: Funding Request by Fund and Status**
 
@@ -30,7 +30,7 @@ Tools: Pandas, Matplotlib, Seaborn.
 funds and statuses. Use Pandas for data aggregation and Matplotlib to create time
 series or bar charts showing the trend over time.
 
-Tools: Pandas, Matplotlib
+Tools: Pandas, plotting and machine learning libraries
 
 **4.YES votes Required for Funding (by categories) across Funds**
 
@@ -38,17 +38,10 @@ Tools: Pandas, Matplotlib
 categories and funds. Visualize the data using stacked bar charts or line plots to
 compare categories.
 
-Tools: Pandas, Matplotlib, Seaborn.
+Tools: Pandas, plotting and machine learning libraries
 
-**5. Networks of Groups with large numbers of Proposal Submissions per Fund per Entity**
 
-* Approach: Build a network graph to represent the relationships between entities and
-the number of proposals they submit per fund. Use NetworkX for constructing and
-visualizing the network.
-
-Tools: Pandas, NetworkX, Matplotlib.
-
-**6. Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
+**5. Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
 Submitted idea by community lead Intersect Japan (Yuta) and [GitHub issue](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues/6) logged by funded proposer saigonbitmaster
 
 * Approach: Read and process milestone data from JSON files. Tokenize text data to
@@ -57,7 +50,7 @@ Pandas for data manipulation and NLTK or SpaCy for tokenization.
 
 Tools: Pandas, NLTK or SpaCy, JSON module.
 
-**7. Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
+**6. Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
 * Approach: Analyze the relationship between a team's past funding successes and their
 chances of receiving current funding. Use Pandas to track historical funding data, and
@@ -67,7 +60,7 @@ funding opportunities.
 Tools: Pandas, Scikit-learn (for regression analysis), Matplotlib or Seaborn (for
 visualizations)
 
-**8. Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
+**7. Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
 Please refer to [GitHub issue](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues/8) that was logged by a community member (Udai Solanki)
 
 * Approach: Use Natural Language Processing (NLP) techniques to detect similarities
