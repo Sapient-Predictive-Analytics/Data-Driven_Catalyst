@@ -9,7 +9,7 @@ These are the ideas that were chosen by vote:
 
 **1.Proposal Keyword Occurrences vs Funding Success**
 
-* Refinement: The dataset now includes all submitted valid proposals in funds from F-7 to F-12 except challenge settings and withdrawn proposals. Keywords with a minimum frequency (k: 30) where picked up and plotted for their success ratio, omitting non-technical words.
+* Refinement: The dataset now includes all submitted valid proposals in funds from F-7 to F-12 except challenge settings and withdrawn proposals. Keywords with a minimum frequency (k: 20) where picked up and plotted for their success ratio, omitting non-technical words.
 * Insight: "Cardano" serves as a benchmark, with 1632 proposals and 308 funded. The total funding ratio is around 19%, making it slightly less favorable to pick the keyword. This is likely due to the generic character, that discerning voters discount and not significant as a negative either. Strikingly, putting the company name "MLabs" in the title resulted in success 28 out of 34 times - voters assume that this tag is genuinely only used by the company with that name and that their high standard of delivery beats giving new teams a shot. Given the high overall funding ratio, this is not surprising and future funds probably need to attract more proposals for the fund size or give reviewers and voters more tools to pick good proposals. More surprising is the enduring success of keyword "Japan" which panders to the concentration of voting power in that country. 
 
 ![LogKeyword](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/log_keyword_funding_analysis.png)
