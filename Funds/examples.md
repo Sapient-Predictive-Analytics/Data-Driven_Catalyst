@@ -39,7 +39,7 @@ Useful for: voters (bias, funding direction, ecosystem growth), proposers (boost
 
 *Inspired by OG community member Victor Corcino's post on the Community Advisor Telegram channel and teased in our Fund-11 proposal submission* 
 
-This chart is a good way to visualized the increasing and then dropping influence of the CA/CR/PA score for the voter. In Fund-10, maybe partially motivated by Victor's findings, but mainly to counter the incentive for "fake" or "friendly" reviews, some changes were introduce to blunt, but not remove, the importance of community scoring: the voting app no longer sorts automatically by score, and the pay per review was also reduced to "encourage" shorter proposal reviews.
+This chart is a good way to visualize the increasing and then dropping influence of the CA/CR/PA score on voting outcome. In Fund-10, maybe partially motivated by Victor's findings, but mainly to counter the incentive for "fake" or "friendly" reviews, some changes were introduce to blunt, but not remove, the importance of community scoring: the voting app no longer sorts automatically by score, and the pay per review was also reduced to "encourage" shorter proposal reviews.
 
 ### 3. Funding Request by Fund and Status
 
