@@ -106,7 +106,10 @@ Keyword 'women': 22 total occurrences, 21 proposals, 0 funded
 Funding success. Use Matplotlib or Seaborn to create boxplots that visualize the
 distribution of scores across successful and unsuccessful proposals.
 
-Refinement: add Fund-11 data, better visualization, better data composability and cleaning
+Refinement: add Funds-11&12 data, better visualization, better data composability and cleaning. Remove whole spectrum of scores in favor of clear quintiles and median line. 
+
+![Quintiles Boxplot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/quintile_boxplot_f7-f12.png)
+
 
 **3.Votes Required Evolution: Funding Request by Fund and Status**
 
