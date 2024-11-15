@@ -137,7 +137,7 @@ We then applied unsupervised learning techniques to group similar proposals into
 
 Download and install Docker from: https://docs.docker.com/desktop/install/windows-install/
 
-'What Could Go Wrong?'
+*What Could Go Wrong?*
 
 Docker runs on Windows, but performance and compatibility are better when using "Windows Subsystem for Linux" (WSL). Therefore, you should install WSL before installing Docker. (Recommendation: Select Ubuntu and use the same username and password as in Windows, then configure automatic login to WSL when logging into Windows.)
 
@@ -172,7 +172,7 @@ After installation, you can start WebUI by either:
 
 The Open WebUI interface should then appear in your browser.
 
-'What Could Go Wrong?'
+*What Could Go Wrong?*
 
 If you encounter an error message, either:
 - The container in Docker hasn't started yet (click the "play" button next to the Docker container)
@@ -216,4 +216,4 @@ Note: If you plan to use these models commercially, review the licenses first. M
 
 For answers to frequently asked questions (e.g., what data is stored where), visit: https://docs.openwebui.com/faq/
 
-Happy chatting! 🚀
+*Happy chatting!* 🚀
