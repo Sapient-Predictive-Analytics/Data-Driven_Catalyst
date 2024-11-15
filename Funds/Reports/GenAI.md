@@ -1,6 +1,4 @@
-
-
-## **Integrating Generative AI and Unsupervised Learning Across Research Initiatives**
+## **Section 1: Integrating Generative AI and Unsupervised Learning Across Research Initiatives**
 
 Generative AI and unsupervised learning are transformative technologies that offer significant advantages in analyzing complex datasets and generating insights across various domains. These methodologies are particularly effective in identifying underlying patterns, simulating potential outcomes, and automating content generation, which are essential for advanced data-driven decision-making processes.
 
@@ -131,5 +129,87 @@ After identifying potential clones through TF-IDF and cosine similarity, we inte
 #### Unsupervised Learning Clustering
 We then applied unsupervised learning techniques to group similar proposals into clusters. Using **DBSCAN** on the VAE-generated embeddings allowed us to detect clusters of proposals that were nearly identical. Proposals within these clusters were flagged for further manual review.
 
+***
 
+## Section 2: Getting Started with Simple, Private LLM on Your Own Machine
 
+## Step 1: Download and Install Docker
+
+Download and install Docker from: https://docs.docker.com/desktop/install/windows-install/
+
+### What Could Go Wrong?
+
+Docker runs on Windows, but performance and compatibility are better when using "Windows Subsystem for Linux" (WSL). Therefore, you should install WSL before installing Docker. (Recommendation: Select Ubuntu and use the same username and password as in Windows, then configure automatic login to WSL when logging into Windows.)
+
+WSL installation guide: [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+**Open source alternatives:**
+- Instead of Docker: Kubernetes or Singularity
+- Instead of Windows + WSL: Ubuntu Linux
+
+## Step 2: Download Container with Ollama and Open WebUI
+
+Enter "cmd" in the Windows search bar (bottom left) to open the Command Prompt. Enter one of these commands:
+
+### For Systems with NVIDIA Graphics Card:
+```bash
+docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+```
+
+### For Systems without NVIDIA Graphics Card:
+```bash
+docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+```
+
+Both commands will download and install the appropriate container with the correct settings.
+
+After installation, you can start WebUI by either:
+- Clicking the blue "3000:8080" under Port(s) in Docker
+- Entering this address in your browser: http://localhost:3000
+
+The Open WebUI interface should then appear in your browser.
+
+### What Could Go Wrong?
+If you encounter an error message, either:
+- The container in Docker hasn't started yet (click the "play" button next to the Docker container)
+- You need to install and start Windows WSL first
+
+## Step 3: Set Up WebUI
+
+You'll need to create an account in WebUI first. All account information is stored locally. The first account automatically becomes the administrator. Additional accounts are users whose permissions can be managed by the admin.
+
+## Step 4: Download Models
+
+1. Click on your account (bottom left in WebUI)
+2. Click on "Admin Panel"
+3. Click on "Settings" at the top of the Admin Panel
+4. Click on "Models" under Settings
+5. Enter one of the following German-capable models in "Pull a model from Ollama.com". Download times vary as models range from 3 to 9 GB.
+
+### Llama Family Models (trained by Facebook)
+- Large and powerful: `llama3.1:8b-instruct-q8_0`
+- Medium size, still good: `llama3.1:8b-instruct-q6_K`
+- Small and fast: `llama3.2:3b-text-q8_0`
+
+### Qwen Family Models (trained by Alibaba)
+- Large and powerful: `qwen2.5:7b-instruct-q8_0`
+- Medium size, still good: `qwen2.5:7b-instruct-q6_K`
+- Small and fast: `qwen2.5:3b-instruct-q8_0`
+
+### Gemma Family Models (trained by Google)
+- Large and powerful: `gemma2:9b-instruct-q8_0`
+- Medium size, still good: `gemma2:9b-instruct-q5_K_M`
+- Small and fast: `gemma2:2b-text-q8_0`
+
+### Phi Family Models (trained by Microsoft)
+- Small and fast: `phi3.5:3.8b-mini-instruct-q8_0`
+
+For example, `phi3.5:3.8b-mini-instruct-q8_0` runs very smoothly. The "large and powerful" models also work but require longer response times. However, they provide better quality responses. If even the small models run too slowly, you can opt for even smaller ones. You can find the complete model catalog here:
+
+[Ollama Library](https://ollama.com/library)
+
+Note: If you plan to use these models commercially, review the licenses first. Most have very liberal license terms that include free commercial use.
+
+For answers to frequently asked questions (e.g., what data is stored where), visit: https://docs.openwebui.com/faq/
+
+Happy chatting! 🚀
