@@ -119,7 +119,7 @@ To integrate **Generative AI**, we could build upon script in the following ways
    - You could combine generative AI with clustering techniques (such as **DBSCAN** or **K-Means**) to group proposals based on their learned embeddings. Proposals within the same cluster may be more likely to be duplicates or clones.
 
 
-### Suggested Generative AI and Unsupervised Learning Section
+### Suggested Generative AI and Unsupervised Learning
 
 #### Generative AI Integration for Clone Detection
 After identifying potential clones through TF-IDF and cosine similarity, we integrated **generative AI** techniques to enhance our analysis. A **Variational Autoencoder (VAE)** was trained on the proposal text to generate synthetic proposals. These generated proposals allowed us to:
@@ -137,7 +137,7 @@ We then applied unsupervised learning techniques to group similar proposals into
 
 Download and install Docker from: https://docs.docker.com/desktop/install/windows-install/
 
-### What Could Go Wrong?
+'What Could Go Wrong?'
 
 Docker runs on Windows, but performance and compatibility are better when using "Windows Subsystem for Linux" (WSL). Therefore, you should install WSL before installing Docker. (Recommendation: Select Ubuntu and use the same username and password as in Windows, then configure automatic login to WSL when logging into Windows.)
 
@@ -161,6 +161,9 @@ docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app
 docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
 
+This will result in the following Docker progress if working correctly:
+![DockerDesktop](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/image001.png)
+
 Both commands will download and install the appropriate container with the correct settings.
 
 After installation, you can start WebUI by either:
@@ -169,7 +172,8 @@ After installation, you can start WebUI by either:
 
 The Open WebUI interface should then appear in your browser.
 
-### What Could Go Wrong?
+'What Could Go Wrong?'
+
 If you encounter an error message, either:
 - The container in Docker hasn't started yet (click the "play" button next to the Docker container)
 - You need to install and start Windows WSL first
