@@ -190,7 +190,7 @@ You'll need to create an account in WebUI first. All account information is stor
 4. Click on "Models" under Settings
 5. Enter one of the following German-capable models in "Pull a model from Ollama.com". Download times vary as models range from 3 to 9 GB.
 
-### Llama Family Models (trained by Facebook)
+### Llama Family Models (trained by Meta/Facebook)
 - Large and powerful: `llama3.1:8b-instruct-q8_0`
 - Medium size, still good: `llama3.1:8b-instruct-q6_K`
 - Small and fast: `llama3.2:3b-text-q8_0`
