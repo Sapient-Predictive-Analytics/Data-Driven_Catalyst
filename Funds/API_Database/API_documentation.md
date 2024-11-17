@@ -81,7 +81,9 @@ Some key advantages of this database approach:
 ## Basic Usage
 
 *Download the file provided in this Github folder* **[catalyst_query.py](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/catalyst_query.py)**
+
 *Use a text editor to enter the API Key provided under API_KEY*
+
 
 ```bash
 python3 catalyst_query.py [options]
