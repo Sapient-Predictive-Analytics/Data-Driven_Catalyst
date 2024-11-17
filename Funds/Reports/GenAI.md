@@ -227,6 +227,8 @@ For answers to frequently asked questions (e.g., what data is stored where), vis
 conda install langchain langchain_community langchain_chroma -c conda-forge
 pip install llama-toolchain
 llama download --source meta --model-id Meta-Llama3.1-8B
+conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
+jupyter notebook
 ~~~
 
 The user can obtain a free license from [Meta](https://www.llama.com/llama-downloads). Paste Meta Llama customer URL when prompted and allow entire download to finish. Opinions vary a lot and new models are released often, so this is evolving fast. It is highly recommended to choose a relatively fast model if the purpose is to focus on a very narrow area of expertise like Cardano and Project Catalyst where responsiveness to queries is more important than conversational prowess or reasoning skills at the expense of learning and chatting without delays.
