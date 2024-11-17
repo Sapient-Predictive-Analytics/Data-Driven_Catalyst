@@ -6,7 +6,7 @@ First, let's understand why we suggest to use a database instead of just Pandas 
 
 1) Query Performance 
     
-* With about 7000 proposals across 6 funds, two different currencies and several non-recurring categories or unique methodologies between the fund iterations, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
+With about 7000 proposals across 6 funds, two different currencies and several non-recurring categories or unique methodologies between the fund iterations, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
         
 * Download the entire CSV 
             
@@ -28,11 +28,13 @@ First, let's understand why we suggest to use a database instead of just Pandas 
         
 3) Scalability 
     
-* What if our data grows to 100,000 proposals? 
+* What if more funds get added and have much larger amount of proposals
         
-* What if we need multiple Lambdas accessing the data? 
+* What if we need multiple stakeholders accessing the data
         
-* Databases handle concurrent access well 
+* Databases handle concurrent access well
+
+* Future LLM integration may require storing much larger datasets like milestone data, review commentary or social engagement / chat histories.
         
 4. Flexibility 
     
