@@ -6,7 +6,7 @@ First, let's understand why we suggest to use a database instead of just Pandas 
 
 1) Query Performance 
     
-With 7000 rows, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
+* With 7000 rows, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
         
 * Download the entire CSV 
             
@@ -79,6 +79,8 @@ Some key advantages of this database approach:
 ***
 
 ## Basic Usage
+
+*Download the file provided in this Github folder ~catalyst_query.py~*
 
 ```bash
 python3 catalyst_query.py [options]
