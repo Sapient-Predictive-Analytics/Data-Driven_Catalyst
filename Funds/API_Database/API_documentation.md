@@ -6,15 +6,15 @@ First, let's understand why we suggest to use a database instead of just Pandas 
 
 1) Query Performance 
     
-* With 7000 rows, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
+* With about 7000 proposals across 6 funds, two different currencies and several non-recurring categories or unique methodologies between the fund iterations, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
         
 * Download the entire CSV 
             
 * Load it into memory 
             
-* Filter the data 
+* Format, clean and filter the data 
             
-A database can do this much faster using indexes 
+**A database can do this much faster using indices**
         
 2) Data Integrity 
     
@@ -24,7 +24,7 @@ A database can do this much faster using indexes
         
 * No enforcement of data types 
         
-* Databases provide ACID properties (Atomicity, Consistency, Isolation, Durability) 
+* Databases provide *ACID* properties (Atomicity, Consistency, Isolation, Durability) 
         
 3) Scalability 
     
