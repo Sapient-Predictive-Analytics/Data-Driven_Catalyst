@@ -1,6 +1,6 @@
 # Sapient API Catalyst Fund Proposals Query Guide
 
-This guide explains how to use any Linux/WSL command-line interface to query the Catalyst Fund Proposals Atlas MongoDB database. The tool provides flexible access to proposal data across all funds, with various filtering and search options.
+This guide explains how to use any Linux/WSL command-line interface to query the Catalyst Fund Proposals Atlas MongoDB database. The tool provides flexible access to proposal data across funds (F7 until most recent F12), with various filtering and search options. Fund-13 will be uploaded after the voting results are out.
 
 First, let's understand why we suggest to use a database instead of just Pandas CSV files in a S3 bucket (another simple way we used in the setup process):
 
