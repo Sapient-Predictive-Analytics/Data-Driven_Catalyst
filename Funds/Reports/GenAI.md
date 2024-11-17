@@ -131,7 +131,9 @@ We then applied unsupervised learning techniques to group similar proposals into
 
 ***
 
-## Section 2: Getting Started with Simple, Private LLM on Your Own Machine
+## Section 2: Getting Started with Simple, Private LLM on local Machine
+
+Here, we have two favorites among the multitude of options in a dynamic and fast-evolving space. First, we cover **OpenWebUI** that allows a secure setup on an "airgapped"/offline local machine like our own laptop with a fully downloaded, minimum viable LLM and Catalyst training data. Second, we look at the Meta provided "open source" **Llama** family - this is a wildly popular if not entirely uncontroversial choice that comes closest to proprietary heavy-weights like ChatGPT, Gemini or Claude.
 
 ## Step 1: Download and Install Docker
 
@@ -217,3 +219,14 @@ Note: If you plan to use these models commercially, review the licenses first. M
 For answers to frequently asked questions (e.g., what data is stored where), visit: https://docs.openwebui.com/faq/
 
 *Happy chatting!* 🚀
+
+
+## Llama with Langchain
+
+~~
+conda install langchain langchain_community langchain_chroma -c conda-forge
+pip install llama-toolchain
+llama download --source meta --model-id Meta-Llama3.1-8B
+~~
+
+The user can obtain a free license from Meta. Paste Meta Llama customer URL when prompted and allow entire download to finish.
