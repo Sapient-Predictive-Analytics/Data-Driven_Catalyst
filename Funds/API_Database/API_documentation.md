@@ -4,43 +4,43 @@ This guide explains how to use any Linux/WSL command-line interface to query the
 
 First, let's understand why we suggest to use a database instead of just Pandas CSV files in a S3 bucket (another simple way we used in the setup process):
 
-1. Query Performance 
+1) Query Performance 
     
 With 7000 rows, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
         
-            ▪ Download the entire CSV 
+* Download the entire CSV 
             
-            ▪ Load it into memory 
+* Load it into memory 
             
-            ▪ Filter the data 
+* Filter the data 
             
 A database can do this much faster using indexes 
         
-2. Data Integrity 
+2) Data Integrity 
     
-        ◦ CSVs can get corrupted 
+* CSVs can get corrupted 
         
-        ◦ No built-in validation 
+* No built-in validation 
         
-        ◦ No enforcement of data types 
+* No enforcement of data types 
         
-        ◦ Databases provide ACID properties (Atomicity, Consistency, Isolation, Durability) 
+* Databases provide ACID properties (Atomicity, Consistency, Isolation, Durability) 
         
- 3. Scalability 
+3) Scalability 
     
-        ◦ What if our data grows to 100,000 proposals? 
+* What if our data grows to 100,000 proposals? 
         
-        ◦ What if we need multiple Lambdas accessing the data? 
+* What if we need multiple Lambdas accessing the data? 
         
-        ◦ Databases handle concurrent access well 
+* Databases handle concurrent access well 
         
 4. Flexibility 
     
-        ◦ Easy to update individual records 
+* Easy to update individual records 
         
-        ◦ Can add new fields without modifying existing data 
+* Can add new fields without modifying existing data 
         
-        ◦ Can create relationships between different types of data 
+* Can create relationships between different types of data 
         
 We have opted for MongoDB's Atlas cloud solution, which is very popular and has open source and free tier support. Other advantages of MongoDB are:
 
@@ -56,28 +56,25 @@ We have opted for MongoDB's Atlas cloud solution, which is very popular and has 
     
     • Flexible schema (can handle those additional columns easily) 
 
+![MongoPic](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/mdb_setting_up.gif)
+
 Some key advantages of this database approach:
 
-    1. Better Querying 
-        ◦ Can filter by any field without loading all data 
-        ◦ Can do complex aggregations (e.g., "average score by Challenge") 
-        ◦ Can combine multiple conditions efficiently 
+1) Better Querying 
+* Can filter by any field without loading all data 
+* Can do complex aggregations (e.g., "average score by Challenge") 
+* Can combine multiple conditions efficiently 
         
-    2. Data Enrichment 
-        ◦ Easy to add metadata (like when records were imported) 
-        ◦ Can update records (e.g., add status updates) 
-        ◦ Can link to other collections (e.g., user comments) 
+2) Data Enrichment 
+* Easy to add metadata (like when records were imported) 
+* Can update records (e.g., add status updates) 
+* Can link to other collections (e.g., user comments) 
         
-    3. API Performance 
-        ◦ Queries return only needed fields 
-        ◦ Can limit results for pagination 
-        ◦ Indexes make searches fast 
-        
-Potential drawbacks:
-    1. More complex setup than S3 
-    2. Needs database management/maintenance 
-    3. Could be more expensive than simple file storage 
-    4. Requires database connection management in Lambda 
+3) API Performance 
+* Queries return only needed fields 
+* Can limit results for pagination 
+* Indexes make searches fast 
+
 
 ***
 
