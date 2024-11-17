@@ -46,7 +46,7 @@ We have opted for MongoDB's Atlas cloud solution, which is very popular and has 
 
     • Document-based (stores data in JSON-like documents) 
     
-    • Great for semi-structured data like yours 
+    • Great for semi-structured data like Excel-format legacy funds, i.e. all data 
     
     • Natural fit for Python/JSON APIs 
     
@@ -54,7 +54,7 @@ We have opted for MongoDB's Atlas cloud solution, which is very popular and has 
     
     • Great performance for read operations 
     
-    • Flexible schema (can handle those additional columns easily) 
+    • Flexible schema (can handle the additional columns or switch of currency more easily) 
 
 ![MongoPic](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/mdb_setting_up.gif)
 
