@@ -223,10 +223,10 @@ For answers to frequently asked questions (e.g., what data is stored where), vis
 
 ## Llama with Langchain
 
-~
+~~~
 conda install langchain langchain_community langchain_chroma -c conda-forge
 pip install llama-toolchain
 llama download --source meta --model-id Meta-Llama3.1-8B
-~
+~~~
 
 The user can obtain a free license from Meta. Paste Meta Llama customer URL when prompted and allow entire download to finish.
