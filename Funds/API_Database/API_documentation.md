@@ -4,7 +4,7 @@ This guide explains how to use any Linux/WSL command-line interface to query the
 
 First, let's understand why we suggest to use a database instead of just Pandas CSV files in a S3 bucket (another simple way we used in the setup process):
 
-1) Query Performance 
+**Query Performance**
     
 With about 7000 proposals across 6 funds, two different currencies and several non-recurring categories or unique methodologies between the fund iterations, every time someone wants to see "all proposals from Fund 8 with YES votes > 100000000", the retrieval function would need to: 
         
@@ -14,9 +14,9 @@ With about 7000 proposals across 6 funds, two different currencies and several n
             
 * Format, clean and filter the data 
             
-**A database can do this much faster using indices**
+*A database can do this much faster using indices*
         
-2) Data Integrity 
+**Data Integrity**
     
 * CSVs can get corrupted 
         
@@ -26,7 +26,7 @@ With about 7000 proposals across 6 funds, two different currencies and several n
         
 * Databases provide *ACID* properties (Atomicity, Consistency, Isolation, Durability) 
         
-3) Scalability 
+**Scalability** 
     
 * What if more funds get added and have much larger amount of proposals
         
@@ -36,7 +36,7 @@ With about 7000 proposals across 6 funds, two different currencies and several n
 
 * Future LLM integration may require storing much larger datasets like milestone data, review commentary or social engagement / chat histories.
         
-4. Flexibility 
+**Flexibility** 
     
 * Easy to update individual records 
         
@@ -44,6 +44,7 @@ With about 7000 proposals across 6 funds, two different currencies and several n
         
 * Can create relationships between different types of data 
         
+
 We have opted for MongoDB's Atlas cloud solution, which is very popular and has open source and free tier support. Other advantages of MongoDB are:
 
     • Document-based (stores data in JSON-like documents) 
@@ -51,8 +52,6 @@ We have opted for MongoDB's Atlas cloud solution, which is very popular and has 
     • Great for semi-structured data like Excel-format legacy funds, i.e. all data 
     
     • Natural fit for Python/JSON APIs 
-    
-    • Free open-source version 
     
     • Great performance for read operations 
     
