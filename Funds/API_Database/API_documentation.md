@@ -215,6 +215,9 @@ The Data-Driven Catalyst Database represents a community-funded effort to democr
 
 ## Database Schema
 
+![Atlas](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/Atlas%20Indices.png)
+*View of the Atlas MongoDB Dashboard showing indices and data uploaded from Project Catalyst IO and other sources.*
+
 ### Core Collections
 
 The primary collection `proposals` implements a flexible document schema that accommodates evolving metadata requirements:
