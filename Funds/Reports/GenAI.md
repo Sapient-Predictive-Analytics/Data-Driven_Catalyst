@@ -232,3 +232,58 @@ jupyter notebook
 ~~~
 
 The user can obtain a free license from [Meta](https://www.llama.com/llama-downloads). Paste Meta Llama customer URL when prompted and allow entire download to finish. Opinions vary a lot and new models are released often, so this is evolving fast. It is highly recommended to choose a relatively fast model if the purpose is to focus on a very narrow area of expertise like Cardano and Project Catalyst where responsiveness to queries is more important than conversational prowess or reasoning skills at the expense of learning and chatting without delays.
+
+***
+
+## Section 3: How to process Cardano & Catalyst data for AI and LLMs
+
+Creativity is key in how to obtain the necessary amounts of data that are required to train a local generative AI or unsupervised learning system. We are currently experimenting with the official Project Catalyst Documentation, voting result PDF booklets, the Cardano Forum and export of official and large community Telegram chat history as reliable data sources, but much more data obviously exists - just think about the vastness of content creation and Catalyst Ecosystem funded proposals of past funds. This sounds overwhelming, but it is a good thing - the more data, the better any AI assistant is likely to perform.
+
+### Cleaning the data as key
+
+Before assigning any weights or providing context, we need a large amount of qualified data "chunks" ideally with emoticons, pictures removed and stripped down to the machine-understandable word tokens. In this Github repository several sample scripts can be found to showcase how this may look like, and below are a few helper functions in Python to make use of our OSDS libraries to make the available data as useful to your model as possible.
+
+The functions are self-explanatory, one of the big advantages of using Python for this.
+
+~~~
+def clean_text(text):
+    # Remove extra whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    # Remove special characters and digits
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    return text
+
+def extract_text_from_docx(file_path):
+    doc = Document(file_path)
+    text = '\n'.join([paragraph.text for paragraph in doc.paragraphs])
+    return clean_text(text)
+
+def extract_text_from_html(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        soup = BeautifulSoup(file, 'html.parser')
+        # Extract only the text content
+        text = soup.get_text(separator=' ', strip=True)
+    return clean_text(text)
+
+def process_documents(directory):
+    documents = []
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        if filename.endswith('.docx'):
+            text = extract_text_from_docx(file_path)
+        elif filename.endswith('.html'):
+            text = extract_text_from_html(file_path)
+        else:
+            continue
+        documents.append(text)
+    return documents
+
+def split_documents(documents):
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000,
+        chunk_overlap=200,
+        length_function=len,
+    )
+    texts = text_splitter.split_documents(documents)
+    return texts
+~~~
