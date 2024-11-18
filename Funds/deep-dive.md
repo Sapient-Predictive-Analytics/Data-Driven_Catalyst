@@ -110,6 +110,7 @@ Refinement: add Funds-11&12 data, better visualization, better data composabilit
 
 ![Quintiles Boxplot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/quintile_boxplot_f7-f12.png)
 
+Unlike the original inspiration by Victor Corcino and the previous Example boxplot, not all proposals are shown to sacrifice some detail for a better top level overview. Data is shown in score quintiles with the median score marked inside the box as well. As more Community Reviewers were attracted to the ecosystem and clearer rules emerged how to score over time, the dispersion of scores was reduced from fund to fund. On the other hand, the introduction of new rules from Fund-10 onwards made the score much less decisive in the voting outcome. The analysis of this charts allows other interpretatios and data-insights, but more importantly covers six funds with close to 7000 total proposals and disregards outliers by using quintiles.
 
 ## **3.Votes Required Evolution: Funding Request by Fund and Status**
 
