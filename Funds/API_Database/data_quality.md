@@ -1,4 +1,4 @@
-# Documentation of Data Quality Improvement Strategies (Based on Past Dataset)
+# Documentation of Data Quality Improvement Strategies (for Database, API and AI usage)
 
 Currently, Project Catalyst data exists in various forms and has not been cleaned or adjusted to account for idiosyncrasies of each funding round. Scoring by community reviewers has changed to cover different aspects of proposals, requested funding switched from USD to ADA in Fund-10, Challenge Settings were dropped from Fund-11 onwards and IdeaScale was replaced as the main source of web URL from Fund-9. These are just a few examples. Also, most data exists scattered across worksheets and control fields like validation have not been removed.
 
