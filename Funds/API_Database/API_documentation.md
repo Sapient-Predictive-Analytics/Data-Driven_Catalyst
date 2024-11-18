@@ -4,7 +4,7 @@ The documentation provided gives first a high level motivation of our chosen imp
 
 You'll learn how to use any Linux/WSL command-line interface to query the Catalyst Fund Proposals Atlas MongoDB database. The tool provides flexible access to proposal and voting outcome data across funds (F7 until most recent F12), with various filtering and search options. Fund-13 will be uploaded after the voting results are out.
 
-First, let's understand why we opted to use a (*noSQL, document-oriented*) database instead of "just" Pandas CSV files in a S3 bucket (another simple way we used in the setup process and for the 20 data report examples):
+First, let's understand why we opted to use a (*noSQL, document-oriented*) database instead of "just" Pandas CSV files in a S3 bucket (another simple way we used in the setup process and for the [20 data report examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md)):
 
 **Query Performance**
     
