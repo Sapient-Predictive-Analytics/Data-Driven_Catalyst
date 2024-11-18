@@ -93,6 +93,11 @@ Some key advantages of this database approach:
 python3 catalyst_query.py [options]
 ```
 
+## How to use video guide for API
+
+[<img src="https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/thumbAPI.png" width="200" height="140" />](https://youtu.be/e3bVTXNqRZE)
+
+
 ## Available Options
 
 ### Core Filters
