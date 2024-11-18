@@ -7,7 +7,7 @@ For the toolkit of open source data science tools please refer to the [OSDS](htt
 These are the ideas that were chosen by vote:
 
 
-**1.Proposal Keyword Occurrences vs Funding Success**
+## **1.Proposal Keyword Occurrences vs Funding Success**
 
 * Refinement: The dataset now includes all submitted valid proposals in funds from F-7 to F-12 except challenge settings and withdrawn proposals. Keywords with a minimum frequency (k: 20) where picked up and plotted for their success ratio, omitting non-technical words.
 * Insight: "Cardano" serves as a benchmark, with 1632 proposals and 308 funded. The total funding ratio is around 19%, making it slightly less favorable to pick the keyword. This is likely due to the generic character, that discerning voters discount and not significant as a negative either. "Catalyst" fares a lot better, possibly because of challenge settings with limited scope to improve the funding mechanisms itself. Strikingly, putting the company name "MLabs" in the title resulted in success 28 out of 34 times - voters assume that this tag is genuinely only used by the company with that name and that their high standard of delivery beats giving new teams a shot. Given the high overall funding ratio, this is not surprising and future funds probably need to attract more proposals for the fund size or give reviewers and voters more tools to pick good proposals. Referencing new, up-and-coming tooling, like earlier "Marlowe" and later and more successfully, "Aiken", produced very good results regardless of the team or other keywords used. More surprising is the enduring success of keyword "Japan" which panders to the concentration of voting power in that country, and "SDK" used over 70 times with good success beating "Plutus" maybe hinting that there is a real need for the development of "low code" solutions. Readers can access the source code for the analysis in the repo and/or draw their own conclusion from our analysis. We hope that this example shows how datasets that are too large for human perusal can be simplified meaningfully using open source data analysis libraries to inspire and prompt fund design discussion.
@@ -100,7 +100,7 @@ Keyword 'women': 22 total occurrences, 21 proposals, 0 funded
 
 
 
-**2.Boxplot of Proposal Assessor Scores vs Funding Success**
+## **2.Boxplot of Proposal Assessor Scores vs Funding Success**
 
 * Approach: Aggregate assessor scores for each proposal and categorize them by
 Funding success. Use Matplotlib or Seaborn to create boxplots that visualize the
@@ -111,7 +111,7 @@ Refinement: add Funds-11&12 data, better visualization, better data composabilit
 ![Quintiles Boxplot](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/quintile_boxplot_f7-f12.png)
 
 
-**3.Votes Required Evolution: Funding Request by Fund and Status**
+## **3.Votes Required Evolution: Funding Request by Fund and Status**
 
 * Approach: Track the evolution of votes required for funding requests across different
 funds and statuses. Use Pandas for data aggregation and Matplotlib to create time
@@ -119,13 +119,18 @@ series or bar charts showing the trend over time.
 
 Tools: Pandas, plotting and machine learning libraries
 
-**4.YES votes Required for Funding (by categories) across Funds**
+![VotesRequests](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/funding_requests_f7_f12.png)
+
+
+## **4.YES votes Required for Funding (by categories) across Funds**
 
 * Approach: Calculate the number of YES votes required for funding across different
 categories and funds. Visualize the data using stacked bar charts or line plots to
 compare categories.
 
 Tools: Pandas, plotting and machine learning libraries
+
+![YesBubbles](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/yes_votes_bubble_plot_f7_f12_with_means_log.png)
 
 
 **5. Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
