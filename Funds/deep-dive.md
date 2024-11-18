@@ -157,30 +157,46 @@ Web scraping to gather milestone data, ensuring comprehensive data extraction de
 Public documentation of project milestones, which were stored in GitHub repositories and GitBook, ensuring transparency and accessibility to the community.
 Stakeholder involvement: Continuous feedback from key stakeholders—Catalyst Team, developers, AI experts, and community reviewers—was integrated into the project, ensuring alignment with governance improvement goals. Discussions around the role of AI in Catalyst governance were a focal point, with explorations of both the risks and opportunities that AI presents. This combination of technical data scraping, stakeholder engagement, and AI integration ensures that the analysis is robust and designed to evolve with future developments.
 
+The full script for a robust, comprehensive Milestone Module that can be useful in gathering project data and training an LLM can be found here:
+
+[**enhanced-milestone-scraper.py**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Code/enhanced-milestone-scraper.py)
+
+*Code snippet showing some of the design improvements in the main part of the script*
 ~~~
-def scrape_milestone_content(url, driver):
-    try:
-        driver.get(url)
-        logging.info(f"Page title: {driver.title}")
+@retry_on_exception()
+    def scrape_milestone_content(self) -> Dict[str, str]:
+        """
+        Scrape milestone data with advanced element detection.
+        
+        Returns:
+            Dict containing scraped content
+        """
+        try:
+            self.driver.get(self.url)
+            logger.info(f"Accessing URL: {self.url}")
 
-        # Wait for the page to load
-        time.sleep(5)
+            # Define content selectors in order of specificity
+            selectors = [
+                (By.CLASS_NAME, "milestone-form-group"),
+                (By.CLASS_NAME, "form-group"),
+                (By.CLASS_NAME, "milestone-content"),
+                (By.TAG_NAME, "form"),
+                (By.TAG_NAME, "body")
+            ]
 
-        # Try different selectors
-        selectors = [
-            (By.CLASS_NAME, "milestone-form-group"),
-            (By.CLASS_NAME, "form-group"),
-            (By.TAG_NAME, "form"),
-            (By.TAG_NAME, "body")  # Fallback to get all content
-        ]
+            content = {}
+            for selector in selectors:
+                elements = self.driver.find_elements(*selector)
+                if elements:
+                    logger.info(f"Found {len(elements)} elements with {selector}")
+                    for idx, element in enumerate(elements):
+                        try:
+                            text = element.text.strip()
+                            if text:
+                                content[f"{selector[1]}_{idx}"] = text
+                        except StaleElementReferenceException:
+                            continue
 
-        content_found = False
-        for selector in selectors:
-            elements = driver.find_elements(*selector)
-            if elements:
-                logging.info(f"Found {len(elements)} elements with selector: {selector}")
-                content_found = True
-                break
 ~~~
 
 **Conclusion**
