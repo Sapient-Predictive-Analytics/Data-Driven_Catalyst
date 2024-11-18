@@ -112,7 +112,7 @@ Refinement: add Funds-11&12 data, better visualization, better data composabilit
 
 Unlike the original inspiration by Victor Corcino and the previous Example boxplot, not all proposals are shown to sacrifice some detail for a better top level overview. Data is shown in score quintiles with the median score marked inside the box as well. As more Community Reviewers were attracted to the ecosystem and clearer rules emerged how to score over time, the dispersion of scores was reduced from fund to fund. On the other hand, the introduction of new rules from Fund-10 onwards made the score much less decisive in the voting outcome. The analysis of this charts allows other interpretatios and data-insights, but more importantly covers six funds with close to 7000 total proposals and disregards outliers by using quintiles.
 
-## **3.Votes Required Evolution: Funding Request by Fund and Status**
+## **3. "Votes Required" Evolution: Funding Request by Fund and Status**
 
 * Approach: Track the evolution of votes required for funding requests across different
 funds and statuses. Use Pandas for data aggregation and Matplotlib to create time
@@ -121,6 +121,8 @@ series or bar charts showing the trend over time.
 Tools: Pandas, plotting and machine learning libraries
 
 ![VotesRequests](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/funding_requests_f7_f12.png)
+
+Using a bubble chart like in the teaser, this chart visualizes how much funding converted into USD across funds each proposal has requested. The green bubbles are funded and the red bubbles are unfunded proposals. Although many others factors obviously play a role, voters preference and fund rules make it very hard for the largest requests to receive funding, while requesting particularly little is not "rewarded" at all - small amounts are no more likely to receive funding than those in the middle of the range.
 
 
 ## **4.YES votes Required for Funding (by categories) across Funds**
@@ -133,8 +135,10 @@ Tools: Pandas, plotting and machine learning libraries
 
 ![YesBubbles](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/Reports/yes_votes_bubble_plot_f7_f12_with_means_log.png)
 
+Due to the minimum funding threshold that is especially important for concept-stage funding categories, this chart from teasers was very popular with the community vote. We have introduced a log scale to better showcase the critical 40-50 million YES vote area and also drawn mean yes votes lines across funds. Funds-11 and 12 have been included. Fund-8 appears to be the "easiest" fund and Fund-10 the "hardest" to make the cut and receive funding. Many other factors like special categories play a role here and are clearly visible from the chart, for example the funding for Catalyst Operations and Catalyst System Improvements that were narrow categories and required a lot of Yes votes to pass, while also receiving on average far more votes for unsuccessful proposals due to their prominence in the voting app.
 
-**5. Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
+
+## **5. Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
 Submitted idea by community lead Intersect Japan (Yuta) and [GitHub issue](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues/6) logged by funded proposer saigonbitmaster
 
 * Approach: Read and process milestone data from JSON files. Tokenize text data to
@@ -142,6 +146,48 @@ extract insights, such as milestone completion trends or common challenges. Use
 Pandas for data manipulation and NLTK or SpaCy for tokenization.
 
 Tools: Pandas, NLTK or SpaCy, JSON module.
+
+Due to the non-open-source nature of the Milestone Module, an API request could not be performed to access the necessary data. As a workaround, web scraping was employed to retrieve the required information from the portal. Given the technical complexity of the webpage, Selenium was chosen over BeautifulSoup as it allows for better interaction with dynamic elements on the page, such as JavaScript-rendered content.
+
+The script we developed using Selenium performed as expected and successfully extracted the milestone data into a JSON format. This format will be invaluable for future analysis of each project's Catalyst journey, tracking milestones, performance reviews, and stakeholder feedback.
+
+**Methodology**
+
+Web scraping to gather milestone data, ensuring comprehensive data extraction despite the absence of API access.
+Public documentation of project milestones, which were stored in GitHub repositories and GitBook, ensuring transparency and accessibility to the community.
+Stakeholder involvement: Continuous feedback from key stakeholders—Catalyst Team, developers, AI experts, and community reviewers—was integrated into the project, ensuring alignment with governance improvement goals. Discussions around the role of AI in Catalyst governance were a focal point, with explorations of both the risks and opportunities that AI presents. This combination of technical data scraping, stakeholder engagement, and AI integration ensures that the analysis is robust and designed to evolve with future developments.
+
+~~~
+def scrape_milestone_content(url, driver):
+    try:
+        driver.get(url)
+        logging.info(f"Page title: {driver.title}")
+
+        # Wait for the page to load
+        time.sleep(5)
+
+        # Try different selectors
+        selectors = [
+            (By.CLASS_NAME, "milestone-form-group"),
+            (By.CLASS_NAME, "form-group"),
+            (By.TAG_NAME, "form"),
+            (By.TAG_NAME, "body")  # Fallback to get all content
+        ]
+
+        content_found = False
+        for selector in selectors:
+            elements = driver.find_elements(*selector)
+            if elements:
+                logging.info(f"Found {len(elements)} elements with selector: {selector}")
+                content_found = True
+                break
+~~~
+
+**Conclusion**
+
+The Data-Driven Catalyst project has successfully laid the foundation for a transparent and collaborative data analytics framework. By overcoming technical challenges with web scraping and using Selenium to gather key milestone data, the project is equipped with the necessary information to analyze project performance and track the progression of various Catalyst initiatives.
+
+The data retrieved will be used in future analyses to assess the success of governance improvements, the influence of AI on decision-making, and the impact of community feedback. Future milestones will build on this work, ensuring the continued integration of stakeholder input and the development of a robust data-driven governance model for Project Catalyst.
 
 **6. Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
@@ -163,25 +209,6 @@ proposals with earlier ones to identify potential cloning or plagiarism.
 Tools: Pandas, NLTK or SpaCy (for NLP and similarity detection), FuzzyWuzzy (for
 string matching), Matplotlib (for reporting findings).
 
-## **Research Topic 5: Data-Processing of Milestone Module: Reading as JSON, tokenization, insights**
-
-Due to the non-open-source nature of the Milestone Module, an API request could not be performed to access the necessary data. As a workaround, web scraping was employed to retrieve the required information from the portal. Given the technical complexity of the webpage, Selenium was chosen over BeautifulSoup as it allows for better interaction with dynamic elements on the page, such as JavaScript-rendered content.
-
-The script we developed using Selenium performed as expected and successfully extracted the milestone data into a JSON format. This format will be invaluable for future analysis of each project's Catalyst journey, tracking milestones, performance reviews, and stakeholder feedback.
-
-**Methodology**
-
-Web scraping to gather milestone data, ensuring comprehensive data extraction despite the absence of API access.
-Public documentation of project milestones, which were stored in GitHub repositories and GitBook, ensuring transparency and accessibility to the community.
-Stakeholder involvement: Continuous feedback from key stakeholders—Catalyst Team, developers, AI experts, and community reviewers—was integrated into the project, ensuring alignment with governance improvement goals.
-AI Integration: Discussions around the role of AI in Catalyst governance were a focal point, with explorations of both the risks and opportunities that AI presents.
-This combination of technical data scraping, stakeholder engagement, and AI integration ensures that the analysis is robust and designed to evolve with future developments.
-
-**Conclusion**
-
-The Data-Driven Catalyst project has successfully laid the foundation for a transparent and collaborative data analytics framework. By overcoming technical challenges with web scraping and using Selenium to gather key milestone data, the project is equipped with the necessary information to analyze project performance and track the progression of various Catalyst initiatives.
-
-The data retrieved will be used in future analyses to assess the success of governance improvements, the influence of AI on decision-making, and the impact of community feedback. Future milestones will build on this work, ensuring the continued integration of stakeholder input and the development of a robust data-driven governance model for Project Catalyst.
 
 ## **Research Topic 6: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
