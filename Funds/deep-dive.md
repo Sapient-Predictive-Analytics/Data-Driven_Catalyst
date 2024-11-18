@@ -1,4 +1,4 @@
-## Voting Outcome to Select 7 Deep-Dive Data Reports
+# 7 Community-voted Deep-Dive Data Reports
 
 We [asked](https://t.me/ProjectCatalystChat/80325) the Project Catalyst community to pick 7 out of our 20 [examples](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md) for data-driven analysis and reporting. These will include more sophisticated machine learning and plotting approaches get into more detail to present our findings to the community.
 
