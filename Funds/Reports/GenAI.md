@@ -246,9 +246,12 @@ Creativity is key in how to obtain the necessary amounts of data that are requir
 
 but much more data obviously exists - just think about the vastness of content creation and Catalyst Ecosystem funded proposals of past funds. This sounds overwhelming, but it is a good thing - the more data, the better any AI assistant is likely to perform.
 
+For the time being, most work on open source generative AI is done in the domain of TEXT. It would be interesting to use it for [TIME SERIES](https://arxiv.org/abs/2402.01801) as well, for example leveraging [our funds database](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/API_documentation.md) but for this simpler, more straight-forward machine learning tools exist in the Open Source data science [ecosystem](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md).
+
+
 ### Cleaning the data is key
 
-Before assigning any weights or providing context, we need a large amount of qualified data "chunks" ideally with emoticons, pictures removed and stripped down to the machine-understandable word tokens. In this Github repository several sample scripts can be found to showcase how this may look like, and below are a few helper functions in Python to make use of our OSDS libraries to make the available data as useful to your model as possible.
+Before assigning any weights or providing context, we need a large amount of qualified data "chunks" ideally with emoticons, pictures removed and stripped down to the machine-understandable word tokens. In this Github repository several sample scripts can be found to showcase how this may look like, and below are a few helper functions in Python to make use of our [OSDS](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md) libraries to make the available data as useful to your model as possible.
 
 The functions are self-explanatory, one of the big advantages of using Python for this.
 
