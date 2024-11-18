@@ -1,4 +1,4 @@
-## **Section 1: Integrating Generative AI and Unsupervised Learning for Project Catalyst Insights**
+## **Section 1: Background on Integrating Generative AI and Unsupervised Learning for Project Catalyst Insights**
 
 Generative AI and unsupervised learning are transformative technologies that offer significant advantages in analyzing complex datasets and generating insights across various domains. These methodologies are particularly effective in identifying underlying patterns, simulating potential outcomes, and automating content generation, which are essential for advanced data-driven decision-making processes. In this section, we focus on the theoretical foundations, which areas have promise for Project Catalyst from a governance and rule-making perspective, and how advances in generative AI can benefit the ecosystem as a whole, covering a Chatbot-type LLM deployment to improve onboarding experiences, to post-funding assistance and general data queries that may benefit a wide range of stakeholders like voters and their dReps, proposing developers and enterprises, community support functions like reviews and moderation, to improved milestone, performance and track record management. Another area we will cover briefly is the identification and mitigation of malicious actors taking advantage of AI - the other side of the same coin where score manipulation, reward skimming and other adversarial behavior can be mitigated.
 
@@ -237,9 +237,16 @@ The user can obtain a free license from [Meta](https://www.llama.com/llama-downl
 
 ## Section 3: How to process Cardano & Catalyst data for AI and LLMs
 
-Creativity is key in how to obtain the necessary amounts of data that are required to train a local generative AI or unsupervised learning system. We are currently experimenting with the official Project Catalyst Documentation, voting result PDF booklets, the Cardano Forum and export of official and large community Telegram chat history as reliable data sources, but much more data obviously exists - just think about the vastness of content creation and Catalyst Ecosystem funded proposals of past funds. This sounds overwhelming, but it is a good thing - the more data, the better any AI assistant is likely to perform.
+Creativity is key in how to obtain the necessary amounts of data that are required to train a local generative AI or unsupervised learning system. We are currently experimenting with 
 
-### Cleaning the data as key
+* the official [Project Catalyst Documentation](https://docs.projectcatalyst.io/),
+* voting result PDF booklets,
+* the [Cardano Forum](https://forum.cardano.org/) and
+* export of official and large community Telegram chat history as reliable data sources,
+
+but much more data obviously exists - just think about the vastness of content creation and Catalyst Ecosystem funded proposals of past funds. This sounds overwhelming, but it is a good thing - the more data, the better any AI assistant is likely to perform.
+
+### Cleaning the data is key
 
 Before assigning any weights or providing context, we need a large amount of qualified data "chunks" ideally with emoticons, pictures removed and stripped down to the machine-understandable word tokens. In this Github repository several sample scripts can be found to showcase how this may look like, and below are a few helper functions in Python to make use of our OSDS libraries to make the available data as useful to your model as possible.
 
