@@ -437,4 +437,21 @@ Based on the analysis, several proposals have been flagged as potential clones. 
 
 ***
 
+## Records of Project Selection, Scoping, and Approval Processes for Community-Tasked Research Projects
+1. Project Selection Process:
+Criteria Used:
+     - Alignment with Funding Analysis Goals: Proposals are selected based on their potential to provide insights into funding success, proposal dynamics, and voting behavior. This includes projects that explore ways to improve funding distribution, proposal evaluation, and community engagement.
+     - Contribution to Ecosystem Fairness: Proposals are evaluated for their potential to improve fairness in the funding process, such as examining proposal overlap, the impact of past success on current funding, or equitable distribution of votes.
+     - Methodological Approach: While proposals using advanced techniques (such as unsupervised learning and generative AI) are not prioritized solely for innovation, methods that directly help understand voting patterns, funding decisions, and proposal resubmissions are considered highly valuable. Proposals should be clear about how their methodologies will address real-world issues related to funding fairness and transparency.
+   
+   - Selection Methodology:
+     - Community Voting: Proposals are submitted to the community for evaluation, with voting used to prioritize those that address current challenges in the funding process. The community’s feedback plays a key role in shortlisting proposals that could lead to actionable improvements in the proposal system.
+     - Community Review: After community voting, proposals undergo a community review where stakeholders evaluate the feasibility and alignment of proposals with community-driven goals. This process ensures that selected proposals are relevant to the Cardano ecosystem’s needs and align with its goals for improving the funding process.
+
+   - Stakeholders Involved:
+     - Proposers: Research teams or individuals who submit proposals to improve funding transparency and fairness.
+     - Community Members: Individuals from the community who vote and provide feedback to help shape the direction of funding improvements.
+     - Reviewers: Community members who participate in the community review to assess the feasibility and potential impact of each proposal.
+       
+***
 ### 📽 Presentation slides for the community-tasked Data Reports can be downloaded from this [Google Drive Presentation Link](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/deep-dive.md)
