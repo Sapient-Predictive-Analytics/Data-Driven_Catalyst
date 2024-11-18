@@ -364,23 +364,20 @@ response = requests.get(
 
 ## Future Development Areas
 
-### Data Enrichment
+Some selected areas for future coverage across **Data Enrichment**, **Analytics Expansion** and (on-chain) **Governance Integration** to upgrade the Data-Driven Catalyst toolkit for the coming era of Voltaire and Catalyst Voices to soon replace IdeaScale and Excel Spreadsheets etc.
+
 - Integration with assessment data
 - Voter participation metrics
 - Impact tracking metrics
-
-### Analytics Expansion
 - Time-series analysis capabilities
 - Cross-challenge correlation studies
 - Funding pattern prediction models
-
-### Governance Integration
 - Proposal state tracking
 - Voting power calculations
-- Smart contract event monitoring
+
 
 ## Conclusion
 
-This technical architecture provides a foundation for evolving governance data management in Project Catalyst. The combination of flexible schema design, efficient indexing strategies, and scalable cloud infrastructure supports both current operational needs and future governance mechanisms.
+This technical architecture provides a foundation for evolving community-driven governance data management in Project Catalyst. The combination of flexible schema design, efficient indexing strategies, and scalable cloud infrastructure supports both current operational needs and future governance mechanisms.
 
 For detailed API usage instructions, refer to the video walkthrough and API Documentation [above](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/API_documentation.md#basic-usage).
