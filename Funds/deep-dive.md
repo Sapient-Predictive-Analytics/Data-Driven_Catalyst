@@ -189,26 +189,6 @@ The Data-Driven Catalyst project has successfully laid the foundation for a tran
 
 The data retrieved will be used in future analyses to assess the success of governance improvements, the influence of AI on decision-making, and the impact of community feedback. Future milestones will build on this work, ensuring the continued integration of stakeholder input and the development of a robust data-driven governance model for Project Catalyst.
 
-**6. Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
-
-* Approach: Analyze the relationship between a team's past funding successes and their
-chances of receiving current funding. Use Pandas to track historical funding data, and
-apply statistical analysis or logistic regression to assess the impact of past wins on new
-funding opportunities.
-
-Tools: Pandas, Scikit-learn (for regression analysis), Matplotlib or Seaborn (for
-visualizations)
-
-**7. Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
-Please refer to [GitHub issue](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/issues/8) that was logged by a community member (Udai Solanki)
-
-* Approach: Use Natural Language Processing (NLP) techniques to detect similarities
-between proposals, especially those submitted close to deadlines. Compare these
-proposals with earlier ones to identify potential cloning or plagiarism.
-
-Tools: Pandas, NLTK or SpaCy (for NLP and similarity detection), FuzzyWuzzy (for
-string matching), Matplotlib (for reporting findings).
-
 
 ## **Research Topic 6: Rotational Breaks for Big Winners: The Impact of Past Success on Current Funding**
 
@@ -364,9 +344,9 @@ General Observations:
 •	The original distributions highlight the concentration of funding among a few dominant players, whereas the capped distribution aims for more diverse participation.
 
 
-# **Research Topic 7: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
+## **Research Topic 7: Scamming Catalyst: Cloned and Copied Ideas/Proposals Submitted Last Minute**
 
-## **Objective**:
+### **Objective**:
 To identify and analyze the phenomenon of cloned or copied proposals submitted close to the deadline in a funding environment. The goal is to understand the prevalence, characteristics, and impact of such fraudulent activities on the integrity of the funding process and to develop strategies for detecting and mitigating these practices.
 
 **Textual Analysis and Similarity Detection**:
