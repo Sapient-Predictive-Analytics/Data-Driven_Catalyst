@@ -411,5 +411,6 @@ Based on the analysis, several proposals have been flagged as potential clones. 
    - **Investigate Proposer Networks**: Analyze the proposers' connections to see if the same teams or individuals are submitting multiple similar proposals.
    - **Expand the Analysis**: Apply the same method across other funds to detect cloning trends over time.
 
-  
+***
+
 ### 📽 Presentation slides for the community-tasked Data Reports can be downloaded from this [Google Drive Presentation Link](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/deep-dive.md)
