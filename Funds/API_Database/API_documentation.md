@@ -46,6 +46,7 @@ With about 7000 proposals across 6 funds, two different currencies and several n
         
 * Can create relationships between different types of data 
         
+The new database also added Fund-11 and Fund-12 voting results and contributed the cleaned data used for community-tasked [Deep Dives](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/deep-dive.md)
 
 We have opted for MongoDB's Atlas cloud solution, which is very popular and has open source and free tier support. Other advantages of MongoDB are:
 
