@@ -1,8 +1,10 @@
-# Sapient API Catalyst Fund Proposals Query Guide
+# Sapient API Catalyst Fund Proposals Database & API Query Guide
 
-This guide explains how to use any Linux/WSL command-line interface to query the Catalyst Fund Proposals Atlas MongoDB database. The tool provides flexible access to proposal data across funds (F7 until most recent F12), with various filtering and search options. Fund-13 will be uploaded after the voting results are out.
+The documentation provided gives first a high level motivation of our chosen implementation, a User's Guide how to work with the data through the API, and some [high level](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/API_Database/API_documentation.md#project-catalyst-database-technical-architecture) additional information about database schema, indexing strategies, and optimization techniques.
 
-First, let's understand why we opted to use a (noSQL, document-oriented) database instead of "just" Pandas CSV files in a S3 bucket (another simple way we used in the setup process):
+You'll learn how to use any Linux/WSL command-line interface to query the Catalyst Fund Proposals Atlas MongoDB database. The tool provides flexible access to proposal and voting outcome data across funds (F7 until most recent F12), with various filtering and search options. Fund-13 will be uploaded after the voting results are out.
+
+First, let's understand why we opted to use a (*noSQL, document-oriented*) database instead of "just" Pandas CSV files in a S3 bucket (another simple way we used in the setup process and for the 20 data report examples):
 
 **Query Performance**
     
