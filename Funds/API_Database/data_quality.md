@@ -17,9 +17,29 @@ Voting Results: [https://projectcatalyst.io/funds]([https://projectcatalyst.io/f
 
 Data Cleaning Techniques:
 
-Past Dataset: The historical funding and proposal datasets (such as those from Fund 7, Fund 8, Fund 9) were carefully cleaned to address issues like missing values and inconsistent data entries. These datasets were pre-processed using methods like imputation for missing values and anomaly detection to identify outliers in funding data.
+As the data currently exists in Excel, CSV or PDF format, it needed to be imported and standardized as CSV to be usuable in Python. As an example, up to Fund-10 Excel spreadsheets exist that can be read using the openpyxl library to process into Pandas DataFrames.
+~~~
+ # Read all sheets except those in skip_sheets
+    excel_file = pd.ExcelFile(input_file)
+    valid_sheets = [sheet for sheet in excel_file.sheet_names if sheet not in skip_sheets]
+    
+    # Load workbook for hyperlink extraction
+    wb = load_workbook(input_file, read_only=False)  # Temporarily disable read_only mode
+    
+    # Initialize list to store DataFrames
+    dfs = []
+    
+    for sheet in valid_sheets:
+        # Read the sheet
+        df = pd.read_excel(
+            input_file,
+            sheet_name=sheet,
+            engine='openpyxl'
+        )
+~~~
 
-Textual Data Processing: Text fields (including problem and solution statements) were tokenized and standardized using Natural Language Processing (NLP) techniques. This ensures consistency across data from different funding rounds and makes the analysis more reliable.
+
+Textual Data Processing: Text fields (including problem and solution statements) were tokenized and standardized using Natural Language Processing (NLP) techniques. This ensures consistency across data from different funding rounds and makes the analysis more reliable. Characters not in standard Unicode sets or Emoticons, line breaks and whitespace or fancy symbols like fire can be removed using string methods etc.
 
 
 **Data Standardization and Transformation**
