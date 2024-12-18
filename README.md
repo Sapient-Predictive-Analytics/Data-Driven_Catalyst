@@ -10,6 +10,9 @@ Project Catalyst has a high level of transparency, and most data is available on
 
 [Your requests and feedback](https://forms.gle/JYBmHYfvvnVsr5xN7)
 
+![x](http://i.imgur.com/tXSoThF.png)
+[Or provide Feedback / Request feature on X](https://twitter.com/SapientSwarm)
+
 
 ## Structure
 
