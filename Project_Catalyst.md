@@ -1,8 +1,6 @@
 ### What is Project Catalyst exactly and how to make it more Data-Driven
 [Project Catalyst](https://projectcatalyst.io/)
 
-`Work in Progress - Project will go live around September/October 2024`
-
 *This project invites community participation and contribution. Contact us to become a contributor on Github or send us your feedback and ideas.*
 
 According to the Project Catalyst [Knowledge Base](https://docs.projectcatalyst.io/) "Project Catalyst is the world’s largest decentralized innovation engine for solving real-world challenges.Project Catalyst is the world’s largest decentralized innovation engine for solving real-world challenges." It has produced hundreds of decentralized addition to its own ecosystem and contributed massively to the growth of Cardano tooling, dApps and use cases. Community-sponsored initiatives proliferate and now probably the single best source for information about past funds and proposals is no longer top-down but provided by [Lido Nation's Catalyst Explorer](https://www.lidonation.com/en/catalyst-explorer/) which will be an important source for any data-driven project in addition to the IdeaScale platform, Catalyst's own website and governance data sharing like Google Drive. 
@@ -13,7 +11,7 @@ According to the Project Catalyst [Knowledge Base](https://docs.projectcatalyst.
 The initiative to distribute Treasury grants in a decentralized manner with community voting and oversight calls itself *The Experiment* and the mantra that *things may break or lack documentation* is repeated by a community member at every weekly [Town Hall](https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk).
 
 ### Decentralized Governance
-This section will look at how community roles past, present and future shape Project Catalyst and how quantitative tools can make their work easier and inform improvements in the process.
+This section looks at how community roles past, present and future shape Project Catalyst and how quantitative tools can make their work easier and inform improvements in the process.
 
 ### Liquid Democracy and dReps
 With the advent of the [Voltaire era](https://roadmap.cardano.org/en/voltaire/) ADA holders will be able to delegate their voting power to Catalyst dReps. This is likely to increase voting participation and proposal scrutiny - can past fund rule changes predict those changes?
