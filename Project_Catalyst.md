@@ -121,6 +121,20 @@ Data-Driven Catalyst tools, database and API were created with transition to Cat
 
 Below, we anticipate the straight-forward integration of our existing infrastructure, should the need arise, or indeed any contributing community member who is using [legacy data](https://projectcatalyst.io/), CSV files from this repo, or Atlas MongoDB and comparable NoSQL data storage and retrieval for this purpose.
 
+### List of known Issues
+
+(1) USD-ADA regime. Prior to Fund-10, funding amounts were in USD and transitioned to the ADA economy. This should be reflected with ADA/USD during the proposal drafting stage for each fund.
+(2) Changes in Column Names - easy data cleaning task
+(3) Changes in Community Reviewer scoring categories - usually mitigated by using average score across.
+(4) Validation worksheets - to be removed
+(5) Hyperlinks - legacy URLs not working, refer to Lido Explorer or offline resources
+(6) Special characters and emoticons - encoding or removal options used in Pandas (see scripts in Code folder)
+(7) Duplicate or In Reserve proposals - very few, require manual cleaning
+(8) Incompatibility issues with XLS, XLSX, CSV or ODS formats: solved by openpyxl library
+(9) Other useful data cleaning in the proposal body can be done with re, difflib, skrub and TextBlob
+(10) Some legacy XLS files may cause bad column alignment if special characters are interpreted as tabs during import - do all cleaning prior to merging or importing this data!
+
+
 # Data-Driven Catalyst: Legacy to Voices/Core Migration Guide
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
