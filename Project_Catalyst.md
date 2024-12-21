@@ -1,4 +1,4 @@
-### What is Project Catalyst exactly and how to make it more Data-Driven
+## What is Project Catalyst exactly and how to make it more Data-Driven
 [Project Catalyst](https://projectcatalyst.io/)
 
 *This project invites community participation and contribution. Contact us to become a contributor on Github or send us your feedback and ideas.*
@@ -106,7 +106,6 @@ coming soon
 ![TxOverview](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/tx_processing.jpg)
 
 
-TODO: Formats, database and stack evolution, fund history and evolution, notes on 
 
 **[Discovery](https://cardano.ideascale.com/c/campaigns/409/about)**
 
@@ -115,3 +114,264 @@ TODO: Formats, database and stack evolution, fund history and evolution, notes o
 *Architectural design research for engineering of decentralization and/or distribution of decision-making advances for the Catalyst Voting System
 Research that clearly defines a known Catalyst-specific problem-space where the intention is to identify facts and/or clearly stated opinions that will likely assist in producing novel, Catalyst-specific technical requirements.*
 *Detailed studies of a Catalyst-specific subject, especially in order to discover (new) information or reach a (new) understanding for the benefit of servicing the broader innovation community building on Cardano.*
+
+# Catalyst Voices and Hermes Core Compatibility Report for Data-Driven Catalyst
+
+# Data-Driven Catalyst: Legacy to Voices/Core Migration Guide
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green.svg)
+
+> A comprehensive guide for handling data compatibility between legacy Project Catalyst data and the new Voices/Core infrastructure
+
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Current Architecture](#current-architecture)
+- [Compatibility Challenges](#compatibility-challenges)
+- [Solutions](#solutions)
+- [Integration Guide](#integration-guide)
+- [Timeline](#timeline)
+- [Contributing](#contributing)
+
+## 🔍 Overview
+
+This repository provides tools and guidance for managing the transition from legacy Excel-based Project Catalyst data to the new blockchain-based Catalyst Voices and Core infrastructure, scheduled for deployment in 2025.
+
+## 🏗 Current Architecture
+
+<details>
+<summary>Legacy Data Sources</summary>
+
+- Historical fund data in Excel
+- CSV/JSON conversions
+- MongoDB Atlas database
+- Custom Python processing libraries
+
+</details>
+
+<details>
+<summary>Future Infrastructure</summary>
+
+- Catalyst Voices (Flutter web app)
+- Catalyst Core (Hermes/Athena)
+- Blockchain-based authentication
+- Role-based access control
+
+</details>
+
+## ⚠️ Compatibility Challenges
+
+### Data Structure Disparities
+
+```mermaid
+graph TD
+    A[Legacy Excel] --> B[Inconsistent Schema]
+    C[New System] --> D[JSON Schema Validation]
+    B --> E[Migration Layer]
+    D --> E
+    E --> F[Unified Data Format]
+```
+
+### Authentication Changes
+
+- Legacy: Email-based
+- Future: Blockchain wallet authentication
+- Challenge: User identity mapping
+
+## 🛠 Solutions
+
+### Schema Transformation Layer
+
+```python
+class SchemaTransformer:
+    """Transform legacy Catalyst data to new schema format."""
+    
+    def __init__(self):
+        self.legacy_schemas = {}
+        self.target_schema = {}
+    
+    def transform_proposal(self, legacy_proposal):
+        """
+        Convert legacy proposal to new format.
+        
+        Args:
+            legacy_proposal (dict): Original proposal data
+            
+        Returns:
+            dict: Transformed proposal matching new schema
+        """
+        transformed = {
+            "proposal_id": legacy_proposal.get("id"),
+            "title": legacy_proposal.get("title"),
+            "category": self.map_category(legacy_proposal.get("challenge")),
+            "author": self.map_author(legacy_proposal.get("proposer")),
+            "content": self.standardize_content(legacy_proposal),
+            "metadata": self.extract_metadata(legacy_proposal)
+        }
+        return transformed
+```
+
+### Role Mapping System
+
+```python
+class RoleMapper:
+    """Map legacy roles to new role-based system."""
+    
+    def __init__(self):
+        self.legacy_roles = set(["proposer", "voter", "advisor"])
+        self.new_roles = set(["proposer", "voter", "representative", "reviewer"])
+    
+    def map_legacy_role(self, old_role, user_id):
+        """
+        Create compatible role definition.
+        
+        Args:
+            old_role (str): Original role name
+            user_id (str): User identifier
+            
+        Returns:
+            dict: Standardized role information
+        """
+        return {
+            "role": self.standardize_role(old_role),
+            "user_id": self.map_user_identity(user_id),
+            "verification": "legacy",
+            "metadata": self.generate_role_metadata(old_role, user_id)
+        }
+```
+
+### Unified Data Connector
+
+```python
+class CatalystDataConnector:
+    """Unified interface for accessing both legacy and new data."""
+    
+    def __init__(self):
+        self.legacy_client = MongoClient()
+        self.blockchain_client = CardanoClient()
+        
+    async def get_proposal_history(self, proposal_id):
+        """
+        Retrieve proposal data from either system.
+        
+        Args:
+            proposal_id (str): Unique proposal identifier
+            
+        Returns:
+            dict: Standardized proposal data
+        """
+        # Check legacy data first
+        legacy_data = await self.legacy_client.get_proposal(proposal_id)
+        if legacy_data:
+            return self.transform_legacy_proposal(legacy_data)
+            
+        # Check new system
+        blockchain_data = await self.blockchain_client.get_proposal(proposal_id)
+        return blockchain_data
+```
+
+## 📊 Integration Guide
+
+### Quick Start
+
+1. Install required packages:
+```bash
+pip install data-driven-catalyst
+```
+
+2. Initialize the connector:
+```python
+from catalyst_data import CatalystDataConnector
+
+connector = CatalystDataConnector()
+```
+
+3. Query proposal data:
+```python
+# Get proposal history
+proposal = await connector.get_proposal_history("proposal-123")
+
+# Get voter information
+voter = await connector.get_voter_history("voter-456")
+```
+
+### Advanced Usage
+
+<details>
+<summary>Custom Transformations</summary>
+
+```python
+# Create custom transformer
+transformer = SchemaTransformer()
+transformer.add_custom_mapping(
+    source_field="old_field",
+    target_field="new_field",
+    transform_func=lambda x: x.upper()
+)
+```
+
+</details>
+
+<details>
+<summary>Batch Processing</summary>
+
+```python
+# Process multiple proposals
+async def batch_transform(proposal_ids):
+    results = []
+    async for pid in proposal_ids:
+        proposal = await connector.get_proposal_history(pid)
+        results.append(proposal)
+    return results
+```
+
+</details>
+
+## 📅 Timeline
+
+| Phase | Timeline | Description |
+|-------|----------|-------------|
+| Preparation | Q1 2025 | Data mapping, transformation tools |
+| Implementation | Q2 2025 | Library updates, initial migration |
+| Validation | Q3 2025 | Testing, optimization |
+| Integration | Q4 2025 | Full rollout |
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+### Development Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/data-driven-catalyst/migration-tools.git
+```
+
+2. Install development dependencies:
+```bash
+pip install -r requirements-dev.txt
+```
+
+3. Run tests:
+```bash
+pytest tests/
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Project Catalyst Team
+- Cardano Foundation
+- Community Contributors
+
+---
+
+<div align="center">
+Made with ❤️ for the Cardano community
+</div>
