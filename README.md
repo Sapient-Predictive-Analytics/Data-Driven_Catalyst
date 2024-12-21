@@ -16,7 +16,7 @@ Project Catalyst has a high level of transparency, and most data is available on
 
 ## Structure
 
-This binder has six distinct sections:
+This binder has eight distinct sections:
 
 1. The [**Roadmap**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Roadmap.md) of this project - its parts and planned delivery dates
 2. Overview of the Open Source Data Science ([**OSDS**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/OSDS.md)) ecosystem and stack and how this can bring cutting edge machine learning, data visualization and artificial intelligence applications to everyone thanks to permissive licenses and easy, low-code modules.
@@ -24,7 +24,9 @@ This binder has six distinct sections:
 4. [**Working with fund data**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Working_with_Fund_Data.md) takes the theoretical and introductory outline of Catalyst data to concrete applications and examples and works through demonstrations that are either particularly elegant or of didactic value, or have been requested by the community and stakeholders as part of this project.
 5. [**Using AI**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Using_AI.md) expands the data science definition to more recent, more sophisticated applications like Large Language Models (LLMs) and other AI to showcase how human community reviewers, supervisors and voters can benefit from AI augmentation, conversational data discovery or unsupervised prompts. This includes a discussion of limitations and risks of AI as well.
 6. [**Example Reports**](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Funds/examples.md) introduces the 20 community teaser reports from Milestone-2 from which seven detailed reports will be chosen (or inspired) covering major datasets like Reviewer/Moderator, LidoNation and Voting Results. This showcases a lot of the OSDS libraries introduced earlier.
-
+7. [**Deep Dive Reports**]
+8. [**Future of Catalyst - Hermes/Voices Stack**]
+   
 On the Github repository there are a further three folders for [**Code**](https://github.com/Sapient-Predictive-Analytics/Data-Driven\_Catalyst/tree/main/Code), [**Funds**](https://github.com/Sapient-Predictive-Analytics/Data-Driven\_Catalyst/tree/main/Funds) data and [**Workshop**](https://github.com/Sapient-Predictive-Analytics/Data-Driven\_Catalyst/tree/main/Workshop) footage and minutes.
 
 For data mining and data science, "garbage in, garbage out" is an important caveat to keep in mind. With new methods to gather, store and process big data, ingenuity and creativity are required to discover new sources of data. In financial markets, credit card data and satellite images of parking lots and harbors can be used to gain insights into economic activity and financial performance long before economic data or financial reporting releases. The same is true for Catalyst data, where sources like on-chain voting, Lido Nation, even Twitter and Telegram chats or Github commits could be queried for deep understanding. But do we have the right tools to crawl and clean the data? Can formats like PNG or propritary formats be converted to easily yield data structures open source tools can understand? This is an exciting new world with countless possibilities, but not every idea is feasible and not all data is created equal. We look forward to community input for ideas how to improve Catalyst with data that are both **actionable**, meaning findings can inform better behavior or optimized procedures, and **feasible**, meaning the processing work required is proportionate to the value of the results.
