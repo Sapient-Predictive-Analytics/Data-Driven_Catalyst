@@ -42,12 +42,10 @@ We have added [**Issues**](https://github.com/Sapient-Predictive-Analytics/Data-
 
 ***
 
-Here are [**20 Examples**](funds/examples.md) of data reports from publicly available datesets to give insights into what is driving voters, reviewers and funded proposers or how changes in Catalyst rules had an impact on behavior.
+Github [Discussions](https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/discussions) have been enabled and the Project has closed-out its Discovery phase. We hope to collaborate with community contributors in the future to help improve Catalyst using data science.
 
 ***
 
-`Data Mining Workflow`
+###🎬Watch Youtube recording of Townhall Presentation
 
-![Medium](https://miro.medium.com/v2/resize:fit:925/1\*Hezz0cwwf5XZT5za-D29gw.jpeg)
-
-[Diagram by Anil Akyildirim](https://medium.com/@anilak1978\_94291/data-mining-process-basics-7984241d7a45)
+[<img src="https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/thumbYT.jpg" width="200" height="140" />](https://www.youtube.com/live/C8OiZnhPuZQ?si=gYpcQ6jIG4MVpnEi&t=1227)
