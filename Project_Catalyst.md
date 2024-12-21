@@ -345,7 +345,7 @@ async def batch_transform(proposal_ids):
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Once we transition to Catalyst Voices (expected 2Q-2025) we anticipate renewed interest from Catalyst system improvements. In the spirit of open source and decentralized community, forks and contributions will be welcome. Below "getting started" are examples and can easily be created from the above code snippets, helper Python scripts and a dedicated Migrations folder in our main repository. Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ### Development Setup
 
