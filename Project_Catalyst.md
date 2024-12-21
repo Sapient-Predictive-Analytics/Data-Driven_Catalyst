@@ -123,16 +123,16 @@ Below, we anticipate the straight-forward integration of our existing infrastruc
 
 ### List of known Issues
 
-(1) USD-ADA regime. Prior to Fund-10, funding amounts were in USD and transitioned to the ADA economy. This should be reflected with ADA/USD during the proposal drafting stage for each fund.
-(2) Changes in Column Names - easy data cleaning task
-(3) Changes in Community Reviewer scoring categories - usually mitigated by using average score across.
-(4) Validation worksheets - to be removed
-(5) Hyperlinks - legacy URLs not working, refer to Lido Explorer or offline resources
-(6) Special characters and emoticons - encoding or removal options used in Pandas (see scripts in Code folder)
-(7) Duplicate or In Reserve proposals - very few, require manual cleaning
-(8) Incompatibility issues with XLS, XLSX, CSV or ODS formats: solved by openpyxl library
-(9) Other useful data cleaning in the proposal body can be done with re, difflib, skrub and TextBlob
-(10) Some legacy XLS files may cause bad column alignment if special characters are interpreted as tabs during import - do all cleaning prior to merging or importing this data!
+* USD-ADA regime. Prior to Fund-10, funding amounts were in USD and transitioned to the ADA economy. This should be reflected with ADA/USD during the proposal drafting stage for each fund.
+* Changes in Column Names - easy data cleaning task
+* Changes in Community Reviewer scoring categories - usually mitigated by using average score across.
+* Validation worksheets - to be removed
+* Hyperlinks - legacy URLs not working, refer to Lido Explorer or offline resources
+* Special characters and emoticons - encoding or removal options used in Pandas (see scripts in Code folder)
+* Duplicate or In Reserve proposals - very few, require manual cleaning
+* Incompatibility issues with XLS, XLSX, CSV or ODS formats: solved by openpyxl library
+* Other useful data cleaning in the proposal body can be done with re, difflib, skrub and TextBlob
+* Some legacy XLS files may cause bad column alignment if special characters are interpreted as tabs during import - do all cleaning prior to merging or importing this data!
 
 
 # Data-Driven Catalyst: Legacy to Voices/Core Migration Guide
