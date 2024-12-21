@@ -46,6 +46,6 @@ Github [Discussions](https://github.com/Sapient-Predictive-Analytics/Data-Driven
 
 ***
 
-###🎬Watch Youtube recording of Townhall Presentation
+🎬Watch Youtube recording of Townhall Presentation
 
 [<img src="https://github.com/Sapient-Predictive-Analytics/Data-Driven_Catalyst/blob/main/Workshop/images/thumbYT.jpg" width="200" height="140" />](https://www.youtube.com/live/C8OiZnhPuZQ?si=gYpcQ6jIG4MVpnEi&t=1227)
