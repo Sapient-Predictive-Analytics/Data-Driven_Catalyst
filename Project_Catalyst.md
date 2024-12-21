@@ -117,6 +117,10 @@ Research that clearly defines a known Catalyst-specific problem-space where the 
 
 # Catalyst Voices and Hermes Core Compatibility Report for Data-Driven Catalyst
 
+Data-Driven Catalyst tools, database and API were created with transition to Catalyst Voices and Hermes Core in mind. Comparing legacy funds that only had Excel spreadsheets as outputs with sophisticated on-chain liquid democracy and (initially) the Flutter-framework of Catalyst Voices had to be considered. This posed a lot less problems than we initially imagined, as the open source libraries we use have more problems with exported formulas and validation cells in the legacy format than any streamlined in-house solution we expect following the Milestones and feedback from the Catalyst team. We used CSV, JSON and plain text formats and a MongoDB Atlas database to make it as easy as possible to gather and clean Fund7 to Fund12 data. In the future, rather less cleaning will be required as human aggregation will give way to automated processes and mainnet or side-chain queries.
+
+Below, we anticipate the straight-forward integration of our existing infrastructure, should the need arise, or indeed any contributing community member who is using [legacy data](https://projectcatalyst.io/), CSV files from this repo, or Atlas MongoDB and comparable NoSQL data storage and retrieval for this purpose.
+
 # Data-Driven Catalyst: Legacy to Voices/Core Migration Guide
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
